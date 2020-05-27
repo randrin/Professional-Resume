@@ -1,0 +1,21 @@
+#scroll-top {
+    display: none;
+}
+
+.scroll {
+    display: block;
+    bottom: 50px;
+    position: fixed;
+    right: 30px;
+    float: right;
+}
+
+.pt-wrapper-scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .site-nav {
+        background-color: #ffcd38;
+    }
+}

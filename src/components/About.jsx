@@ -15,7 +15,7 @@ export default class About extends Component {
           <div className="row">
             <div className="col-sm-12 col-md-12 mobile-visible subpage-block">
               <div className="my-photo-small">
-                <img src="images/photo_small.jpg" alt="image" />
+                <img src="/assets/images/photo_small.jpg" alt="image" />
               </div>
             </div>
             <div className="col-sm-6 col-md-6 subpage-block">
@@ -88,7 +88,7 @@ export default class About extends Component {
                   <div className="testimonial-credits">
                     <div className="testimonial-picture">
                       <img
-                        src="images/testimonials/testimonial_photo_1.png"
+                        src="/assets/images/testimonials/testimonial_photo_1.png"
                         alt=""
                       />
                     </div>
@@ -110,7 +110,7 @@ export default class About extends Component {
                   <div className="testimonial-credits">
                     <div className="testimonial-picture">
                       <img
-                        src="images/testimonials/testimonila_photo_2.png"
+                        src="/assets/images/testimonials/testimonila_photo_2.png"
                         alt=""
                       />
                     </div>
@@ -133,7 +133,7 @@ export default class About extends Component {
               <div className="service-block">
                 <div className="service-info">
                   <img
-                    src="images/service/web_design.png"
+                    src="/assets/images/service/web_design.png"
                     alt="Responsive Design"
                   />
                   <h4>Web Design</h4>
@@ -148,7 +148,7 @@ export default class About extends Component {
             <div className="col-sm-6 col-md-3 subpage-block">
               <div className="service-block">
                 <div className="service-info">
-                  <img src="images/service/copywrite.png" alt="Copywriter" />
+                  <img src="/assets/images/service/copywrite.png" alt="Copywriter" />
                   <h4>Copywriter</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -161,7 +161,7 @@ export default class About extends Component {
             <div className="col-sm-6 col-md-3 subpage-block">
               <div className="service-block">
                 <div className="service-info">
-                  <img src="images/service/ecommerce.png" alt="E-Commerce" />
+                  <img src="/assets/images/service/ecommerce.png" alt="E-Commerce" />
                   <h4>E-Commerce</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -174,7 +174,7 @@ export default class About extends Component {
             <div className="col-sm-6 col-md-3 subpage-block">
               <div className="service-block">
                 <div className="service-info">
-                  <img src="images/service/management.png" alt="Management" />
+                  <img src="/assets/images/service/management.png" alt="Management" />
                   <h4>Management</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -193,7 +193,7 @@ export default class About extends Component {
             <div className="col-sm-4 col-md-2 subpage-block">
               <div className="client_block">
                 <a href="#" target="_blank">
-                  <img src="images/clients/client_1.png" alt="image" />
+                  <img src="/assets/images/clients/client_1.png" alt="image" />
                 </a>
               </div>
             </div>
@@ -201,7 +201,7 @@ export default class About extends Component {
             <div className="col-sm-4 col-md-2 subpage-block">
               <div className="client_block">
                 <a href="#" target="_blank">
-                  <img src="images/clients/client_2.png" alt="image" />
+                  <img src="/assets/images/clients/client_2.png" alt="image" />
                 </a>
               </div>
             </div>
@@ -209,7 +209,7 @@ export default class About extends Component {
             <div className="col-sm-4 col-md-2 subpage-block">
               <div className="client_block">
                 <a href="#" target="_blank">
-                  <img src="images/clients/client_3.png" alt="image" />
+                  <img src="/assets/images/clients/client_3.png" alt="image" />
                 </a>
               </div>
             </div>
@@ -217,7 +217,7 @@ export default class About extends Component {
             <div className="col-sm-4 col-md-2 subpage-block">
               <div className="client_block">
                 <a href="#" target="_blank">
-                  <img src="images/clients/client_4.png" alt="image" />
+                  <img src="/assets/images/clients/client_4.png" alt="image" />
                 </a>
               </div>
             </div>
@@ -225,7 +225,7 @@ export default class About extends Component {
             <div className="col-sm-4 col-md-2 subpage-block">
               <div className="client_block">
                 <a href="#" target="_blank">
-                  <img src="images/clients/client_5.png" alt="image" />
+                  <img src="/assets/images/clients/client_5.png" alt="image" />
                 </a>
               </div>
             </div>
@@ -233,7 +233,7 @@ export default class About extends Component {
             <div className="col-sm-4 col-md-2 subpage-block">
               <div className="client_block">
                 <a href="#" target="_blank">
-                  <img src="images/clients/client_6.png" alt="image" />
+                  <img src="/assets/images/clients/client_6.png" alt="image" />
                 </a>
               </div>
             </div>

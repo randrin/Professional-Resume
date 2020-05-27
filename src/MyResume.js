@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./MyResume.scss";
 import { BrowserRouter, Route } from "react-router-dom";
 import ButtonGoToTop from "../src/pages/inc/ButtonGoToTop";
 import ScrollToTop from "../src/pages/inc/ScrollToTop";

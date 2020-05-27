@@ -49,7 +49,7 @@ export default class NavBar extends Component {
           <li>
             <a
               className="pt-trigger"
-              href="#contact"
+              href="#contact_me"
               data-animation="58"
               data-goto="5"
             >
