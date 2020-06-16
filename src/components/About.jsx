@@ -1,6 +1,13 @@
 import React, { Component } from "react";
+import { clients } from "../data/clients";
 
 export default class About extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      clients: clients,
+    };
+  }
   render() {
     return (
       <>
@@ -148,7 +155,10 @@ export default class About extends Component {
             <div className="col-sm-6 col-md-3 subpage-block">
               <div className="service-block">
                 <div className="service-info">
-                  <img src="/assets/images/service/copywrite.png" alt="Copywriter" />
+                  <img
+                    src="/assets/images/service/copywrite.png"
+                    alt="Copywriter"
+                  />
                   <h4>Copywriter</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -161,7 +171,10 @@ export default class About extends Component {
             <div className="col-sm-6 col-md-3 subpage-block">
               <div className="service-block">
                 <div className="service-info">
-                  <img src="/assets/images/service/ecommerce.png" alt="E-Commerce" />
+                  <img
+                    src="/assets/images/service/ecommerce.png"
+                    alt="E-Commerce"
+                  />
                   <h4>E-Commerce</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -174,7 +187,10 @@ export default class About extends Component {
             <div className="col-sm-6 col-md-3 subpage-block">
               <div className="service-block">
                 <div className="service-info">
-                  <img src="/assets/images/service/management.png" alt="Management" />
+                  <img
+                    src="/assets/images/service/management.png"
+                    alt="Management"
+                  />
                   <h4>Management</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -186,57 +202,19 @@ export default class About extends Component {
           </div>
 
           <div className="block-title">
-            <h3>Clients</h3>
+            <h3>Ils m'ont fait confiance</h3>
           </div>
 
           <div className="row">
-            <div className="col-sm-4 col-md-2 subpage-block">
-              <div className="client_block">
-                <a href="#" target="_blank">
-                  <img src="/assets/images/clients/client_1.png" alt="image" />
-                </a>
+            {this.state.clients.map((client) => (
+              <div key={client.id} className="col-sm-4 col-md-2 subpage-block">
+                <div className="client_block">
+                  <a href={client.link} target="_blank">
+                    <img src={client.url} alt="image" />
+                  </a>
+                </div>
               </div>
-            </div>
-
-            <div className="col-sm-4 col-md-2 subpage-block">
-              <div className="client_block">
-                <a href="#" target="_blank">
-                  <img src="/assets/images/clients/client_2.png" alt="image" />
-                </a>
-              </div>
-            </div>
-
-            <div className="col-sm-4 col-md-2 subpage-block">
-              <div className="client_block">
-                <a href="#" target="_blank">
-                  <img src="/assets/images/clients/client_3.png" alt="image" />
-                </a>
-              </div>
-            </div>
-
-            <div className="col-sm-4 col-md-2 subpage-block">
-              <div className="client_block">
-                <a href="#" target="_blank">
-                  <img src="/assets/images/clients/client_4.png" alt="image" />
-                </a>
-              </div>
-            </div>
-
-            <div className="col-sm-4 col-md-2 subpage-block">
-              <div className="client_block">
-                <a href="#" target="_blank">
-                  <img src="/assets/images/clients/client_5.png" alt="image" />
-                </a>
-              </div>
-            </div>
-
-            <div className="col-sm-4 col-md-2 subpage-block">
-              <div className="client_block">
-                <a href="#" target="_blank">
-                  <img src="/assets/images/clients/client_6.png" alt="image" />
-                </a>
-              </div>
-            </div>
+            ))}
           </div>
           <div className="block-title">
             <h3>Fun Facts</h3>
