@@ -59,33 +59,63 @@ export default class NavBar extends Component {
         </ul>
         <ul className="social-links">
           <li>
-            <a className="tip social-button" href="#" title="Twitter">
+            <a
+              className="tip social-button"
+              href="https://github.com/randrin"
+              target="_blank"
+              title="Github"
+            >
+              <i className="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              className="tip social-button"
+              href="https://bitbucket.org/randrin/?visibility=all"
+              target="_blank"
+              title="Bitbucket"
+            >
+              <i className="fa fa-bitbucket"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              className="tip social-button"
+              href="https://twitter.com/NzeukangRandrin"
+              target="_blank"
+              title="Twitter"
+            >
               <i className="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a className="tip social-button" href="#" title="Facebook">
+            <a
+              className="tip social-button"
+              href="https://www.facebook.com/decotino"
+              target="_blank"
+              title="Facebook"
+            >
               <i className="fa fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a className="tip social-button" href="#" title="Google Plus">
+            <a
+              className="tip social-button"
+              href="#"
+              target="_blank"
+              title="Google Plus"
+            >
               <i className="fa fa-google-plus"></i>
             </a>
           </li>
           <li>
-            <a className="tip social-button" href="#" title="Youtube">
+            <a
+              className="tip social-button"
+              href="https://www.youtube.com/channel/UCugdTE_t5-1bGV_-kqaq0Vg"
+              target="_blank"
+              title="Youtube"
+            >
               <i className="fa fa-youtube"></i>
-            </a>
-          </li>
-          <li>
-            <a className="tip social-button" href="#" title="last.fm">
-              <i className="fa fa-lastfm"></i>
-            </a>
-          </li>
-          <li>
-            <a className="tip social-button" href="#" title="Dribbble">
-              <i className="fa fa-dribbble"></i>
             </a>
           </li>
         </ul>

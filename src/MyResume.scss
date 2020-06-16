@@ -1,3 +1,15 @@
+@import '../public/assets/scss/professional-resume';
+
+// Scrollbar
+::-webkit-scrollbar-thumb {
+    background-color: var(--slate-grey);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
 #scroll-top {
     display: none;
 }
@@ -8,12 +20,14 @@
     position: fixed;
     right: 30px;
     float: right;
+    z-index: 2;
 }
 
 .pt-wrapper-scroll {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 
     .site-nav {
         background-color: #ffcd38;
