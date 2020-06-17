@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Suspense } from "react";
+import ReactDOM from "react-dom";
 import MyResume from "./MyResume";
+import "./i18next";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Suspense fallback={<span className="slider-loader"></span>}>
     <MyResume />
-  </React.StrictMode>,
+  </Suspense>,
   document.getElementById("my_resume")
 );
-
