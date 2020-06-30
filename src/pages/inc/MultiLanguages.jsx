@@ -17,7 +17,7 @@ class MultiLanguages extends Component {
     const { selectLang } = this.state;
     return (
       <div className="header-dropdown">
-        <a href="#" className="store-selected-lang">
+        <a href="#" className="resume-selected-lang">
           {selectLang === "fr" ? (
             <>
               <img
@@ -26,7 +26,7 @@ class MultiLanguages extends Component {
               />
               <p>Français</p>
             </>
-          ) : (
+          ) : selectLang === "en" ? (
             <>
               <img
                 className="store-img-flag"
@@ -34,13 +34,21 @@ class MultiLanguages extends Component {
               />
               <p>Anglais</p>
             </>
+          ) : (
+            <>
+              <img
+                className="store-img-flag"
+                src="/assets/images/flags/it.png"
+              />
+              <p>Italien</p>
+            </>
           )}
         </a>
         <div className="header-menu">
           <ul>
             <li>
               <span
-                className="store-selected-lang"
+                className="resume-selected-lang"
                 onClick={() => this.handleChangeLanguage("en")}
               >
                 <img
@@ -52,7 +60,7 @@ class MultiLanguages extends Component {
             </li>
             <li>
               <span
-                className="store-selected-lang"
+                className="resume-selected-lang"
                 onClick={() => this.handleChangeLanguage("fr")}
               >
                 <img
@@ -60,6 +68,18 @@ class MultiLanguages extends Component {
                   src="/assets/images/flags/fr.png"
                 />
                 <p>Français</p>
+              </span>
+            </li>
+            <li>
+              <span
+                className="resume-selected-lang"
+                onClick={() => this.handleChangeLanguage("it")}
+              >
+                <img
+                  className="store-img-flag"
+                  src="/assets/images/flags/it.png"
+                />
+                <p>Italien</p>
               </span>
             </li>
           </ul>

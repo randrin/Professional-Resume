@@ -1,0 +1,17 @@
+{
+    "ABOUT": {
+        "TITLE": "A Proposito di me"
+    },
+    "RESUME": {
+        "TITLE": "Le Mie Competenze"
+    },
+    "PORTFOLIO": {
+        "TITLE": "Il Mio Portfolio"
+    },
+    "BLOG": {
+        "TITLE": "Il Mio Blog"
+    },
+    "CONTACT": {
+        "TITLE": "Contattami"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "ABOUT": {
+        "TITLE": "A' Propos de Moi"
+    },
+    "RESUME": {
+        "TITLE": "Mon Expertise"
+    },
+    "PORTFOLIO": {
+        "TITLE": "Mon Porte-Feuille"
+    },
+    "BLOG": {
+        "TITLE": "Mon Blog"
+    },
+    "CONTACT": {
+        "TITLE": "Contactez Moi"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "ABOUT": {
+        "TITLE": "About Me"
+    },
+    "RESUME": {
+        "TITLE": "My Expertise"
+    },
+    "PORTFOLIO": {
+        "TITLE": "My Portfolio"
+    },
+    "BLOG": {
+        "TITLE": "My Blog"
+    },
+    "CONTACT": {
+        "TITLE": "Contact Me"
+    }
+}
