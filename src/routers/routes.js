@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
-import Home from "../components/Home";
+import Home from "../pages/site/Home";
 import About from "../components/About";
 import Portfoglio from "../components/Portfoglio";
 import Resume from "../components/Resume";
