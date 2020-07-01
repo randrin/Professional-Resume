@@ -44,7 +44,7 @@ export default class NavBar extends Component {
                           {t("PORTFOLIO.TITLE")}
                         </a>
                       </li>
-                      <li>
+                      <li className="resume-blog">
                         <a
                           className="pt-trigger"
                           href="#blog"
@@ -66,7 +66,7 @@ export default class NavBar extends Component {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 socials-links-multilanguages">
                     <ul className="social-links">
                       <li>
                         <a

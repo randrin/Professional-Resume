@@ -34,6 +34,7 @@
     <!-- This styles needs for demo -->
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/preview/lmpixels-demo-panel.css" type="text/css">
     <!-- /This styles needs for demo -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/plugins.css" type="text/css">
   </head>
   <body>
     <div id="my_resume"></div>
@@ -49,6 +50,21 @@
     -->
     <script src="%PUBLIC_URL%/assets/js/jquery-2.1.3.min.js"></script>
     <script src="%PUBLIC_URL%/assets/js/modernizr.custom.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/plugins.js"></script>
+    <script>
+		$(document).ready(function() {
+		//=========================================
+		//  Water Effect
+		//=========================================
+		
+			$('.banner_water_effect').ripples({
+			  resolution: 256,
+			  dropRadius: 20,
+			  perturbance: 0.03,
+			  interactive:true,
+      });
+    });
+  </script>
     <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
     <script src="%PUBLIC_URL%/assets/js/page-transition.js"></script>
     <script src="%PUBLIC_URL%/assets/js/imagesloaded.pkgd.min.js"></script>

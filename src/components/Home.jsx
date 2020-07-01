@@ -14,7 +14,7 @@ export default class Home extends Component {
         <div id="page" className="page">
           <Header />
           <div id="main" className="site-main">
-            <div className="pt-wrapper pt-wrapper-scroll">
+            <div className="pt-wrapper">
               <NavBar />
             </div>
             <div className="subpages">
