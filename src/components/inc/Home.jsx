@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import Header from "../../pages/site/Header";
-import NavBar from "../../pages/site/NavBar";
+import { Header, NavBar } from "../../pages";
 import { About, Resume, Blog, Contact, Portfoglio } from "../index";
 export default class Home extends Component {
   render() {
