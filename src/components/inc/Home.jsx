@@ -1,12 +1,7 @@
 import React, { Component } from "react";
-import Header from "./Header";
-import NavBar from "./NavBar";
-import About from "../../components/About";
-import Resume from "../../components/Resume";
-import Contact from "../../components/Contact";
-import Portfoglio from "../../components/Portfoglio";
-import Blog from "../../components/Blog";
-
+import Header from "../../pages/site/Header";
+import NavBar from "../../pages/site/NavBar";
+import { About, Resume, Blog, Contact, Portfoglio } from "../index";
 export default class Home extends Component {
   render() {
     return (

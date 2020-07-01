@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { clients } from "../data/clients";
+import { clients } from "../../data/clients";
 
 export default class About extends Component {
   constructor(props) {

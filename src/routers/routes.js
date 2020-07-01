@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
-import Home from "../pages/site/Home";
-import About from "../components/About";
-import Portfoglio from "../components/Portfoglio";
-import Resume from "../components/Resume";
-import Blog from "../components/Blog";
-import Contact from "../components/Contact";
-import Error404 from "../components/Error404";
+import Home from "../components/inc/Home";
+import About from "../components/inc/About";
+import Portfoglio from "../components/inc/Portfoglio";
+import Resume from "../components/inc/Resume";
+import Blog from "../components/inc/Blog";
+import Contact from "../components/inc/Contact";
+import Error404 from "../components/inc/Error404";
 
 const Routes = (props) => (
   <Switch>
