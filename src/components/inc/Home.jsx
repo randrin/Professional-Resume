@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Header, NavBar } from "../../pages/index";
+import { Header, NavBar } from "../../pages";
 import { About, Resume, Blog, Contact, Portfoglio } from "../index";
 export default class Home extends Component {
   render() {
