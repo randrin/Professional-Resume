@@ -40,7 +40,7 @@ export default class Home extends Component {
                 {(t) => (
                   <>
                     <div className="site-nav mobile-menu-hide">
-                      <div className="container-fluid">
+                      <div className="container">
                         <div className="row">
                           <div className="col-md-6">
                             <ul id="nav" className="site-main-menu">
