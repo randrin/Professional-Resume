@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { NavBar } from "../../pages";
+import NavBar from "../../pages/site/NavBar";
 import { About, Resume, Blog, Contact, Portfoglio } from "../index";
 export default class Home extends Component {
   render() {
     return (
       <>
         <div id="page" className="page">
+          {/* Header Start */}
           <header id="site_header" className="header banner_water_effect">
             <div className="my-photo">
               <img src="../assets/images/Randrin.png" alt="image" />
@@ -30,6 +31,7 @@ export default class Home extends Component {
               <i className="fa fa-bars"></i>
             </a>
           </header>
+          {/* Header End */}
           <div id="main" className="site-main">
             <div className="pt-wrapper">
               <NavBar />
