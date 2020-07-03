@@ -13,9 +13,17 @@
     },
     "CONTACT": {
         "TITLE": "Contactez Moi",
-        "FORM": {
+        "RIGHT_FORM": {
             "TITLE": "Contactez Moi",
-            "DESCRIPTION": "Veuillez trouver ci-dessous toutes les informations pour entrer en contact avec moi. Je me fairais le plaisir de vous repondre le plus vite possible."
+            "DESCRIPTION": "Veuillez trouver ci-dessous toutes les informations pour entrer en contact avec moi. Je me fairais le plaisir de vous repondre le plus vite possible.",
+            "AVAILABLE": "Disponible Maintenant"
+        },
+        "LEFT_FORM": {
+            "TITLE": "Formulaire de Contact",
+            "FULLNAME": "Nom et Prènom",
+            "EMAIL": "Adresse Email",
+            "MESSAGE": "Message pour toi",
+            "BUTTON": "Envoyez le Message"
         }
     }
 }

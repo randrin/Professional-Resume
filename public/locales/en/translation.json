@@ -13,9 +13,17 @@
     },
     "CONTACT": {
         "TITLE": "Contact Me",
-        "FORM": {
+        "RIGHT_FORM": {
             "TITLE": "Get in Touch",
-            "DESCRIPTION": "Please find below all the information to get in touch with me. I would be happy to answer you as soon as possible."
+            "DESCRIPTION": "Please find below all the information to get in touch with me. I would be happy to answer you as soon as possible.",
+            "AVAILABLE": "Available Now"
+        },
+        "LEFT_FORM": {
+            "TITLE": "Contact Form",
+            "FULLNAME": "Full Name",
+            "EMAIL": "Email Address",
+            "MESSAGE": "Message for me",
+            "BUTTON": "Send Message"
         }
     }
 }

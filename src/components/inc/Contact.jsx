@@ -20,24 +20,28 @@ export default class Contact extends Component {
               <div className="section-title-block">
                 <h2 className="section-title">{t("CONTACT.TITLE")}</h2>
                 <h5 className="section-description">
-                  {t("CONTACT.FORM.TITLE")}
+                  {t("CONTACT.RIGHT_FORM.TITLE")}
                 </h5>
               </div>
 
               <div className="row">
                 <div className="col-sm-6 col-md-6 subpage-block">
                   <div className="block-title">
-                    <h3>{t("CONTACT.FORM.TITLE")}</h3>
+                    <h3>{t("CONTACT.RIGHT_FORM.TITLE")}</h3>
                   </div>
-                  <p>{t("CONTACT.FORM.DESCRIPTION")}</p>
+                  <p>{t("CONTACT.RIGHT_FORM.DESCRIPTION")}</p>
 
-                  {this.state.contacts.map((contact) => (
+                  {this.state.contacts.map((contact, index) => (
                     <div key={contact.id} className="contact-info-block">
                       <div className="ci-icon">
                         <i className={`pe-7s-icon ${contact.icon}`}></i>
                       </div>
                       <div className="ci-text">
-                        <h5>{contact.title}</h5>
+                        {this.state.contacts.length === index + 1 ? (
+                          <h5>{t("CONTACT.RIGHT_FORM.AVAILABLE")}</h5>
+                        ) : (
+                          <h5>{contact.title}</h5>
+                        )}
                       </div>
                     </div>
                   ))}
@@ -45,7 +49,7 @@ export default class Contact extends Component {
 
                 <div className="col-sm-6 col-md-6 subpage-block">
                   <div className="block-title">
-                    <h3>Contact Form</h3>
+                    <h3>{t("CONTACT.LEFT_FORM.TITLE")}</h3>
                   </div>
                   <form id="contact-form" method="post" action="#">
                     <div className="messages"></div>
@@ -57,7 +61,7 @@ export default class Contact extends Component {
                           type="text"
                           name="name"
                           className="form-control"
-                          placeholder="Full Name"
+                          placeholder={t("CONTACT.LEFT_FORM.FULLNAME")}
                           required="required"
                           data-error="Name is required."
                         />
@@ -72,7 +76,7 @@ export default class Contact extends Component {
                           type="email"
                           name="email"
                           className="form-control"
-                          placeholder="Email Address"
+                          placeholder={t("CONTACT.LEFT_FORM.EMAIL")}
                           required="required"
                           data-error="Valid email is required."
                         />
@@ -86,7 +90,7 @@ export default class Contact extends Component {
                           id="form_message"
                           name="message"
                           className="form-control"
-                          placeholder="Message for me"
+                          placeholder={t("CONTACT.LEFT_FORM.MESSAGE")}
                           rows="4"
                           required="required"
                           data-error="Please, leave me a message."
@@ -105,7 +109,7 @@ export default class Contact extends Component {
                       <input
                         type="submit"
                         className="button btn-send"
-                        value="Send message"
+                        value={t("CONTACT.LEFT_FORM.BUTTON")}
                       />
                     </div>
                   </form>

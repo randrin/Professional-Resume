@@ -13,9 +13,17 @@
     },
     "CONTACT": {
         "TITLE": "Contattami",
-        "FORM": {
+        "RIGHT_FORM": {
             "TITLE": "Mettiti in contatto",
-            "DESCRIPTION": "Di seguito troverai tutte le informazioni per contattarmi. Sarei felice di risponderti al più presto."
+            "DESCRIPTION": "Di seguito troverai tutte le informazioni per contattarmi. Sarei felice di risponderti al più presto.",
+            "AVAILABLE": "Disponibile Ora"
+        },
+        "LEFT_FORM": {
+            "TITLE": "Modulo di Contatto",
+            "FULLNAME": "Nome e Cognome",
+            "EMAIL": "Indirizzo Email",
+            "MESSAGE": "Messaggio per me",
+            "BUTTON": "Invia il Messaggio"
         }
     }
 }
