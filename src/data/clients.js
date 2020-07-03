@@ -1,5 +1,3 @@
-import React from "react";
-
 export const clients = [
   {
     id: 1,

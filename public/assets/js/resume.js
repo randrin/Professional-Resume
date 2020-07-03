@@ -19,9 +19,9 @@ $(document).ready(function () {
     $(window).trigger("resize");
   });
   var $currentHeight = $(window).height();
-  console.log("After: ", $currentHeight);
+  //console.log("After: ", $currentHeight);
   $("*").click(function () {
     $currentHeight++;
-    console.log("Before: ", $currentHeight);
+    //console.log("Before: ", $currentHeight);
   });
 });

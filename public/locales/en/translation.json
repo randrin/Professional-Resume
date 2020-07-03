@@ -12,6 +12,10 @@
         "TITLE": "My Blog"
     },
     "CONTACT": {
-        "TITLE": "Contact Me"
+        "TITLE": "Contact Me",
+        "FORM": {
+            "TITLE": "Get in Touch",
+            "DESCRIPTION": "Please find below all the information to get in touch with me. I would be happy to answer you as soon as possible."
+        }
     }
 }

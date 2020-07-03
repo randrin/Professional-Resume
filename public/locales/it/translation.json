@@ -12,6 +12,10 @@
         "TITLE": "Il Mio Blog"
     },
     "CONTACT": {
-        "TITLE": "Contattami"
+        "TITLE": "Contattami",
+        "FORM": {
+            "TITLE": "Mettiti in contatto",
+            "DESCRIPTION": "Di seguito troverai tutte le informazioni per contattarmi. Sarei felice di risponderti al più presto."
+        }
     }
 }
