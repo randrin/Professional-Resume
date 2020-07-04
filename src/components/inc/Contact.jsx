@@ -51,7 +51,11 @@ export default class Contact extends Component {
                   <div className="block-title">
                     <h3>{t("CONTACT.LEFT_FORM.TITLE")}</h3>
                   </div>
-                  <form id="contact-form" method="post" action="#">
+                  <form
+                    id="contact-form"
+                    method="POST"
+                    action="https://formspree.io/nzeukangrandrin@gmail.com"
+                  >
                     <div className="messages"></div>
 
                     <div className="controls">
