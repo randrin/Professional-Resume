@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
@@ -6,14 +7,14 @@ export default class Header extends Component {
       <>
         <header id="site_header" className="header banner_water_effect">
           <div className="my-photo">
-            <img src="../assets/images/Randrin.png" alt="image" />
+            <img src="../assets/images/Randrin.png" alt="Profil Randrin" />
             <div className="mask"></div>
           </div>
 
           <div className="site-title-block">
-            <a href="https://www.templateshub.net" target="_blank">
+            <Link to="https://www.templateshub.net" target="_blank">
               <h1 className="site-title">Randrin Nzeukang</h1>
-            </a>
+            </Link>
             <h1 className="cd-headline clip is-full-width text-uppercase">
               <span className="color_white">I am a</span>
               <span className="cd-words-wrapper color_default">
@@ -24,9 +25,9 @@ export default class Header extends Component {
             </h1>
           </div>
 
-          <a className="menu-toggle mobile-visible">
+          <Link to="#" className="menu-toggle mobile-visible">
             <i className="fa fa-bars"></i>
-          </a>
+          </Link>
         </header>
       </>
     );
