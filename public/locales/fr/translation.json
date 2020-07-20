@@ -3,7 +3,11 @@
         "TITLE": "A' Propos de Moi"
     },
     "RESUME": {
-        "TITLE": "Mon Expertise"
+        "TITLE": "Mon Expertise",
+        "YEAR_WORK": "5 Années d'expèrience",
+        "EDUCATION": {
+            "TITLE": "Education"
+        }
     },
     "PORTFOLIO": {
         "TITLE": "Mon Porte-Feuille"

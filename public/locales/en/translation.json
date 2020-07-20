@@ -3,7 +3,11 @@
         "TITLE": "About Me"
     },
     "RESUME": {
-        "TITLE": "My Expertise"
+        "TITLE": "My Expertise",
+        "YEAR_WORK": "5 Years of Experience",
+        "EDUCATION": {
+            "TITLE": "Education"
+        }
     },
     "PORTFOLIO": {
         "TITLE": "My Portfolio"

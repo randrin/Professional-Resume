@@ -3,7 +3,11 @@
         "TITLE": "A Proposito di me"
     },
     "RESUME": {
-        "TITLE": "Le Mie Competenze"
+        "TITLE": "Le Mie Competenze",
+        "YEAR_WORK": "5 Anni di esperienza",
+        "EDUCATION": {
+            "TITLE": "Educazione"
+        }
     },
     "PORTFOLIO": {
         "TITLE": "Il Mio Portfolio"

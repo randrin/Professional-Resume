@@ -12,6 +12,7 @@ export default class Contact extends Component {
   }
 
   render() {
+    const { contacts } = this.state;
     return (
       <section className="pt-page pt-page-5" data-id="contact_me">
         <Translation>
@@ -31,13 +32,13 @@ export default class Contact extends Component {
                   </div>
                   <p>{t("CONTACT.RIGHT_FORM.DESCRIPTION")}</p>
 
-                  {this.state.contacts.map((contact, index) => (
+                  {contacts.map((contact, index) => (
                     <div key={contact.id} className="contact-info-block">
                       <div className="ci-icon">
                         <i className={`pe-7s-icon ${contact.icon}`}></i>
                       </div>
                       <div className="ci-text">
-                        {this.state.contacts.length === index + 1 ? (
+                        {contacts.length === index + 1 ? (
                           <h5>{t("CONTACT.RIGHT_FORM.AVAILABLE")}</h5>
                         ) : (
                           <h5>{contact.title}</h5>
