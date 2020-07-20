@@ -73,6 +73,7 @@ export default class NavBar extends Component {
                           className="tip social-button"
                           href="https://github.com/randrin"
                           target="_blank"
+                          rel="noopener noreferrer"
                           title="Github"
                         >
                           <i className="fa fa-github"></i>
@@ -83,6 +84,7 @@ export default class NavBar extends Component {
                           className="tip social-button"
                           href="https://bitbucket.org/randrin/?visibility=all"
                           target="_blank"
+                          rel="noopener noreferrer"
                           title="Bitbucket"
                         >
                           <i className="fa fa-bitbucket"></i>
@@ -93,6 +95,7 @@ export default class NavBar extends Component {
                           className="tip social-button"
                           href="https://twitter.com/NzeukangRandrin"
                           target="_blank"
+                          rel="noopener noreferrer"
                           title="Twitter"
                         >
                           <i className="fa fa-twitter"></i>
@@ -103,6 +106,7 @@ export default class NavBar extends Component {
                           className="tip social-button"
                           href="https://www.facebook.com/decotino"
                           target="_blank"
+                          rel="noopener noreferrer"
                           title="Facebook"
                         >
                           <i className="fa fa-facebook"></i>
@@ -111,18 +115,9 @@ export default class NavBar extends Component {
                       <li>
                         <a
                           className="tip social-button"
-                          href="#"
-                          target="_blank"
-                          title="Google Plus"
-                        >
-                          <i className="fa fa-google-plus"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="tip social-button"
                           href="https://www.youtube.com/channel/UCugdTE_t5-1bGV_-kqaq0Vg"
                           target="_blank"
+                          rel="noopener noreferrer"
                           title="Youtube"
                         >
                           <i className="fa fa-youtube"></i>
