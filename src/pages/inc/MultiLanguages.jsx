@@ -9,7 +9,6 @@ class MultiLanguages extends Component {
       <ResumeConsumer>
         {(value) => {
           const { selectLang, handleChangeLanguage } = value;
-          console.log("MultiLanguages selectLang", selectLang);
           return (
             <div className="header-dropdown">
               <Link to="#" className="resume-selected-lang">

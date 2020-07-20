@@ -6,8 +6,7 @@ export default class Resume extends Component {
     return (
       <ResumeConsumer>
         {(value) => {
-          const { selectLang, educations } = value;
-          console.log("Resume selectLang", selectLang, educations);
+          const { educations } = value;
           return (
             <section className="pt-page pt-page-2" data-id="resume">
               <Translation>
