@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { About, Resume, Blog, Contact, Portfoglio } from "../index";
-import { Header, NavBar } from "../../pages/index";
+import { Header, NavBar, Footer } from "../../pages/index";
 
 export default class Home extends Component {
   render() {
@@ -23,6 +23,9 @@ export default class Home extends Component {
               <Blog />
               <Contact />
             </div>
+            {/* Footer Start */}
+            <Footer />
+            {/* Footer End */}
           </div>
         </div>
       </>
