@@ -3,7 +3,17 @@
         "TITLE": "Je suis"
     },
     "ABOUT": {
-        "TITLE": "A' Propos de Moi"
+        "TITLE": "A' Propos de Moi",
+        "POSITION": "Actuellement, Je suis Full Stack Développeur @ Accenture",
+        "DESCRIPTION_1": "Passionné par l'Innovation, l'Informatique et les Systèmes Informatiques, Je suis ouvert à  toutes propositions en études et développement Informatique utilisant diffèrentes langues de programmation dans les domaines de l'Ingénierie et du Conseil Technologique, de la Finance et des Banques.",
+        "DESCRIPTION_2": "Rigoureux, Esprit d'initiative, d'analyse, de synthèse, Sens de l'organisation et du relationnel, Capacité pour le travail en équipe. Disponible immédiatement, Mobile géographiquement et à  l'écoute du marché.",
+        "NAME": "Nom",
+        "YEAR": "Age",
+        "ADRESSE": "Adresse de Résidence",
+        "EMAIL": "E-mail",
+        "PHONE": "Télephone",
+        "DISPONIBILITY_REQUEST": "Disponibilité",
+        "DISPONIBILITY_RESPONSE": "CDI (J'évalue aussi les postes en Freelance)"
     },
     "RESUME": {
         "TITLE": "Mon Expertise",
