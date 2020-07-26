@@ -13,7 +13,11 @@
         "EMAIL": "Indirizzo E-mail",
         "PHONE": "Telefono",
         "DISPONIBILITY_REQUEST": "Disponibilità",
-        "DISPONIBILITY_RESPONSE": "Contratto a Tempo Indeterminato (Sono anche disponibile per Freelance)"
+        "DISPONIBILITY_RESPONSE": "Contratto a Tempo Indeterminato (Sono anche disponibile per Freelance)",
+        "TESTIMONIALS": "Testimonianze",
+        "SERVICES": "Servizi",
+        "CONFIANCE": "Si fidavano di me",
+        "FUN": "Fatti Divertenti"
     },
     "RESUME": {
         "TITLE": "Le Mie Competenze",

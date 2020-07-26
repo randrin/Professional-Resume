@@ -11,7 +11,7 @@ export default class About extends Component {
     return (
       <ResumeConsumer>
         {(value) => {
-          const { clients } = value;
+          const { clients, funs } = value;
           return (
             <section className="pt-page pt-page-1" data-id="about_me">
               <Translation>
@@ -90,7 +90,7 @@ export default class About extends Component {
 
                       <div className="col-sm-6 col-md-6 subpage-block">
                         <div className="block-title">
-                          <h3>Testimonials</h3>
+                          <h3>{t("ABOUT.TESTIMONIALS")}</h3>
                         </div>
                         <div className="testimonials owl-carousel">
                           <div className="testimonial-item">
@@ -146,7 +146,7 @@ export default class About extends Component {
                     </div>
 
                     <div className="block-title">
-                      <h3>Services</h3>
+                      <h3>{t("ABOUT.SERVICES")}</h3>
                     </div>
 
                     <div className="row">
@@ -216,7 +216,7 @@ export default class About extends Component {
                     </div>
 
                     <div className="block-title">
-                      <h3>Ils m'ont fait confiance</h3>
+                      <h3>{t("ABOUT.CONFIANCE")}</h3>
                     </div>
 
                     <div className="row">
@@ -226,49 +226,34 @@ export default class About extends Component {
                           className="col-sm-4 col-md-2 subpage-block"
                         >
                           <div className="client_block">
-                            <a href={client.link} target="_blank">
-                              <img src={client.url} alt="image" />
+                            <a
+                              href={client.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <img src={client.url} alt={client.name} />
                             </a>
                           </div>
                         </div>
                       ))}
                     </div>
                     <div className="block-title">
-                      <h3>Fun Facts</h3>
+                      <h3>{t("ABOUT.FUN")}</h3>
                     </div>
 
                     <div className="row">
-                      <div className="col-sm-6 col-md-3 subpage-block">
-                        <div className="fun-fact-block gray-bg">
-                          <i className="pe-7s-icon pe-7s-smile"></i>
-                          <h4>Happy Clients</h4>
-                          <span className="fun-value">1,024</span>
+                      {funs.map((fun) => (
+                        <div
+                          key={fun.id}
+                          className="col-sm-6 col-md-3 subpage-block"
+                        >
+                          <div className={`fun-fact-block ${fun.color}`}>
+                            <i className={`pe-7s-icon ${fun.icon}`}></i>
+                            <h4>{fun.name}</h4>
+                            <span className="fun-value">{fun.value}</span>
+                          </div>
                         </div>
-                      </div>
-
-                      <div className="col-sm-6 col-md-3 subpage-block">
-                        <div className="fun-fact-block">
-                          <i className="pe-7s-icon pe-7s-alarm"></i>
-                          <h4>Working Hours</h4>
-                          <span className="fun-value">6,256</span>
-                        </div>
-                      </div>
-
-                      <div className="col-sm-6 col-md-3 subpage-block">
-                        <div className="fun-fact-block gray-bg">
-                          <i className="pe-7s-icon pe-7s-medal"></i>
-                          <h4>Awards Won</h4>
-                          <span className="fun-value">21</span>
-                        </div>
-                      </div>
-
-                      <div className="col-sm-6 col-md-3 subpage-block">
-                        <div className="fun-fact-block">
-                          <i className="pe-7s-icon pe-7s-coffee"></i>
-                          <h4>Coffee Consumed</h4>
-                          <span className="fun-value">20,000</span>
-                        </div>
-                      </div>
+                      ))}
                     </div>
                   </>
                 )}

@@ -1,0 +1,92 @@
+export const funs = {
+  EN: [
+    {
+      id: 1,
+      value: 15,
+      icon: "pe-7s-smile",
+      color: "gray-bg",
+      name: "Happy Clients",
+    },
+    {
+      id: 2,
+      value: 12,
+      icon: "pe-7s-alarm",
+      color: "",
+      name: "Working Hours / Day",
+    },
+    {
+      id: 3,
+      value: 10,
+      icon: "pe-7s-medal",
+      color: "gray-bg",
+      name: "Certifications",
+    },
+    {
+      id: 4,
+      value: 5,
+      icon: "pe-7s-coffee",
+      color: "",
+      name: "Coffee Consumed / Day",
+    },
+  ],
+  FR: [
+    {
+      id: 1,
+      value: 15,
+      icon: "pe-7s-smile",
+      color: "gray-bg",
+      name: "Clients Satisfaits",
+    },
+    {
+      id: 2,
+      value: 12,
+      icon: "pe-7s-alarm",
+      color: "",
+      name: "Heures de Travail / Jour",
+    },
+    {
+      id: 3,
+      value: 10,
+      icon: "pe-7s-medal",
+      color: "gray-bg",
+      name: "Certifications",
+    },
+    {
+      id: 4,
+      value: 5,
+      icon: "pe-7s-coffee",
+      color: "",
+      name: "Café / Jour",
+    },
+  ],
+  IT: [
+    {
+      id: 1,
+      value: 15,
+      icon: "pe-7s-smile",
+      color: "gray-bg",
+      name: "Clienti Soddisfatti",
+    },
+    {
+      id: 2,
+      value: 12,
+      icon: "pe-7s-alarm",
+      color: "",
+      name: "Ore lavorative / Giorno",
+    },
+    {
+      id: 3,
+      value: 10,
+      icon: "pe-7s-medal",
+      color: "gray-bg",
+      name: "Certificazioni",
+    },
+    {
+      id: 4,
+      value: 5,
+      icon: "pe-7s-coffee",
+      color: "",
+      name: "Caffé / Giorno",
+    },
+  ],
+};

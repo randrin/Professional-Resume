@@ -13,7 +13,11 @@
         "EMAIL": "E-mail",
         "PHONE": "Phone",
         "DISPONIBILITY_REQUEST": "Disponibility",
-        "DISPONIBILITY_RESPONSE": "Permanent Position (Also evaluate Freelance)"
+        "DISPONIBILITY_RESPONSE": "Permanent Position (Also evaluate Freelance)",
+        "TESTIMONIALS": "Testimonials",
+        "SERVICES": "Services",
+        "CONFIANCE": "They trusted me",
+        "FUN": "Fun Facts"
     },
     "RESUME": {
         "TITLE": "My Expertise",

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { educations } from "../data/educations";
+import { funs } from "../data/funs";
 import { clients } from "../data/clients";
 
 export const ResumeContext = React.createContext();
@@ -11,7 +12,8 @@ class ResumeProvider extends Component {
     this.state = {
       selectLang: localStorage.getItem("i18nextLng"),
       educations: [],
-      clients: clients
+      funs: [],
+      clients: clients,
     };
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
   }
@@ -30,6 +32,12 @@ class ResumeProvider extends Component {
           : lang === "fr"
           ? educations.FR
           : educations.IT,
+      funs:
+        lang === "en"
+          ? funs.EN
+          : lang === "fr"
+          ? funs.FR
+          : funs.IT,
     });
   }
 

@@ -13,7 +13,11 @@
         "EMAIL": "E-mail",
         "PHONE": "Télephone",
         "DISPONIBILITY_REQUEST": "Disponibilité",
-        "DISPONIBILITY_RESPONSE": "CDI (J'évalue aussi les postes en Freelance)"
+        "DISPONIBILITY_RESPONSE": "CDI (J'évalue aussi les postes en Freelance)",
+        "TESTIMONIALS": "Témoignages",
+        "SERVICES": "Services",
+        "CONFIANCE": "Ils m'ont fait confiance",
+        "FUN": "Faits Amusants"
     },
     "RESUME": {
         "TITLE": "Mon Expertise",
