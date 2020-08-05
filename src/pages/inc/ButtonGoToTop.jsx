@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
-export default class ButtonGoToTop extends Component {
+export default class ButtonGoToTop extends PureComponent {
   render() {
     return (
       <>

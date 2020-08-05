@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from "react";
 
-export default class Footer extends Component {
-    render() {
-        return (
-            <footer>
-               <div>Section footer</div>
-            </footer>
-        )
-    }
+export default class Footer extends PureComponent {
+  render() {
+    return (
+      <footer>
+        <div>Section footer</div>
+      </footer>
+    );
+  }
 }

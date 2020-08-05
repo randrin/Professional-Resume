@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { educations } from "../data/educations";
 import { funs } from "../data/funs";
 import { clients } from "../data/clients";
 
 export const ResumeContext = React.createContext();
 
-class ResumeProvider extends Component {
+class ResumeProvider extends PureComponent {
   constructor(props) {
     super(props);
 
@@ -32,12 +32,7 @@ class ResumeProvider extends Component {
           : lang === "fr"
           ? educations.FR
           : educations.IT,
-      funs:
-        lang === "en"
-          ? funs.EN
-          : lang === "fr"
-          ? funs.FR
-          : funs.IT,
+      funs: lang === "en" ? funs.EN : lang === "fr" ? funs.FR : funs.IT,
     });
   }
 

@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { Link } from "react-router-dom";
 import { Translation } from "react-i18next";
 import { About, Resume, Blog, Contact, Portfoglio } from "../index";
 //import { Header, NavBar, Footer } from "../../pages/index";
 import MultiLanguages from "../../pages/inc/MultiLanguages";
 
-export default class Home extends Component {
+export default class Home extends PureComponent {
   render() {
     return (
       <div id="page" className="page">

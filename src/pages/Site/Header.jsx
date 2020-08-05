@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { Link } from "react-router-dom";
 import { Translation } from "react-i18next";
 
-export default class Header extends Component {
+export default class Header extends PureComponent {
   render() {
     return (
       <Translation>

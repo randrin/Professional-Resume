@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { Link } from "react-router-dom";
 import { Translation } from "react-i18next";
 import MultiLanguages from "../inc/MultiLanguages";
 
-export default class NavBar extends Component {
+export default class NavBar extends PureComponent {
   render() {
     return (
       <Translation>

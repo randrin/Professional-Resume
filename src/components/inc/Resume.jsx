@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
-export default class Resume extends Component {
+export default class Resume extends PureComponent {
   render() {
     return (
       <ResumeConsumer>
