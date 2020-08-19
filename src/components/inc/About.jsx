@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
 import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
+import { Footer } from "../../pages/index";
 
 export default class About extends PureComponent {
   constructor(props) {
@@ -255,6 +256,10 @@ export default class About extends PureComponent {
                         </div>
                       ))}
                     </div>
+                    {/* Footer Start */}
+                    {/* TODO: Refactor the Footer */}
+                    <Footer />
+                    {/* Footer End */}
                   </>
                 )}
               </Translation>

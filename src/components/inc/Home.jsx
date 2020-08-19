@@ -38,8 +38,8 @@ export default class Home extends PureComponent {
             </Link>
           </header>
         </div>
-
         {/* Header End */}
+
         <div id="main" className="site-main">
           <div className="pt-wrapper">
             {/* NavBar Start */}
@@ -182,10 +182,6 @@ export default class Home extends PureComponent {
             <Blog />
             <Contact />
           </div>
-          {/* Footer Start */}
-          {/* TODO: Refactor the Footer */}
-          {/* <Footer /> */}
-          {/* Footer End */}
         </div>
       </div>
     );
