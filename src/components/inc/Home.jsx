@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Translation } from "react-i18next";
 import { About, Resume, Blog, Contact, Portfoglio } from "../index";
 //import { Header, NavBar, Footer } from "../../pages/index";
-import MultiLanguages from "../../pages/inc/MultiLanguages";
+import MultiLanguages from "../../components/pages/inc/MultiLanguages";
 
 export default class Home extends PureComponent {
   render() {

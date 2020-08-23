@@ -1,3 +1,6 @@
+export { default as Header } from "../components/pages/site/Header";
+export { default as NavBar } from "../components/pages/site/NavBar";
+export { default as Footer } from "../components/pages/site/Footer";
 export { default as Home } from "../components/inc/Home";
 export { default as About } from "../components/inc/About";
 export { default as Blog } from "../components/inc/Blog";

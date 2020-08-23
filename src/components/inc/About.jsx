@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
-import Footer from "../../pages/site/Footer";
+import Footer from "../../components/pages/site/Footer";
 
 
 export default class About extends PureComponent {

@@ -1,8 +1,8 @@
 import React from "react";
 import "./MyResume.scss";
 import { BrowserRouter, Route } from "react-router-dom";
-import ButtonGoToTop from "../src/pages/inc/ButtonGoToTop";
-import ScrollToTop from "../src/pages/inc/ScrollToTop";
+import ButtonGoToTop from "../src/components/pages/inc/ButtonGoToTop";
+import ScrollToTop from "../src/components/pages/inc/ScrollToTop";
 import Routes from "../src/routers/routes";
 import { ResumeProvider } from "./context";
 
