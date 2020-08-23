@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Footer from "../../components/pages/site/Footer";
 
 export default class Portfoglio extends PureComponent {
   render() {
@@ -205,6 +206,7 @@ export default class Portfoglio extends PureComponent {
               </figure>
             </div>
           </div>
+          <Footer />
         </section>
       </>
     );

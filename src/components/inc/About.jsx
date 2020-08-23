@@ -257,10 +257,7 @@ export default class About extends PureComponent {
                         </div>
                       ))}
                     </div>
-                    {/* Footer Start */}
-                    {/* TODO: Refactor the Footer */}
                     <Footer />
-                    {/* Footer End */}
                   </>
                 )}
               </Translation>

@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import { contacts } from "../../data/contacts";
 import { Translation } from "react-i18next";
 import GoogleMapReact from "google-map-react";
+import Footer from "../../components/pages/site/Footer";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -148,6 +149,7 @@ export default class Contact extends PureComponent {
                   </GoogleMapReact>
                 </div>
               </div>
+              <Footer />
             </>
           )}
         </Translation>

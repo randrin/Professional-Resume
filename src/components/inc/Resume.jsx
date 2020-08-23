@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
 import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
+import Footer from "../../components/pages/site/Footer";
 export default class Resume extends PureComponent {
   render() {
     return (
@@ -142,6 +143,7 @@ export default class Resume extends PureComponent {
                         </div>
                       </div>
                     </div>
+                    <Footer />
                   </>
                 )}
               </Translation>

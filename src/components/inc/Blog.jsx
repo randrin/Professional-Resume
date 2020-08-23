@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Footer from "../../components/pages/site/Footer";
 
 export default class Blog extends PureComponent {
   render() {
@@ -266,6 +267,7 @@ export default class Blog extends PureComponent {
               </div>
             </div>
           </div>
+          <Footer />
         </section>
       </>
     );
