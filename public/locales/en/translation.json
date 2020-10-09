@@ -4,7 +4,7 @@
     },
     "ABOUT": {
         "TITLE": "About Me",
-        "POSITION": "Now, I am Web Full Stack Developer @ Accenture",
+        "POSITION": "Now, I am Full Stack Developer @ Accenture",
         "DESCRIPTION_1": "Passionate by Innovation, Computer Science and Information Systems, I am open to all proposals in Computers Science and IT using various systems and programming languages in the fields of Technology Consulting and Engineering, Finance and Banking.",
         "DESCRIPTION_2": "Rigorous, Spirit of initiative, analysis and synthesis, Strong organizational and Interpersonal skills, Capacity for the teamwork. Available immediately, geographically mobile and listen to the market.",
         "NAME": "Name",
@@ -46,5 +46,11 @@
             "MESSAGE": "Message for me",
             "BUTTON": "Send Message"
         }
+    },
+    "FOOTER": {
+        "REALIZED": "Realized by",
+        "ALL_RIGHTS": "All rights reserved.",
+        "PRIVACY": "Privacy Policies",
+        "CONDITION": "Terms e Conditions"
     }
 }

@@ -1,11 +1,7 @@
 import React, { PureComponent } from "react";
 import { contacts } from "../../data/contacts";
 import { Translation } from "react-i18next";
-import GoogleMapReact from "google-map-react";
 import Footer from "../../components/pages/site/Footer";
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 export default class Contact extends PureComponent {
   constructor(props) {
     super(props);
@@ -133,21 +129,14 @@ export default class Contact extends PureComponent {
                 </div>
               </div>
               <div className="row">
-                <div style={{ height: "100vh", width: "100%" }}>
-                  <GoogleMapReact
-                    bootstrapURLKeys={{
-                      key: "AIzaSyADPF6Q-gkXnEdDbx1EBbOBqhbkafAbWso",
-                    }}
-                    defaultCenter={this.props.center}
-                    defaultZoom={this.props.zoom}
-                  >
-                    <AnyReactComponent
-                      lat={59.955413}
-                      lng={30.337844}
-                      text="My Marker"
-                    />
-                  </GoogleMapReact>
-                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.5002905904366!2d8.859947515200576!3d45.29831867909925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786e328de92df7f%3A0xbd53955262fcac36!2sVia%20Santa%20Maria%2C%2027029%20Vigevano%20PV!5e0!3m2!1sen!2sit!4v1602268960374!5m2!1sen!2sit"
+                  frameBorder="0"
+                  allowFullScreen=""
+                  title="My Location Tracker"
+                  aria-hidden="false"
+                  tabIndex="0"
+                ></iframe>
               </div>
               <Footer />
             </>

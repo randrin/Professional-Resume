@@ -46,5 +46,11 @@
             "MESSAGE": "Messaggio per me",
             "BUTTON": "Invia il Messaggio"
         }
+    },
+    "FOOTER": {
+        "REALIZED": "Realizzato da",
+        "ALL_RIGHTS": "Tutti i diritti riservati.",
+        "PRIVACY": "Norme sulla privacy",
+        "CONDITION": "Termini e Condizioni"
     }
 }

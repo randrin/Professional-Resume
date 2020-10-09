@@ -185,14 +185,21 @@ ul.site-multilanguages {
     text-align: justify;
 }
 
+.my-resume-footer {
+    margin: 15px 0;
+}
+
+.my-resume-copyright {
+   margin: 0 5px; 
+}
+
 footer {
     position: fixed;
     left: 3px;
     bottom: 0;
     width: 100%;
-    background-color: #d12420 !important;
-    color: white;
-    height: 2.5rem !important;
+    background-color: var(--tomato) !important;
+    color: var(--white);
     text-align: center;
     -webkit-box-shadow: inset 0 30px 30px -20px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: inset 0 30px 30px -20px rgba(0, 0, 0, 0.8);
@@ -206,12 +213,27 @@ footer {
         bottom: 5px;
         left: -5px;
         content: "";
-        border: 1px solid #d12420 !important;
+        border: 1px solid var(--tomato) !important;
         transform: skew(0deg, 65deg);
         -ms-transform: skew(0deg, 65deg);
         -webkit-transform: skew(0deg, 65deg);
         -o-transform: skew(0deg, 65deg);
         -moz-transform: skew(0deg, 65deg);
-        background: #d12420 !important;
+        background: var(--tomato) !important;
+    }
+}
+
+iframe {
+    width: 100%;
+    height: 600px !important;
+}
+
+/********************************************/
+/*           MEDIA QUERIES                  */
+/********************************************/
+@media only screen and (max-width: 991px) {
+    .my-photo-small img {
+        height: 100%;
+        border: 5px solid var(--orange-sunglow);
     }
 }
