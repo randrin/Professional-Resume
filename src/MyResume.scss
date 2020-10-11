@@ -190,7 +190,7 @@ ul.site-multilanguages {
 }
 
 .my-resume-copyright {
-   margin: 0 5px; 
+    margin: 0 5px;
 }
 
 footer {
@@ -220,6 +220,15 @@ footer {
         -moz-transform: skew(0deg, 65deg);
         background: var(--tomato) !important;
     }
+}
+
+.my-resume-footer-link {
+    padding: 0px 5px !important;
+
+    a {
+        color: var(--white) !important;
+    }
+
 }
 
 .bullet {

@@ -29,7 +29,7 @@ export default class Footer extends PureComponent {
                 </div>
                 <div className="col-md-6">
                   <ul id="nav" className="site-main-menu">
-                    <li>
+                    <li className="my-resume-footer-link">
                       <a
                         href="#privacy"
                         className="pt-trigger"
@@ -39,10 +39,10 @@ export default class Footer extends PureComponent {
                         <b>{t("FOOTER.PRIVACY")}</b>
                       </a>
                     </li>
-                    <li>
+                    <li className="my-resume-footer-link">
                       <div className="bullet"></div>
                     </li>
-                    <li>
+                    <li className="my-resume-footer-link">
                       <a
                         href="#condition"
                         className="pt-trigger"

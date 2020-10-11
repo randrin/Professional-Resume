@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Translation } from "react-i18next";
+import Footer from "../../components/pages/site/Footer";
 
 export default class Privacy extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class Privacy extends Component {
                   Project Manager, Full Stack Developer, UI/UX Designer
                 </h5>
               </div>
+              <Footer />
             </div>
           )}
         </Translation>
