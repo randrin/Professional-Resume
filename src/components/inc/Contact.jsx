@@ -104,7 +104,7 @@ export default class Contact extends PureComponent {
                           name="message"
                           className="form-control"
                           placeholder={t("CONTACT.LEFT_FORM.MESSAGE")}
-                          rows="4"
+                          rows="8"
                           required="required"
                           data-error="Please, leave me a message."
                         ></textarea>

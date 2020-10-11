@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import { Link } from "react-router-dom";
 import { Translation } from "react-i18next";
 
 export default class Footer extends PureComponent {
@@ -20,6 +19,7 @@ export default class Footer extends PureComponent {
                     <a
                       href="https://www.kazougroup.com"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="my-resume-copyright"
                     >
                       <b>kazouGroup Srl</b>
@@ -28,13 +28,31 @@ export default class Footer extends PureComponent {
                   </span>
                 </div>
                 <div className="col-md-6">
-                  <Link to="/privacy">
-                    <b>{t("FOOTER.PRIVACY")}</b>
-                  </Link>
-                  .
-                  <Link to="/condition">
-                    <b>{t("FOOTER.CONDITION")}</b>
-                  </Link>
+                  <ul id="nav" className="site-main-menu">
+                    <li>
+                      <a
+                        href="#privacy"
+                        className="pt-trigger"
+                        data-animation="58"
+                        data-goto="6"
+                      >
+                        <b>{t("FOOTER.PRIVACY")}</b>
+                      </a>
+                    </li>
+                    <li>
+                      <div className="bullet"></div>
+                    </li>
+                    <li>
+                      <a
+                        href="#condition"
+                        className="pt-trigger"
+                        data-animation="58"
+                        data-goto="7"
+                      >
+                        <b>{t("FOOTER.CONDITION")}</b>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

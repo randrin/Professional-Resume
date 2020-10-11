@@ -7,6 +7,8 @@ import {
   Blog,
   Contact,
   Portfoglio,
+  Condition,
+  Privacy
 } from "../index";
 
 export default class Home extends PureComponent {
@@ -24,6 +26,8 @@ export default class Home extends PureComponent {
             <Portfoglio />
             <Blog />
             <Contact />
+            <Condition />
+            <Privacy />
           </div>
         </div>
       </div>

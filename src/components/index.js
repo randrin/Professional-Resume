@@ -8,3 +8,5 @@ export { default as Contact } from "../components/inc/Contact";
 export { default as Error404 } from "../components/inc/Error404";
 export { default as Portfoglio } from "../components/inc/Portfoglio";
 export { default as Resume } from "../components/inc/Resume";
+export { default as Condition } from "../components/inc/Condition";
+export { default as Privacy } from "../components/inc/Privacy";

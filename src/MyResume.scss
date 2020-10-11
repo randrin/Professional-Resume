@@ -200,7 +200,6 @@ footer {
     width: 100%;
     background-color: var(--tomato) !important;
     color: var(--white);
-    text-align: center;
     -webkit-box-shadow: inset 0 30px 30px -20px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: inset 0 30px 30px -20px rgba(0, 0, 0, 0.8);
     box-shadow: inset 0 30px 30px -20px rgba(0, 0, 0, 0.8);
@@ -221,6 +220,15 @@ footer {
         -moz-transform: skew(0deg, 65deg);
         background: var(--tomato) !important;
     }
+}
+
+.bullet {
+    display: inline;
+    margin: 0 4px;
+}
+
+.bullet::after {
+    content: "\2022";
 }
 
 iframe {
