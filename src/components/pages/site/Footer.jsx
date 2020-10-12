@@ -28,7 +28,7 @@ export default class Footer extends PureComponent {
                   </span>
                 </div>
                 <div className="col-md-6">
-                  <ul id="nav" className="site-main-menu">
+                  <ul id="nav" className="site-main-menu pull-right">
                     <li className="my-resume-footer-link">
                       <a
                         href="#privacy"

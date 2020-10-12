@@ -4,10 +4,19 @@ export const testimonials = {
       id: 1,
       photo:
         "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=zsCHMkEiGmqZoZemX-04G1w0_MSIaE8m8d1Rqbtsc4g",
-      name: "FR Wandji Peutchou Achile",
-      expertise: "Data Enginner",
+      name: "Wandji Peutchou Achile",
+      expertise: "Data Engineer",
       testimonial:
-        "Bonne personne en capacité technique, functionnelle et relationnelle. Tout pret  donné le plus de lui dans toutes les circonstances d'un projet.",
+        "Bonne personne en capacité technique, fonctionnelle et relationnelle. Toujours pret a donné le plus de lui dans toutes les circonstances d'un projet et d'apprendre les nouvelles techniques des plus experimentés.",
+    },
+    {
+      id: 2,
+      photo:
+        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=P7C-vimlzSE65pdjYGeQ8iKNYdJA0w8zg2Eo7yffIPc",
+      name: "Boclair Temgoua",
+      expertise: "Full Stack Developer",
+      testimonial:
+        "Je travaille depuis plus de 2 ans avec Randrin sur des projets personnels. Je lui qualifie avec un sens managerial et une bonne capacité technique en tout ce qui est Front end et UI/UX Designer.",
     },
   ],
   EN: [
@@ -15,10 +24,19 @@ export const testimonials = {
       id: 1,
       photo:
         "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=zsCHMkEiGmqZoZemX-04G1w0_MSIaE8m8d1Rqbtsc4g",
-      name: "EN Wandji Peutchou Achile",
-      expertise: "Data Enginner",
+      name: "Wandji Peutchou Achile",
+      expertise: "Data Engineer",
       testimonial:
-        "Bonne personne en capacité technique, functionnelle et relationnelle. Tout pret  donné le plus de lui dans toutes les circonstances d'un projet.",
+        "Good person in technical, functional and relational capacity. Always ready to give the most of him in all the circumstances of a project and to learn new techniques from the most experienced.",
+    },
+    {
+      id: 2,
+      photo:
+        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=P7C-vimlzSE65pdjYGeQ8iKNYdJA0w8zg2Eo7yffIPc",
+      name: "Boclair Temgoua",
+      expertise: "Full Stack Developer",
+      testimonial:
+        "I have been working with Randrin for more than 2 years on personal projects. I qualify him with a managerial sense and a good technical ability in everything Front end and UI / UX Designer.",
     },
   ],
   IT: [
@@ -26,10 +44,19 @@ export const testimonials = {
       id: 1,
       photo:
         "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=zsCHMkEiGmqZoZemX-04G1w0_MSIaE8m8d1Rqbtsc4g",
-      name: "IT Wandji Peutchou Achile",
-      expertise: "Data Enginner",
+      name: "Wandji Peutchou Achile",
+      expertise: "Data Engineer",
       testimonial:
-        "Bonne personne en capacité technique, functionnelle et relationnelle. Tout pret  donné le plus de lui dans toutes les circonstances d'un projet.",
+        "Brava persona per capacità tecniche, funzionali e relazionali. Sempre pronto a dare il massimo di lui in tutte le circostanze di un progetto e ad imparare nuove tecniche dai più esperti.",
+    },
+    {
+      id: 2,
+      photo:
+        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=P7C-vimlzSE65pdjYGeQ8iKNYdJA0w8zg2Eo7yffIPc",
+      name: "Boclair Temgoua",
+      expertise: "Full Stack Developer",
+      testimonial:
+        "Lavoro con Randrin da più di 2 anni su progetti personali. Lo qualifico con un senso manageriale e una buona capacità tecnica in tutto il Front end e UI / UX Designer.",
     },
   ],
 };
