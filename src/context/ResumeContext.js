@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import { educations } from "../data/educations";
+import { testimonials } from "../data/testimonials";
 import { funs } from "../data/funs";
 import { clients } from "../data/clients";
 
@@ -12,6 +13,7 @@ class ResumeProvider extends PureComponent {
     this.state = {
       selectLang: localStorage.getItem("i18nextLng"),
       educations: [],
+      testimonials: [],
       funs: [],
       clients: clients,
     };
@@ -20,11 +22,13 @@ class ResumeProvider extends PureComponent {
 
   handleChangeLanguage(i, lang) {
     i.changeLanguage(lang);
-    this.handleEdaucation(lang);
+    this.handleEducation(lang);
+    this.handleTestimonial(lang);
+    this.handleFun(lang);
     this.setState({ selectLang: lang });
   }
 
-  handleEdaucation(lang) {
+  handleEducation(lang) {
     this.setState({
       educations:
         lang === "en"
@@ -32,12 +36,29 @@ class ResumeProvider extends PureComponent {
           : lang === "fr"
           ? educations.FR
           : educations.IT,
-      funs: lang === "en" ? funs.EN : lang === "fr" ? funs.FR : funs.IT,
     });
   }
 
+  handleTestimonial(lang) {
+    this.setState({
+      testimonials:
+        lang === "en"
+          ? testimonials.EN
+          : lang === "fr"
+          ? testimonials.FR
+          : testimonials.IT,
+    });
+  }
+
+  handleFun(lang) {
+    this.setState({
+      funs: lang === "en" ? funs.EN : lang === "fr" ? funs.FR : funs.IT,
+    });
+  }
   componentDidMount() {
-    this.handleEdaucation(this.state.selectLang);
+    this.handleEducation(this.state.selectLang);
+    this.handleTestimonial(this.state.selectLang);
+    this.handleFun(this.state.selectLang);
   }
 
   render() {

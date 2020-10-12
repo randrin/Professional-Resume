@@ -10,3 +10,4 @@ export { default as Portfoglio } from "../components/inc/Portfoglio";
 export { default as Resume } from "../components/inc/Resume";
 export { default as Condition } from "../components/inc/Condition";
 export { default as Privacy } from "../components/inc/Privacy";
+export { default as Testimonials } from "../components/inc/Testimonials";

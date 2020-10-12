@@ -1,8 +1,10 @@
 import React, { PureComponent } from "react";
 import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
-import Footer from "../../components/pages/site/Footer";
-
+import {
+  Testimonials,
+  Footer,
+} from "../index";
 
 export default class About extends PureComponent {
   constructor(props) {
@@ -18,14 +20,17 @@ export default class About extends PureComponent {
             <section className="pt-page pt-page-1" data-id="about_me">
               <Translation>
                 {(t) => (
+                  <div className="section-title-block">
+                    <h2 className="section-title">{t("ABOUT.TITLE")}</h2>
+                    <h5 className="section-description">
+                      Project Manager, Full Stack Developer, UI/UX Designer
+                    </h5>
+                  </div>
+                )}
+              </Translation>
+              <Translation>
+                {(t) => (
                   <>
-                    <div className="section-title-block">
-                      <h2 className="section-title">{t("ABOUT.TITLE")}</h2>
-                      <h5 className="section-description">
-                        Project Manager, Full Stack Developer, UI/UX Designer
-                      </h5>
-                    </div>
-
                     <div className="row">
                       <div className="col-sm-12 col-md-12 mobile-visible subpage-block">
                         <div className="my-photo-small">
@@ -89,64 +94,26 @@ export default class About extends PureComponent {
                           </ul>
                         </div>
                       </div>
-
-                      <div className="col-sm-6 col-md-6 subpage-block">
-                        <div className="block-title">
-                          <h3>{t("ABOUT.TESTIMONIALS")}</h3>
-                        </div>
-                        <div className="testimonials owl-carousel">
-                          <div className="testimonial-item">
-                            <div className="testimonial-content">
-                              <div className="testimonial-text">
-                                <p>
-                                  "Proin auctor pulvinar tellus, et venenatis
-                                  ligula pharetra eu. Duis dictum nisi sed
-                                  pellentesque euismod."
-                                </p>
-                              </div>
-                            </div>
-                            <div className="testimonial-credits">
-                              <div className="testimonial-picture">
-                                <img
-                                  src="/assets/images/testimonials/testimonial_photo_1.png"
-                                  alt=""
-                                />
-                              </div>
-                              <div className="testimonial-author-info">
-                                <p className="testimonial-author">John Doe</p>
-                                <p className="testimonial-firm">Apple Inc.</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="testimonial-item">
-                            <div className="testimonial-content">
-                              <div className="testimonial-text">
-                                <p>
-                                  "Vivamus porta dapibus tristique. Suspendisse
-                                  et arcu eget nisi convallis eleifend nec ac
-                                  lorem."
-                                </p>
-                              </div>
-                            </div>
-                            <div className="testimonial-credits">
-                              <div className="testimonial-picture">
-                                <img
-                                  src="/assets/images/testimonials/testimonila_photo_2.png"
-                                  alt=""
-                                />
-                              </div>
-                              <div className="testimonial-author-info">
-                                <p className="testimonial-author">
-                                  Bryan Morris
-                                </p>
-                                <p className="testimonial-firm">Sun Foods</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </>
+                )}
+              </Translation>
 
+              {/* Translation not support owl-carousel  */}
+              <div className="block-title">
+                <h3>
+                  {localStorage.getItem("i18nextLng") === "en"
+                    ? "Testimonials"
+                    : localStorage.getItem("i18nextLng") === "fr"
+                    ? "Témoignages"
+                    : "Testimonianze"}
+                </h3>
+              </div>
+              <Testimonials />
+
+              <Translation>
+                {(t) => (
+                  <>
                     <div className="block-title">
                       <h3>{t("ABOUT.SERVICES")}</h3>
                     </div>
