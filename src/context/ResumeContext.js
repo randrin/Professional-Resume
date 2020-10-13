@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import { educations } from "../data/educations";
+import { services } from "../data/services";
 import { testimonials } from "../data/testimonials";
 import { funs } from "../data/funs";
 import { clients } from "../data/clients";
@@ -14,6 +15,7 @@ class ResumeProvider extends PureComponent {
       selectLang: localStorage.getItem("i18nextLng"),
       educations: [],
       testimonials: [],
+      services: [],
       funs: [],
       clients: clients,
     };
@@ -22,13 +24,25 @@ class ResumeProvider extends PureComponent {
 
   handleChangeLanguage(i, lang) {
     i.changeLanguage(lang);
-    this.handleEducation(lang);
-    this.handleTestimonial(lang);
-    this.handleFun(lang);
+    this.updateHandles(lang);
     this.setState({ selectLang: lang });
   }
 
-  handleEducation(lang) {
+  updateHandles(selectLag) {
+    this.handleServices(selectLag);
+    this.handleEducations(selectLag);
+    this.handleTestimonials(selectLag);
+    this.handleFuns(selectLag);
+  }
+
+  handleServices(lang) {
+    this.setState({
+      services:
+        lang === "en" ? services.EN : lang === "fr" ? services.FR : services.IT,
+    });
+  }
+
+  handleEducations(lang) {
     this.setState({
       educations:
         lang === "en"
@@ -39,7 +53,7 @@ class ResumeProvider extends PureComponent {
     });
   }
 
-  handleTestimonial(lang) {
+  handleTestimonials(lang) {
     this.setState({
       testimonials:
         lang === "en"
@@ -50,15 +64,16 @@ class ResumeProvider extends PureComponent {
     });
   }
 
-  handleFun(lang) {
+  handleFuns(lang) {
     this.setState({
       funs: lang === "en" ? funs.EN : lang === "fr" ? funs.FR : funs.IT,
     });
   }
   componentDidMount() {
-    this.handleEducation(this.state.selectLang);
-    this.handleTestimonial(this.state.selectLang);
-    this.handleFun(this.state.selectLang);
+    this.handleServices(this.state.selectLang);
+    this.handleEducations(this.state.selectLang);
+    this.handleTestimonials(this.state.selectLang);
+    this.handleFuns(this.state.selectLang);
   }
 
   render() {
