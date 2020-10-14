@@ -54,5 +54,11 @@
         "ALL_RIGHTS": "Tutti i diritti riservati.",
         "PRIVACY": "Norme sulla privacy",
         "CONDITION": "Termini e Condizioni"
+    },
+    "PRIVACY": {
+        "TITLE": "Le mie Norme sulla privacy"
+    },
+    "CONDITION": {
+        "TITLE": "I miei Termini e Condizioni"
     }
 }

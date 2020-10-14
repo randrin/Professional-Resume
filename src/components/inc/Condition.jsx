@@ -10,10 +10,7 @@ export default class Condition extends Component {
           {(t) => (
             <div>
               <div className="section-title-block">
-                <h2 className="section-title">{t("ABOUT.TITLE")}</h2>
-                <h5 className="section-description">
-                  Project Manager, Full Stack Developer, UI/UX Designer
-                </h5>
+                <h2 className="section-title">{t("CONDITION.TITLE")}</h2>
               </div>
               <Footer />
             </div>

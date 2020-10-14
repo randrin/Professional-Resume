@@ -54,5 +54,11 @@
         "ALL_RIGHTS": "Tous droits reservés.",
         "PRIVACY": "Politiques de Confidentialités",
         "CONDITION": "Termes et Conditions"
+    },
+    "PRIVACY": {
+        "TITLE": "Mes Politiques de Confidentialités"
+    },
+    "CONDITION": {
+        "TITLE": "Mes Termes et conditions"
     }
 }

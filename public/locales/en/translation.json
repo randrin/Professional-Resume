@@ -53,6 +53,12 @@
         "REALIZED": "Realized by",
         "ALL_RIGHTS": "All rights reserved.",
         "PRIVACY": "Privacy Policies",
-        "CONDITION": "Terms e Conditions"
+        "CONDITION": "Terms and Conditions"
+    },
+    "PRIVACY": {
+        "TITLE": "My Privacy Policy"
+    },
+    "CONDITION": {
+        "TITLE": "My Terms and Conditions"
     }
 }
