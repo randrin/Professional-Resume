@@ -17,7 +17,9 @@
         "TESTIMONIALS": "Testimonials",
         "SERVICES": "Services",
         "CONFIANCE": "They trusted me",
-        "FUN": "Fun Facts"
+        "FUN": "Fun Facts",
+        "SHOW_MORE": "Show More",
+        "SHOW_LESS": "Show Less"
     },
     "RESUME": {
         "TITLE": "My Expertise",

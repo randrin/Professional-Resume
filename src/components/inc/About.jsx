@@ -1,21 +1,26 @@
 import React, { PureComponent } from "react";
 import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
-import {
-  Testimonials,
-  Footer,
-} from "../index";
+import { Testimonials, Footer } from "../index";
+import ShowMoreText from "react-show-more-text";
 
 export default class About extends PureComponent {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      showHide: false,
+    };
   }
+
+  executeOnClick(isExpanded) {
+    console.log(isExpanded);
+  }
+
   render() {
     return (
       <ResumeConsumer>
         {(value) => {
-          const { clients, funs } = value;
+          const { clients, funs, services } = value;
           return (
             <section className="pt-page pt-page-1" data-id="about_me">
               <Translation>
@@ -119,69 +124,30 @@ export default class About extends PureComponent {
                     </div>
 
                     <div className="row">
-                      <div className="col-sm-6 col-md-3 subpage-block">
-                        <div className="service-block">
-                          <div className="service-info">
-                            <img
-                              src="/assets/images/service/web_design.png"
-                              alt="Responsive Design"
-                            />
-                            <h4>Web Design</h4>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmod tempor.
-                            </p>
+                      {services.map((service) => (
+                        <div
+                          key={service.id}
+                          className="col-sm-6 col-md-3 subpage-block"
+                        >
+                          <div className="service-block">
+                            <div className="service-info">
+                              <img src={service.image} alt={service.title} />
+                              <h4>{service.title}</h4>
+                              <ShowMoreText
+                                lines={4}
+                                more={t("ABOUT.SHOW_MORE")}
+                                less={t("ABOUT.SHOW_LESS")}
+                                anchorClass=""
+                                onClick={this.executeOnClick}
+                                expanded={false}
+                                width={0}
+                              >
+                                {service.description}
+                              </ShowMoreText>
+                            </div>
                           </div>
                         </div>
-                      </div>
-
-                      <div className="col-sm-6 col-md-3 subpage-block">
-                        <div className="service-block">
-                          <div className="service-info">
-                            <img
-                              src="/assets/images/service/copywrite.png"
-                              alt="Copywriter"
-                            />
-                            <h4>Copywriter</h4>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmod tempor.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="col-sm-6 col-md-3 subpage-block">
-                        <div className="service-block">
-                          <div className="service-info">
-                            <img
-                              src="/assets/images/service/ecommerce.png"
-                              alt="E-Commerce"
-                            />
-                            <h4>E-Commerce</h4>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmod tempor.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="col-sm-6 col-md-3 subpage-block">
-                        <div className="service-block">
-                          <div className="service-info">
-                            <img
-                              src="/assets/images/service/management.png"
-                              alt="Management"
-                            />
-                            <h4>Management</h4>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmod tempor.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+                      ))}
                     </div>
 
                     <div className="block-title">

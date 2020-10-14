@@ -56,6 +56,11 @@
     height: 25px;
 }
 
+.resume-show-hide {
+    cursor: pointer;
+    color: var(--tomato);
+}
+
 .resume-selected-lang {
     display: flex;
     cursor: pointer;
@@ -252,5 +257,10 @@ iframe {
     .my-photo-small img {
         height: 100%;
         border: 5px solid var(--orange-sunglow);
+    }
+    .site-main-menu {
+        display: flex;
+        float: none !important;
+        margin-top: 15px;
     }
 }

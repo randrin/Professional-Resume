@@ -3,10 +3,10 @@ $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 260) {
       $("body").find("#scroll-top").addClass("scroll").fadeIn();
-      $(".pt-wrapper").addClass("pt-wrapper-scroll");
+      //$(".pt-wrapper").addClass("pt-wrapper-scroll");
     } else {
       $("body").find("#scroll-top").removeClass("scroll").fadeOut();
-      $(".pt-wrapper").removeClass("pt-wrapper-scroll");
+      //$(".pt-wrapper").removeClass("pt-wrapper-scroll");
     }
   });
   $("#scroll-top").click(function () {

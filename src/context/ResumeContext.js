@@ -20,6 +20,15 @@ class ResumeProvider extends PureComponent {
       clients: clients,
     };
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
+    this.handleShowHideDescription = this.handleShowHideDescription.bind(this);
+  }
+
+  handleShowHideDescription(serviceId) {
+    console.log(serviceId);
+    let serviceCliked = this.state.services.find(
+      (item) => item.id === serviceId
+    );
+    console.log(serviceCliked);
   }
 
   handleChangeLanguage(i, lang) {
@@ -82,6 +91,7 @@ class ResumeProvider extends PureComponent {
         value={{
           ...this.state,
           handleChangeLanguage: this.handleChangeLanguage,
+          handleShowHideDescription: this.handleShowHideDescription,
         }}
       >
         {this.props.children}
