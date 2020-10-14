@@ -26,8 +26,8 @@ export default class Home extends PureComponent {
             <Portfoglio />
             <Blog />
             <Contact />
-            <Condition />
             <Privacy />
+            <Condition />
           </div>
         </div>
       </div>
