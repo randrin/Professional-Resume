@@ -43,7 +43,7 @@ export default class Contact extends PureComponent {
                   {contacts.map((contact, index) => (
                     <div key={contact.id} className="contact-info-block">
                       <div className="ci-icon">
-                        <i className={`pe-7s-icon ${contact.icon}`}></i>
+                        <i className={`pe-7s-icon my-resume-contact-icons ${contact.icon}`}></i>
                       </div>
                       <div className="ci-text">
                         {contacts.length === index + 1 ? (
@@ -128,7 +128,7 @@ export default class Contact extends PureComponent {
                   </form>
                 </div>
               </div>
-              <div className="row">
+              <div className="row my-resume-contact-map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.5002905904366!2d8.859947515200576!3d45.29831867909925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786e328de92df7f%3A0xbd53955262fcac36!2sVia%20Santa%20Maria%2C%2027029%20Vigevano%20PV!5e0!3m2!1sen!2sit!4v1602268960374!5m2!1sen!2sit"
                   frameBorder="0"

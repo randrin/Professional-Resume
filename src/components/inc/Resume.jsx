@@ -137,7 +137,12 @@ export default class Resume extends PureComponent {
                     <div className="row">
                       <div className="col-sm-12 col-md-12">
                         <div className="download-cv-block">
-                          <a className="button" target="_blank" href="#">
+                          <a
+                            className="button pt-trigger"
+                            href="#contact_me"
+                            data-animation="58"
+                            data-goto="5"
+                          >
                             Download CV
                           </a>
                         </div>
