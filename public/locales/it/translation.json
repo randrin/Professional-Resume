@@ -53,7 +53,9 @@
         "REALIZED": "Realizzato da",
         "ALL_RIGHTS": "Tutti i diritti riservati.",
         "PRIVACY": "Norme sulla privacy",
-        "CONDITION": "Termini e Condizioni"
+        "CONDITION": "Termini e Condizioni",
+        "VERSION": "Versione",
+        "VERSION_NUMBER": "2.0.0"
     },
     "PRIVACY": {
         "TITLE": "Le mie Norme sulla Privacy"

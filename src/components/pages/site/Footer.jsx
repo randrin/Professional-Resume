@@ -7,7 +7,7 @@ export default class Footer extends PureComponent {
       <Translation>
         {(t) => (
           <footer>
-            <div className="container">
+            <div className="container-fluid">
               <div className="row my-resume-footer">
                 <div className="col-md-6">
                   <span>
@@ -24,7 +24,10 @@ export default class Footer extends PureComponent {
                     >
                       <b>kazouGroup Srl</b>
                     </a>
-                    . {t("FOOTER.ALL_RIGHTS")}
+                    . {t("FOOTER.ALL_RIGHTS")} {t("FOOTER.VERSION")}
+                    <span className="my-resume-version-number">
+                      {t("FOOTER.VERSION_NUMBER")}
+                    </span>
                   </span>
                 </div>
                 <div className="col-md-6">

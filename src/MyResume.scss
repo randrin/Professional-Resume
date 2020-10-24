@@ -198,6 +198,14 @@ ul.site-multilanguages {
     margin: 0 5px;
 }
 
+.my-resume-version-number {
+    margin-left: 5px;
+    background: var(--orange-sunglow);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 5px;
+}
+
 footer {
     position: fixed;
     left: 3px;
@@ -258,6 +266,7 @@ iframe {
         height: 100%;
         border: 5px solid var(--orange-sunglow);
     }
+
     .site-main-menu {
         display: flex;
         float: none !important;

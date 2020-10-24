@@ -8,7 +8,7 @@ export default class Privacy extends PureComponent {
       <section className="pt-page pt-page-1" data-id="privacy">
         <Translation>
           {(t) => (
-            <div className="container">
+            <>
               <div className="section-title-block">
                 <h2 className="section-title">{t("PRIVACY.TITLE")}</h2>
               </div>
@@ -61,7 +61,7 @@ export default class Privacy extends PureComponent {
                 </div>
               </div>
               <Footer />
-            </div>
+            </>
           )}
         </Translation>
       </section>

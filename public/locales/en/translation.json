@@ -53,7 +53,9 @@
         "REALIZED": "Realized by",
         "ALL_RIGHTS": "All rights reserved.",
         "PRIVACY": "Privacy Policies",
-        "CONDITION": "Terms and Conditions"
+        "CONDITION": "Terms and Conditions",
+        "VERSION": "Version",
+        "VERSION_NUMBER": "2.0.0"
     },
     "PRIVACY": {
         "TITLE": "My Privacy Policy"
