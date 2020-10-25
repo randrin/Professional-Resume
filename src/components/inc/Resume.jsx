@@ -43,7 +43,7 @@ export default class Resume extends PureComponent {
 
                       <div className="col-sm-6 col-md-4 subpage-block">
                         <div className="block-title">
-                          <h3>Experience</h3>
+                          <h3>{t("RESUME.EXPERTISE.TITLE")}</h3>
                         </div>
                         <div className="timeline">
                           <div className="timeline-event te-primary">

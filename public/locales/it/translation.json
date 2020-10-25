@@ -26,6 +26,9 @@
         "YEAR_WORK": "5 Anni di esperienza",
         "EDUCATION": {
             "TITLE": "Educazione"
+        },
+        "EXPERTISE": {
+             "TITLE": "Esperienza"
         }
     },
     "PORTFOLIO": {
