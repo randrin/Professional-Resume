@@ -2,86 +2,43 @@ export const experiences = {
   FR: [
     {
       id: 1,
-      university:
-        "E.S.G.I (Ecole Supérieure de Génie Informatique), Paris - France",
-      specialization: "Formation Langages de Programmation et Décisionnelle.",
-      year: "2015",
-    },
-    {
-      id: 2,
-      university:
-        "E.N.S.E.A (Grande Ecole d’Ingénieurs généraliste), Paris - France",
-      specialization: "Diplôme d’Ingénieurs.",
-      year: "2014",
-    },
-    {
-      id: 3,
-      university: "P.O.L.I.M.I (Polytechnique de Milan), Milan - Italie",
-      specialization: "Master 1, Ingénierie Informatique.",
-      year: "2011",
-    },
-    {
-      id: 4,
-      university: "P.O.L.I.M.I (Polytechnique de Milan), Milan - Italie",
-      specialization: "Licence Informatique.",
-      year: "2010",
-    },
-  ],
-  EN: [
-    {
-      id: 1,
-      university:
-        "E.S.G.I (Higher School of Computer Engineering), Paris - France",
-      specialization: "Programming Language and Business Intelligence.",
-      year: "2015",
-    },
-    {
-      id: 2,
-      university:
-        "E.N.S.E.A (Higher School of General Engineers), Paris - France",
-      specialization: "Engineer's Degree.",
-      year: "2014",
-    },
-    {
-      id: 3,
-      university: "P.O.L.I.M.I (Polytechnic of Milan), Milan - Italy",
-      specialization: "Master 1, Computer Engineering.",
-      year: "2011",
-    },
-    {
-      id: 4,
-      university: "P.O.L.I.M.I (Polytechnic of Milan), Milan - Italy",
-      specialization: "Informative License.",
-      year: "2010",
+      society: "Accenture",
+      societyDescription:
+        "Accenture est une société multinationale de services professionnels fournissant des services en stratégie, conseil, numérique, technologie et opérations.",
+      jobDescription:
+        "Mise en place, développement des fonctions d'authentification et d'autorisation PSD2 sur la plateforme Fideuram - Alphabet 2.0, filiale d'Intesa Sanpaolo, accessible aux clients (personnes physiques et morales) ayant activé le service Internet Banking. Lors de la première connexion, les utilisateurs doivent certifier le numéro de téléphone et configurer le code PIN, nécessaire pour se connecter à la plate-forme Alfabeto2.0.",
+      jobTitle: "Développeur Full Stack",
+      jobStart: "Mars 2019",
+      jobEnd: "Aujourd'hui",
+      isCurrentJob: true,
+      responsabilities: [
+        {
+          task:
+            "Développement du layout pour les différentes phases de certification (composants angulaires) réalisé par l'équipe UX / UI Designer;",
+        },
+        {
+          task:
+            "Conception et développement des niveaux d'autorisation et d'authentification dans les microservices;",
+        },
+        {
+          task:
+            "Intégration du niveau entreprise (back-end) avec le niveau utilisateur (front-end);",
+        },
+        {
+          task: "Réalisation de tests unitaires et d'intégration;",
+        },
+        {
+          task: "Maintenance évolutive et corrective des flux existants;",
+        },
+        {
+          task:
+            "Participation à l'amélioration continue de l'application en ligne.",
+        },
+      ],
+      tools:
+        "Micro services, Spring Boot (Data, Security, MVC), JPA, IntelliJ, Visual Studio Code, JQuery, JavaScript, Angular 7, HTML5/CSS3, Bootstrap, Sass, Jira, Bitbucket, Postman, TortoiseSVN, TortoiseGit, Response Devices.",
     },
   ],
-  IT: [
-    {
-      id: 1,
-      university:
-        "E.S.G.I (Scuola Superiore di Ingegneria Informatica), Parigi - Francia",
-      specialization:
-        "Linguaggio di formazione di Programmazione e Decisionale.",
-      year: "2015",
-    },
-    {
-      id: 2,
-      university:
-        "E.N.S.E.A (Grande Scuola di Ingegneri Generali), Parigi - Francia",
-      specialization: "Doppia Laurea, Ingegnere Informatico.",
-      year: "2014",
-    },
-    {
-      id: 3,
-      university: "P.O.L.I.M.I (Politecnico di Milano), Milano - Italia",
-      specialization: "Primo Anno Specialistica, Ingegneria Informatico.",
-      year: "2011",
-    },
-    {
-      id: 4,
-      university: "P.O.L.I.M.I (Politecnico di Milano), Milano - Italia",
-      specialization: "Laurea Triennale in Ingegneria Informatico.",
-      year: "2010",
-    },
-  ],
+  EN: [],
+  IT: [],
 };
