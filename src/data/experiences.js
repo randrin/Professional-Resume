@@ -36,7 +36,7 @@ export const experiences = {
         },
       ],
       tools:
-        "Micro services, Spring Boot (Data, Security, MVC), JPA, IntelliJ, Visual Studio Code, JQuery, JavaScript, Angular 7, HTML5/CSS3, Bootstrap, Sass, Jira, Bitbucket, Postman, TortoiseSVN, TortoiseGit, Response Devices.",
+        "Micro services, Spring Boot, Spring Data, Spring Security, Pattern MVC, JPA, IntelliJ, Visual Studio Code, JQuery, JavaScript, Angular 7, HTML5/CSS3, Bootstrap, Sass, Jira, Bitbucket, Postman, TortoiseSVN, TortoiseGit, Response Devices",
     },
     {
       id: 2,
