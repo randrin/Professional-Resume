@@ -5,6 +5,7 @@
     "ABOUT": {
         "TITLE": "About Me",
         "POSITION": "Now, I am Full Stack Developer @ Accenture",
+        "DESCRIPTION_SOCIETY": "Multinational professional services company.",
         "DESCRIPTION_1": "Passionate by Innovation, Computer Science and Information Systems, I am open to all proposals in Computers Science and IT using various systems and programming languages in the fields of Technology Consulting and Engineering, Finance and Banking.",
         "DESCRIPTION_2": "Rigorous, Spirit of initiative, analysis and synthesis, Strong organizational and Interpersonal skills, Capacity for the teamwork. Available immediately, geographically mobile and listen to the market.",
         "NAME": "Name",
@@ -58,7 +59,8 @@
         "PRIVACY": "Privacy Policies",
         "CONDITION": "Terms and Conditions",
         "VERSION": "Version",
-        "VERSION_NUMBER": "2.0.0"
+        "VERSION_NUMBER": "2.0.0",
+        "LAST_VERSION": "Go to previous version"
     },
     "PRIVACY": {
         "TITLE": "My Privacy Policy"

@@ -25,8 +25,16 @@ export default class Footer extends PureComponent {
                       <b>kazouGroup Srl</b>
                     </a>
                     . {t("FOOTER.ALL_RIGHTS")} {t("FOOTER.VERSION")}
-                    <span className="my-resume-version-number">
+                    <span className="my-resume-version-number my-resume-tooltip">
                       {t("FOOTER.VERSION_NUMBER")}
+                      <a
+                        href="https://randrin.github.io/en/randrinnzeukang.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="my-resume-tooltiptext"
+                      >
+                        {t("FOOTER.LAST_VERSION")}
+                      </a>
                     </span>
                   </span>
                 </div>

@@ -47,7 +47,13 @@ export default class About extends PureComponent {
                       </div>
                       <div className="col-sm-6 col-md-6 subpage-block">
                         <div className="general-info">
-                          <h3>{t("ABOUT.POSITION")}</h3>
+                          <div className="my-resume-about-title">
+                            <h3>{t("ABOUT.POSITION")}</h3>
+                            <span className="my-resume-about-subtitle my-resume-tooltip">
+                              <i className="fa fa-info-circle"></i>
+                              <span className="my-resume-tooltiptext">{t("ABOUT.DESCRIPTION_SOCIETY")}</span>
+                            </span>
+                          </div>
                           <p className="about-description">
                             {t("ABOUT.DESCRIPTION_1")}
                           </p>

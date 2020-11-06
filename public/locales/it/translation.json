@@ -5,6 +5,7 @@
     "ABOUT": {
         "TITLE": "A Proposito di me",
         "POSITION": "Ora, Sono Full Stack Developer @ Accenture",
+        "DESCRIPTION_SOCIETY": "Società multinazionale di servizi professionali.",
         "DESCRIPTION_1": "Appassionato dall’Innovazione, dall’Informatica e dai Sistemi Informativi, sono aperto a tutte le proposte in ricerca e sviluppo in Informatica utilizzando diversi linguaggi di programmazione nel campo dell’ Ingegneria e della Consulenza Tecnologia, della Finanza e delle Banche.",
         "DESCRIPTION_2": "Rigoroso, Spirito di iniziativa, analisi e sintesi, Forti capacità organizzative e relazionali, Capacità di lavoro in squadra. Disponibile da subito, Mobilità geografica e in ascolto del mercato del lavoro.",
         "NAME": "Cognome e Nome",
@@ -58,7 +59,8 @@
         "PRIVACY": "Norme sulla privacy",
         "CONDITION": "Termini e Condizioni",
         "VERSION": "Versione",
-        "VERSION_NUMBER": "2.0.0"
+        "VERSION_NUMBER": "2.0.0",
+        "LAST_VERSION": "Vai alla versione precedente"
     },
     "PRIVACY": {
         "TITLE": "Le mie Norme sulla Privacy"
