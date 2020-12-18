@@ -3,12 +3,48 @@ import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
 import Footer from "../../components/pages/site/Footer";
 import ShowMoreText from "react-show-more-text";
+import Modal from "react-modal";
 export default class Resume extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isOpenModal: false,
+    };
+
+    this.openModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+    this.afterOpenModal = this.afterOpenModal.bind(this);
+  }
 
   executeOnClick(isExpanded) {
     console.log(isExpanded);
   }
+
+  openModal() {
+    this.setState({
+      isOpenModal: true,
+    });
+  }
+
+  afterOpenModal() {}
+
+  closeModal() {
+    this.setState({
+      isOpenModal: false,
+    });
+  }
+
   render() {
+    const customStyles = {
+      content: {
+        top: "50%",
+        left: "62%",
+        right: "auto",
+        bottom: "auto",
+        marginRight: "-50%",
+        transform: "translate(-50%, -50%)",
+      },
+    };
     return (
       <ResumeConsumer>
         {(value) => {
@@ -72,8 +108,30 @@ export default class Resume extends PureComponent {
                                 expanded={false}
                                 width={0}
                               >
-                                <p className="text-justify">{experience.jobDescription}</p>
+                                <p className="text-justify">
+                                  {experience.jobDescription}
+                                </p>
                               </ShowMoreText>
+                              <button className="my-3" onClick={this.openModal}>
+                                <i className="fa fa-chevron-right"></i>{" "}
+                                {t("MODAL.OPEN_MODAL")}
+                              </button>
+                              <Modal
+                                isOpen={this.state.isOpenModal}
+                                onAfterOpen={this.afterOpenModal}
+                                onRequestClose={this.closeModal}
+                                style={customStyles}
+                                contentLabel="Example Modal"
+                              >
+                                <button onClick={this.closeModal}>close</button>
+                                <div className="container">
+                                  <div className="row">
+                                    <div className="col-md-12">
+                                      <div>{experience.societyDescription}</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </Modal>
                             </div>
                           ))}
                         </div>

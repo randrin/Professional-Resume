@@ -67,5 +67,8 @@
     },
     "CONDITION": {
         "TITLE": "My Terms and Conditions"
+    },
+    "MODAL": {
+        "OPEN_MODAL": "Read More"
     }
 }
