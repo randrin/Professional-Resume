@@ -2,12 +2,17 @@ import React, { PureComponent } from "react";
 import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
 import Footer from "../../components/pages/site/Footer";
+import ShowMoreText from "react-show-more-text";
 export default class Resume extends PureComponent {
+
+  executeOnClick(isExpanded) {
+    console.log(isExpanded);
+  }
   render() {
     return (
       <ResumeConsumer>
         {(value) => {
-          const { educations } = value;
+          const { educations, experiences } = value;
           return (
             <section className="pt-page pt-page-2" data-id="resume">
               <Translation>
@@ -46,39 +51,31 @@ export default class Resume extends PureComponent {
                           <h3>{t("RESUME.EXPERTISE.TITLE")}</h3>
                         </div>
                         <div className="timeline">
-                          <div className="timeline-event te-primary">
-                            <h5 className="event-date">Dec 2012 - Current</h5>
-                            <h4 className="event-name">Frontend-developer</h4>
-                            <span className="event-description">
-                              Web Agency
-                            </span>
-                            <p>
-                              Mauris magna sapien, pharetra consectetur
-                              fringilla vitae, interdum sed tortor.
-                            </p>
-                          </div>
-                          <div className="timeline-event te-primary">
-                            <h5 className="event-date">Dec 2011 - Nov 2012</h5>
-                            <h4 className="event-name">Web Designer</h4>
-                            <span className="event-description">
-                              Apple Inc.
-                            </span>
-                            <p>
-                              Mauris magna sapien, pharetra consectetur
-                              fringilla vitae, interdum sed tortor.
-                            </p>
-                          </div>
-                          <div className="timeline-event te-primary">
-                            <h5 className="event-date">Jan 2010 - Dec 2011</h5>
-                            <h4 className="event-name">Graphic Designer</h4>
-                            <span className="event-description">
-                              Web Agency
-                            </span>
-                            <p>
-                              Mauris magna sapien, pharetra consectetur
-                              fringilla vitae, interdum sed tortor.
-                            </p>
-                          </div>
+                          {experiences.map((experience) => (
+                            <div className="timeline-event te-primary">
+                              <h5 className="event-date">
+                                <span>{experience.jobStart}</span> -{" "}
+                                <span>{experience.jobEnd}</span>
+                              </h5>
+                              <h4 className="event-name">
+                                {experience.jobTitle}
+                              </h4>
+                              <span className="event-description">
+                                {experience.society}
+                              </span>
+                              <ShowMoreText
+                                lines={5}
+                                more={t("ABOUT.SHOW_MORE")}
+                                less={t("ABOUT.SHOW_LESS")}
+                                anchorClass="text-justify"
+                                onClick={this.executeOnClick}
+                                expanded={false}
+                                width={0}
+                              >
+                                <p className="text-justify">{experience.jobDescription}</p>
+                              </ShowMoreText>
+                            </div>
+                          ))}
                         </div>
                       </div>
 

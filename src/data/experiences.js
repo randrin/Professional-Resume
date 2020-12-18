@@ -14,29 +14,29 @@ export const experiences = {
       responsabilities: [
         {
           task:
-            "Développement du layout pour les différentes phases de certification (composants angulaires) réalisé par l'équipe UX / UI Designer;",
+            "•	Développement du layout pour les différentes phases de certification (composants en Angular) réalisé par l'équipe UX / UI Designer ;",
         },
         {
           task:
-            "Conception et développement des niveaux d'autorisation et d'authentification dans les microservices;",
+            "•	Conception et développement des niveaux d'autorisation et d'authentification dans les microservices ;",
         },
         {
           task:
-            "Intégration du niveau entreprise (back-end) avec le niveau utilisateur (front-end);",
+            "•	Intégration de la couche métier (Back end) avec la couche utilisateur (Front end) ;",
         },
         {
-          task: "Réalisation de tests unitaires et d'intégration;",
+          task: "•	Réalisation des tests unitaires et d’intégration avec Mockito et JUnit ;",
         },
         {
-          task: "Maintenance évolutive et corrective des flux existants;",
+          task: "•	Maintenance évolutive et corrective des flux et bugs existants ;",
         },
         {
           task:
-            "Participation à l'amélioration continue de l'application en ligne.",
+            "•	Participation à l'amélioration continue de l’application en ligne.",
         },
       ],
       tools:
-        "Micro services, Spring Boot, Spring Data, Spring Security, Pattern MVC, JPA, IntelliJ, Visual Studio Code, JQuery, JavaScript, Angular 7, HTML5/CSS3, Bootstrap, Sass, Jira, Bitbucket, Postman, TortoiseSVN, TortoiseGit, Response Devices",
+        "Micro services, Spring Boot, Spring Data, Spring Security, Spring Cloud, Pattern MVC, JPA, IntelliJ, JUnit Test, Mockito, Visual Studio Code, JQuery, JavaScript, Angular 7, HTML5/CSS3, Bootstrap, Sass, Jira, Bitbucket, Postman, TortoiseSVN, TortoiseGit, Response Devices",
     },
     {
       id: 2,
