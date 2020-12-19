@@ -51,7 +51,9 @@ export default class About extends PureComponent {
                             <h3>{t("ABOUT.POSITION")}</h3>
                             <span className="my-resume-about-subtitle my-resume-tooltip">
                               <i className="fa fa-info-circle"></i>
-                              <span className="my-resume-tooltiptext">{t("ABOUT.DESCRIPTION_SOCIETY")}</span>
+                              <span className="my-resume-tooltiptext">
+                                {t("ABOUT.DESCRIPTION_SOCIETY")}
+                              </span>
                             </span>
                           </div>
                           <p className="about-description">
@@ -110,16 +112,21 @@ export default class About extends PureComponent {
                 )}
               </Translation>
 
-              {/* Translation not support owl-carousel  */}
-              <div className="block-title">
-                <h3>
-                  {localStorage.getItem("i18nextLng") === "en"
-                    ? "Testimonials"
-                    : localStorage.getItem("i18nextLng") === "fr"
-                    ? "Témoignages"
-                    : "Testimonianze"}
-                </h3>
-              </div>
+              <Translation>
+                {(t) => (
+                  <>
+                    <div className="block-title">
+                      <h3>
+                        {localStorage.getItem("i18nextLng") === "en"
+                          ? <span>{t("TESTIMONIAL.TITLE")}</span>
+                          : localStorage.getItem("i18nextLng") === "fr"
+                          ? <span>{t("TESTIMONIAL.TITLE")}</span>
+                          : <span>{t("TESTIMONIAL.TITLE")}</span>}
+                      </h3>
+                    </div>
+                  </>
+                )}
+              </Translation>
               <Testimonials />
 
               <Translation>
@@ -129,7 +136,7 @@ export default class About extends PureComponent {
                       <h3>{t("ABOUT.SERVICES")}</h3>
                     </div>
 
-                    <div className="row">
+                    <div className="row my-resume-margin-items">
                       {services.map((service) => (
                         <div
                           key={service.id}
@@ -160,7 +167,7 @@ export default class About extends PureComponent {
                       <h3>{t("ABOUT.CONFIANCE")}</h3>
                     </div>
 
-                    <div className="row">
+                    <div className="row my-resume-margin-items">
                       {clients.map((client) => (
                         <div
                           key={client.id}
@@ -182,7 +189,7 @@ export default class About extends PureComponent {
                       <h3>{t("ABOUT.FUN")}</h3>
                     </div>
 
-                    <div className="row">
+                    <div className="row my-resume-margin-items">
                       {funs.map((fun) => (
                         <div
                           key={fun.id}

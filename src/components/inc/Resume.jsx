@@ -232,7 +232,7 @@ export default class Resume extends PureComponent {
                                           <div className="my-resume-modal-technical">
                                             {t("MODAL.TECHNICAL_MODAL")}
                                           </div>
-                                          <div className="text-justify">
+                                          <div className="text-justify my-resume-margin-items">
                                             {experienceModal[0].tools
                                               .split(",")
                                               .map((tool, index) => (

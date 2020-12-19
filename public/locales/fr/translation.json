@@ -39,6 +39,9 @@
     "BLOG": {
         "TITLE": "Mon Blog"
     },
+    "TESTIMONIAL": {
+        "TITLE": "Témoignages"
+    },
     "CONTACT": {
         "TITLE": "Contactez Moi",
         "RIGHT_FORM": {

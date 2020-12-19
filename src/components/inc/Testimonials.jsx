@@ -8,7 +8,7 @@ export default class Testimonials extends Component {
         {(value) => {
           const { testimonials } = value;
           return (
-            <div className="col-md-12 subpage-block">
+            <div className="col-md-12 subpage-block my-resume-margin-items">
               <div className="testimonials owl-carousel">
                 {testimonials.map((testimonial) => (
                   <div className="testimonial-item" key={testimonial.id}>
@@ -19,7 +19,7 @@ export default class Testimonials extends Component {
                     </div>
                     <div className="testimonial-credits">
                       <div className="testimonial-picture">
-                        <img src={testimonial.photo} alt={testimonial.name} />
+                        <img className="my-resume-testimonial-img" src={testimonial.photo} alt={testimonial.name} />
                       </div>
                       <div className="testimonial-author-info">
                         <p className="testimonial-author">{testimonial.name}</p>

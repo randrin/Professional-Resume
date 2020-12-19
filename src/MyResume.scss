@@ -41,7 +41,7 @@ li::marker {
 }
 
 .ReactModal__Overlay.ReactModal__Overlay--after-open {
-    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .pt-wrapper {
@@ -211,6 +211,10 @@ ul.site-multilanguages {
     color: var(--black) !important;
 }
 
+.my-resume-testimonial-img {
+    border: 3px solid var(--orange-sunglow) !important;
+}
+
 .about-description {
     text-align: justify;
 }
@@ -233,6 +237,7 @@ ul.site-multilanguages {
 }
 
 .my-resume-margin-cta,
+.my-resume-margin-items,
 .my-resume-open-modal {
     margin: 20px 0px;
 }
