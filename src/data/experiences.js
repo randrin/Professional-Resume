@@ -175,14 +175,54 @@ export const experiences = {
     },
     {
       id: 5,
+      society: "Lombardia Informatica Spa",
+      societyDescription:
+        "Lombardia Informatica Spa est une société interne de la région de Lombardie. Elle est citoyenne, en fait elle fonctionne comme un lien entre l'administration publique, le marché des technologies de l'information et de la communication, les citoyens et les entreprises.",
+      jobDescription:
+        "Dans le cadre de mon travail chez Lombardia Informatica Spa, j'ai mené de nombreuses activités de développement logiciel, de gestion de bases de données et de maintenance dans le cadre du projet EDMA (Enterprise Document Management, gestion intégrée de différents types de documents utilisés dans la ville de Lombardie) dans une équipe financière :",
+      jobTitle: "Consultant Informatique",
+      jobStart: "Juin 2016",
+      jobEnd: "Juillet 2017",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Etude et mise en place de différents services: Gestion de documents, protocoles informatiques, signature électronique, gestion des flux de travail;",
+        },
+        {
+          task:
+            "Développement de logiciels client-serveur;",
+        },
+        {
+          task:
+            "Contrôle du flux de données externes;",
+        },
+        {
+          task:
+            "Effectuer des tests unitaires et l'intégration;",
+        },
+        {
+          task:
+            "Rédaction de la documentation technique des services développés;",
+        },
+        {
+          task:
+            "Assurer la maintenance et le développement évolutif.",
+        },
+      ],
+      tools:
+        "Java/J2EE, JSF 2.3, Spring 4.0, Hibernate ORM 5.2, JDBC, Eclipse IDE for Java, HTML5/CSS3, JSP 2.2, XML, Bootstrap 4.0, Oracle XE, SQL plus Developer, SOAP, RestFull, Apache Tomcat 7/8, Subversion (SVN), TortoiseSVN, VM, Windows 7/8, Apache Maven",
+    },
+    {
+      id: 6,
       society: "NTTData Italia SPA",
       societyDescription:
         "NTTData Italia Spa est un innovateur mondial de confiance qui résout les défis de ses clients grâce à des solutions et des services dans les secteurs de la technologie, du conseil, du numérique et des opérations.",
       jobDescription:
         "Dans le cadre de mon travail chez NTTData Italia Spa, j'ai pris en charge de nombreuses activités du projet EasyPDA (Terminal d'enregistrement de données pour Carrefour Market) au sein de l'équipe Informations Systèmes (SI) :",
       jobTitle: "Consultant Informatique",
-      jobStart: "Juin 2016",
-      jobEnd: "Juillet 2017",
+      jobStart: "Septembre 2015",
+      jobEnd: "Juin 2016",
       isCurrentJob: false,
       responsabilities: [
         {
@@ -207,13 +247,267 @@ export const experiences = {
         },
         {
           task:
-            "Assister les équipes support dans la gestion des dysfonctionnements chez les clients;",
+            "Assister les équipes support dans la gestion des dysfonctionnements chez les clients.",
         },
       ],
       tools:
         "Java/J2EE, JSF 2.3, Spring 4.0, Hibernate ORM 5.2, JDBC, NetBeans IDE 8.0.2, HTML5/CSS3, JSP 2.2, Bootstrap 4.0, PrimeFaces 6.1.6, RichFaces 4.5.1, MyFaces 2.2.9, Ajax, Facelets 1.1.14, Oracle XE, Apache Derby, SQuirrel SQL Client, RestFull, AXIS, Apache Tomcat 7/8, Subversion (SVN), CSV, TortoiseSVN, VPN Carrefour, Windows 7/8, Apache Maven, Apache Derby",
     },
   ],
-  EN: [],
+  EN: [
+    {
+      id: 1,
+      society: "Accenture",
+      societyDescription:
+        "Accenture is a multinational professional services company providing services in strategy, consulting, digital, technology and operations.",
+      jobDescription:
+        "Implementation, Development of PSD2 authentication and authorization functionalities for the Fideuram - Alphabet 2.0 platform, Subsidiary of Intesa Sanpaolo, which can be accessed by customers (individuals and legal entities) who have activated the Internet Banking service. Through the first connection, users must certify the phone number and configure the PIN code, necessary to connect to the Alfabeto2.0 platform.",
+      jobTitle: "Full Stack Developer",
+      jobStart: "March 2020",
+      jobEnd: "Today",
+      isCurrentJob: true,
+      responsabilities: [
+        {
+          task:
+            "Development of the layout for the different certification phases (components in Angular) carried out by the UX / UI Designer team;",
+        },
+        {
+          task:
+            "Design and development of authorization and authentication levels in microservices;",
+        },
+        {
+          task:
+            "Integration of the business layer (Back end) with the user layer (Front end);",
+        },
+        {
+          task: "Carrying out unit and integration tests with Mockito and JUnit;",
+        },
+        {
+          task: "Scalable and corrective maintenance of existing flows and bugs;",
+        },
+        {
+          task:
+            "Participation in the continuous improvement of the online application.",
+        },
+      ],
+      tools:
+        "Micro services, Spring Boot, Spring Data, Spring Security, Spring Cloud, Pattern MVC, JPA, IntelliJ IDEA, JUnit Test, Mockito, Visual Studio Code, JQuery, JavaScript, Angular 7, HTML5/CSS3, Bootstrap, Sass, Jira, Bitbucket, Postman, TortoiseSVN, TortoiseGit, Response Devices",
+    },
+    {
+      id: 2,
+      society: "Accenture",
+      societyDescription:
+        "Accenture is a multinational professional services company providing services in strategy, consulting, digital, technology and operations.",
+      jobDescription:
+        "I participated in the development of components (modules), integration and maintenance of client / server applications for Illy Caffè e-commerce sites (Illy Italia, Illy Francia, Illy Usa). The applications are dedicated to the management of the exposure of the new brand of coffee in the world, including the configuration of each page, the emission and edition of the content, paragraphs, images, products on different template models visible to the public.",
+      jobTitle: "Front End Developer",
+      jobStart: "July 2019",
+      jobEnd: "March 2020",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Development of modules (components in HTML5 / CSS3 / JavaScript / JQuery / Foundation Css) down to the pixels made by the UX / UI Designer team on the Zeplin platform;",
+        },
+        {
+          task:
+            "Intégration des composants logiciels sur AEM afin que ceux-ci soient facilement configurables par l'utilisateur;",
+        },
+        {
+          task:
+            "Integration of software components on AEM so that they are easily configurable by the user;",
+        },
+        {
+          task:
+            "Development of tailor-made approaches, according to customer requirements;",
+        },
+        {
+          task:
+            "Participation in the deployment of updates (Production and Test) of applications for the functional team;",
+        },
+        {
+          task:
+            "Communication in Scrum / Agile methodology on Trello with the project team;",
+        },
+        {
+          task:
+            "Fixed bugs on the Atlassian Jira interface while respecting deadlines;",
+        },
+        {
+          task: "Immediate support to the customer and his users.",
+        },
+      ],
+      tools:
+        "Visual Studio Code, JQuery, JavaScript, Web Services, Node.js, Gulp, HTML5/CSS3, Bootstrap4, Sass, Foundation Css, AEM (Adobe Experience Manager), Saleforces, Atlassian Jira, Trello, Zeplin, Web Accessibility, Git, GitLab, Bitbucket",
+    },
+    {
+      id: 3,
+      society: "Sky Italie",
+      societyDescription:
+        "Sky is the leading media and entertainment company in Europe and is part of the Comcast group. Members of the structure help connect clients with the best of sports, news, the arts and their own local and original content.",
+      jobDescription:
+        "Developed a CRM reporting application, dedicated to the management of alarms and remote monitoring of a secure building, monitoring of intervention steps and communication with the Help Desk service. The frontend, made up of interfaces, highlights the different types of alarms and deals with criticalities. The application lists the different alarm cases, from a data center, to the connected user, including modification and viewing privileges, massive export and import of data in Excel / Csv format at the base of data and vice versa, a statistical report of the movements of users of the structure, as well as communication by message to the Help Desk service in the event of a major emergency.",
+      jobTitle: "Full Stack Developer",
+      jobStart: "November 2018",
+      jobEnd: "July 2019",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Needs analysis for applications development or evolution requests;",
+        },
+        {
+          task:
+            "Design and contribution to the implementation of functional / technical specifications and design of new screen interfaces;",
+        },
+        {
+          task:
+            "Development of new front (in Angular 7, HTML5 / CSS3, JavaScript) and back (Java / J2ee, Spring Boot / Security / MVC) functionalities;",
+        },
+        {
+          task:
+            "Writing and execution of the various scenarios associated with tests with JUnit Test and Mockito;",
+        },
+        {
+          task:
+            "Proposal for improvement in terms of performance and ergonomics;",
+        },
+        {
+          task:
+            "Support for the client and users of the application.",
+        },
+      ],
+      tools:
+        "Java/J2ee, Spring Core, Spring Security, Spring Data, Spring MVC, Spring Boot, Spring Batch, JPA, Hibernate, JUnit Test, Mockito,RestFull API, Angular7, Angular Material, PrimeNG, Visual Studio Code, JQuery, Eclipse IDE, JavaScript, HTML5/CSS3, Bootstrap4, Oracle, SVN, GitLab",
+    },
+    {
+      id: 4,
+      society: "UniCredit Bank",
+      societyDescription:
+        "UniCredit S.P.A is a global banking and financial services company. The structure brings together all services in the areas of ITC, back-office and middle-office operations, real estate, security and purchasing, and covers a large market in several countries with agencies and staff.",
+      jobDescription:
+        "Developer and technical analyst for the GIMB (Global International Mobile Banking) project, an international program developed to manage the history, accounts and movements of customers affiliated or partner of the same bank. The application presents various navigable interfaces for the customer, lists the history of the latter's movements and manages the process of modification of personal data by confirmation using the mobile internet (sending an OTP, token confirmation on the user's mobile) or a card validation system.",
+      jobTitle: "Full Stack Developer",
+      jobStart: "July 2017",
+      jobEnd: "November 2018",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Study and analysis of the client's functional needs;",
+        },
+        {
+          task:
+            "Development and evolution of web services (REST APIs), in MVC methodology;",
+        },
+        {
+          task:
+            "Design of new interfaces for the front-end user (under JSF, PrimeFaces, JavaScript, Ajax) from business logic (Java / J2ee, Spring, JPA, EJB);",
+        },
+        {
+          task:
+            "Evolutionary resolution and correction of bugs while respecting the fixed deadlines;",
+        },
+        {
+          task:
+            "Communication with the project team (Managers, Functionals, Developers, Testers) on ALM;",
+        },
+        {
+          task:
+            "Optimization of test and production performance;",
+        },
+        {
+          task:
+            "Support for the client and users of the application;",
+        },
+        {
+          task:
+            "Conference and meeting with the team based in Australia.",
+        },
+      ],
+      tools:
+        "Java/J2ee, Spring Core, Spring Security, Spring Data, Spring MVC, Spring Boot, JPA, JSP, Hibernate, RestFull API, PrimeFaces, Facelets, JQuery, IBM RSA (Rational Software Architect), IBM QMF (Query Management Facility), IBM WebSphere, JavaScript, Ajax, HTML5/CSS3, Bootstrap, Oracle, DB2, SVN, SOAP, EJB, VMware Horizon Client, ALM (Application Life Management) QualityCenter",
+    },
+    {
+      id: 5,
+      society: "Lombardia Informatica Spa",
+      societyDescription:
+        "Lombardia Informatica Spa is an in-house company from the Lombardy region. She is a citizen, in fact she functions as a link between public administration, the information and communication technology market, citizens and businesses.",
+      jobDescription:
+        "As part of my work at Lombardia Informatica Spa, I carried out numerous software development, database management and maintenance activities as part of the EDMA project (Enterprise Document Management, integrated management of different types of documents used in the city of Lombardy) in a financial team:",
+      jobTitle: "IT Consultant",
+      jobStart: "June 2016",
+      jobEnd: "July 2017",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Study and implementation of various services: Document management, IT protocols, electronic signature, workflow management;",
+        },
+        {
+          task:
+            "Development of client-server software;",
+        },
+        {
+          task:
+            "Control of external data flow;",
+        },
+        {
+          task:
+            "Perform unit tests and integration;",
+        },
+        {
+          task:
+            "Drafting of technical documentation for the services developed;",
+        },
+        {
+          task:
+            "Ensure maintenance and evolutionary development.",
+        },
+      ],
+      tools:
+        "Java/J2EE, JSF 2.3, Spring 4.0, Hibernate ORM 5.2, JDBC, Eclipse IDE for Java, HTML5/CSS3, JSP 2.2, XML, Bootstrap 4.0, Oracle XE, SQL plus Developer, SOAP, RestFull, Apache Tomcat 7/8, Subversion (SVN), TortoiseSVN, VM, Windows 7/8, Apache Maven",
+    },
+    {
+      id: 6,
+      society: "NTTData Italia SPA",
+      societyDescription:
+        "NTTData Italia Spa is a trusted global innovator who solves the challenges of its clients through solutions and services in the technology, consulting, digital and operations sectors.",
+      jobDescription:
+        "As part of my work at NTTData Italia Spa, I took charge of many activities of the EasyPDA project (Data recording terminal for Carrefour Market) within the Information Systems (IS) team:",
+      jobTitle: "IT Consultant",
+      jobStart: "September 2015",
+      jobEnd: "June 2016",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Detailed analysis and planning of business module solutions;",
+        },
+        {
+          task:
+            "Integrate the software components developed with the company's solutions;",
+        },
+        {
+          task:
+            "Find and implement the best solutions to optimize technical and functional performance;",
+        },
+        {
+          task:
+            "Perform established unit and integration tests;",
+        },
+        {
+          task:
+            "Write the technical documentation of the functions developed;",
+        },
+        {
+          task:
+            "Assist the support teams in the management of customer dysfunctions.",
+        },
+      ],
+      tools:
+        "Java/J2EE, JSF 2.3, Spring 4.0, Hibernate ORM 5.2, JDBC, NetBeans IDE 8.0.2, HTML5/CSS3, JSP 2.2, Bootstrap 4.0, PrimeFaces 6.1.6, RichFaces 4.5.1, MyFaces 2.2.9, Ajax, Facelets 1.1.14, Oracle XE, Apache Derby, SQuirrel SQL Client, RestFull, AXIS, Apache Tomcat 7/8, Subversion (SVN), CSV, TortoiseSVN, VPN Carrefour, Windows 7/8, Apache Maven, Apache Derby",
+    },
+  ],
   IT: [],
 };

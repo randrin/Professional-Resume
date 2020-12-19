@@ -28,6 +28,7 @@ export default class Resume extends PureComponent {
   }
 
   openModal(id) {
+    this.checkExperiences();
     this.setState({
       experienceModal: this.state.clientWorks.filter(
         (experience) => experience.id === id
@@ -38,23 +39,29 @@ export default class Resume extends PureComponent {
 
   afterOpenModal() {
     console.log("afterOpenModal");
+    this.checkExperiences();
   }
 
   closeModal() {
     this.setState({
       isOpenModal: false,
     });
+    this.checkExperiences();
   }
 
-  componentDidMount() {
+  checkExperiences() {
     this.setState({
       clientWorks:
-        this.state.selectLang === "en"
+      localStorage.getItem("i18nextLng") === "en"
           ? this.state.experiences.EN
-          : this.state.selectLang === "fr"
+          : localStorage.getItem("i18nextLng") === "fr"
           ? this.state.experiences.FR
           : this.state.experiences.IT,
     });
+  }
+
+  componentDidMount() {
+    this.checkExperiences();
   }
 
   render() {
