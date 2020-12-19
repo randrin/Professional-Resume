@@ -307,7 +307,7 @@ export default class Resume extends PureComponent {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="row my-resume-margin-items">
                       <div className="col-sm-12 col-md-12">
                         <div className="download-cv-block">
                           <a

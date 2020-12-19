@@ -509,5 +509,259 @@ export const experiences = {
         "Java/J2EE, JSF 2.3, Spring 4.0, Hibernate ORM 5.2, JDBC, NetBeans IDE 8.0.2, HTML5/CSS3, JSP 2.2, Bootstrap 4.0, PrimeFaces 6.1.6, RichFaces 4.5.1, MyFaces 2.2.9, Ajax, Facelets 1.1.14, Oracle XE, Apache Derby, SQuirrel SQL Client, RestFull, AXIS, Apache Tomcat 7/8, Subversion (SVN), CSV, TortoiseSVN, VPN Carrefour, Windows 7/8, Apache Maven, Apache Derby",
     },
   ],
-  IT: [],
+  IT: [
+    {
+      id: 1,
+      society: "Accenture",
+      societyDescription:
+        "Accenture è una società multinazionale di servizi professionali che fornisce servizi di strategia, consulenza, digitale, tecnologia e operazioni.",
+      jobDescription:
+        "Implementazione, Sviluppo delle funzionalità di autenticazione e autorizzazione PSD2 per la piattaforma Fideuram - Alphabet 2.0, Controllata da Intesa Sanpaolo, alla quale possono accedere i clienti (persone fisiche e giuridiche) che hanno attivato il servizio di Internet Banking. Attraverso la prima connessione, gli utenti devono certificare il numero di telefono e configurare il codice PIN, necessario per connettersi alla piattaforma Alfabeto2.0.",
+      jobTitle: "Sviluppatore Full Stack",
+      jobStart: "Marzo 2020",
+      jobEnd: "Oggi",
+      isCurrentJob: true,
+      responsabilities: [
+        {
+          task:
+            "Sviluppo del layout per le diverse fasi di certificazione (componenti in Angular) a cura del team UX / UI Designer;",
+        },
+        {
+          task:
+            "Progettazione e sviluppo di livelli di autorizzazione e autenticazione nei microservizi;",
+        },
+        {
+          task:
+            "Integrazione del livello aziendale (Back end) con il livello utente (Front end);",
+        },
+        {
+          task: "Esecuzione di test unitari e di integrazione con Mockito e JUnit;",
+        },
+        {
+          task: "Manutenzione scalabile e correttiva di flussi e bug esistenti;",
+        },
+        {
+          task:
+            "Partecipazione al miglioramento continuo dell'applicazione online.",
+        },
+      ],
+      tools:
+        "Micro services, Spring Boot, Spring Data, Spring Security, Spring Cloud, Pattern MVC, JPA, IntelliJ IDEA, JUnit Test, Mockito, Visual Studio Code, JQuery, JavaScript, Angular 7, HTML5/CSS3, Bootstrap, Sass, Jira, Bitbucket, Postman, TortoiseSVN, TortoiseGit, Response Devices",
+    },
+    {
+      id: 2,
+      society: "Accenture",
+      societyDescription:
+        "Accenture è una società multinazionale di servizi professionali che fornisce servizi di strategia, consulenza, digitale, tecnologia e operazioni.",
+      jobDescription:
+        "Ho partecipato allo sviluppo di componenti (moduli), integrazione e manutenzione di applicativi client / server per siti e-commerce Illy Caffè (Illy Italia, Illy Francia, Illy Usa). Le applicazioni sono dedicate alla gestione dell'esposizione del nuovo marchio di caffè nel mondo, compresa la configurazione di ogni pagina, l'emissione e l'edizione dei contenuti, paragrafi, immagini, prodotti su diversi modelli di template visibili al pubblico.",
+      jobTitle: "Sviluppatore Front End",
+      jobStart: "Luglio 2019",
+      jobEnd: "Marzo 2020",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Sviluppo di moduli (componenti in HTML5 / CSS3 / JavaScript / JQuery / Foundation Css) fino ai pixel realizzati dal team UX / UI Designer sulla piattaforma Zeplin;",
+        },
+        {
+          task:
+            "Integrazione di componenti software su AEM in modo che siano facilmente configurabili dall'utente;",
+        },
+        {
+          task:
+            "Manutenzione scalabile di piattaforme per richieste di modifica da parte dei clienti e aggiornamenti di servizi web;",
+        },
+        {
+          task:
+            "Sviluppo di approcci su misura, in base alle esigenze del cliente;",
+        },
+        {
+          task:
+            "Partecipazione alla distribuzione di aggiornamenti (Produzione e Test) di applicazioni per il team funzionale;",
+        },
+        {
+          task:
+            "Comunicazione in Scrum / metodologia Agile su Trello con il team di progetto;",
+        },
+        {
+          task:
+            "Risoluzione dei bugs sull'interfaccia Atlassian Jira rispettando le scadenze;",
+        },
+        {
+          task: "Supporto immediato al cliente e ai suoi utenti.",
+        },
+      ],
+      tools:
+        "Visual Studio Code, JQuery, JavaScript, Web Services, Node.js, Gulp, HTML5/CSS3, Bootstrap4, Sass, Foundation Css, AEM (Adobe Experience Manager), Saleforces, Atlassian Jira, Trello, Zeplin, Web Accessibility, Git, GitLab, Bitbucket",
+    },
+    {
+      id: 3,
+      society: "Sky Italie",
+      societyDescription:
+        "Sky è la principale società di media e intrattenimento in Europa e fa parte del gruppo Comcast. I membri della struttura aiutano a mettere in contatto i clienti con il meglio di sport, notizie, arte e con i propri contenuti locali e originali.",
+      jobDescription:
+        "Sviluppato un applicativo di reporting CRM, dedicato alla gestione degli allarmi e al monitoraggio remoto di un edificio sicuro, al monitoraggio delle fasi di intervento e alla comunicazione con il servizio di Help Desk. Il frontend, composto da interfacce, evidenzia le diverse tipologie di allarmi e si occupa delle criticità. L'applicazione elenca i diversi casi di allarme, da un data center, all'utente connesso, compresi i privilegi di modifica e visualizzazione, massiccia esportazione e importazione di dati in formato Excel / Csv alla base di dati e viceversa, report statistico degli spostamenti degli utenti della struttura, nonché comunicazione tramite messaggio al servizio di Help Desk in caso di grave emergenza.",
+      jobTitle: "Sviluppatore Full Stack",
+      jobStart: "Novembre 2018",
+      jobEnd: "Luglio 2019",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Analisi dei bisogni per richieste di sviluppo o evoluzione di applicazioni;",
+        },
+        {
+          task:
+            "Progettazione e contributo all'implementazione di specifiche funzionali / tecniche e progettazione di nuove interfacce video;",
+        },
+        {
+          task:
+            "Sviluppo di nuove funzionalità front (in Angular 7, HTML5 / CSS3, JavaScript) e back (Java / J2ee, Spring Boot / Security / MVC);",
+        },
+        {
+          task:
+            "Scrittura ed esecuzione dei vari scenari associati ai test con JUnit Test e Mockito;",
+        },
+        {
+          task:
+            "Proposta di miglioramento in termini di prestazioni ed ergonomia;",
+        },
+        {
+          task:
+            "Supporto per il client e gli utenti dell'applicazione.",
+        },
+      ],
+      tools:
+        "Java/J2ee, Spring Core, Spring Security, Spring Data, Spring MVC, Spring Boot, Spring Batch, JPA, Hibernate, JUnit Test, Mockito,RestFull API, Angular7, Angular Material, PrimeNG, Visual Studio Code, JQuery, Eclipse IDE, JavaScript, HTML5/CSS3, Bootstrap4, Oracle, SVN, GitLab",
+    },
+    {
+      id: 4,
+      society: "UniCredit Bank",
+      societyDescription:
+        "UniCredit S.P.A è una società globale di servizi bancari e finanziari. La struttura riunisce tutti i servizi nelle aree ITC, operazioni di back-office e middle-office, immobiliare, sicurezza e acquisti, e copre un ampio mercato in diversi paesi con agenzie e personale.",
+      jobDescription:
+        "Sviluppatore e analista tecnico per il progetto GIMB (Global International Mobile Banking), un programma internazionale sviluppato per gestire la storia, i conti e i movimenti dei clienti affiliati o partner della stessa banca. L'applicazione presenta diverse interfacce navigabili per il cliente, elenca lo storico dei movimenti di quest'ultimo e gestisce il processo di modifica dei dati personali tramite conferma tramite internet mobile (invio di OTP, token conferma sul cellulare dell'utente) o un sistema di convalida della carta.",
+      jobTitle: "Sviluppatore Full Stack",
+      jobStart: "Luglio 2017",
+      jobEnd: "Novembre 2018",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Studio e analisi delle esigenze funzionali del cliente;",
+        },
+        {
+          task:
+            "Sviluppo ed evoluzione di servizi web (API REST), in metodologia MVC;",
+        },
+        {
+          task:
+            "Progettazione di nuove interfacce per l'utente front-end (sotto JSF, PrimeFaces, JavaScript, Ajax) dalla logica di business (Java / J2ee, Spring, JPA, EJB);",
+        },
+        {
+          task:
+            "Risoluzione e correzione progressiva dei bug nel rispetto delle scadenze fissate;",
+        },
+        {
+          task:
+            "Comunicazione con il team di progetto (manager, funzionali, sviluppatori, testers) su ALM;",
+        },
+        {
+          task:
+            "Ottimizzazione delle prestazioni di test e produzione;",
+        },
+        {
+          task:
+            "Supporto per il client e gli utenti dell'applicazione;",
+        },
+        {
+          task:
+            "Conferenza e incontro con il team con sede in Australia.",
+        },
+      ],
+      tools:
+        "Java/J2ee, Spring Core, Spring Security, Spring Data, Spring MVC, Spring Boot, JPA, JSP, Hibernate, RestFull API, PrimeFaces, Facelets, JQuery, IBM RSA (Rational Software Architect), IBM QMF (Query Management Facility), IBM WebSphere, JavaScript, Ajax, HTML5/CSS3, Bootstrap, Oracle, DB2, SVN, SOAP, EJB, VMware Horizon Client, ALM (Application Life Management) QualityCenter",
+    },
+    {
+      id: 5,
+      society: "Lombardia Informatica Spa",
+      societyDescription:
+        "Lombardia Informatica Spa è un'azienda interna della regione Lombardia. È cittadina, infatti funge da anello di congiunzione tra la pubblica amministrazione, il mercato delle tecnologie dell'informazione e della comunicazione, cittadini e imprese.",
+      jobDescription:
+        "Nell'ambito del mio lavoro in Lombardia Informatica Spa, ho svolto numerose attività di sviluppo software, gestione database e manutenzione nell'ambito del progetto EDMA (Enterprise Document Management, gestione integrata delle diverse tipologie di documenti utilizzati nella città della Lombardia) in un team finanziario:",
+      jobTitle: "Consulente IT",
+      jobStart: "Giugno 2016",
+      jobEnd: "Luglio 2017",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Studio e implementazione di diversi servizi: gestione documentale, protocolli informatici, firma elettronica, gestione flussi di lavoro;",
+        },
+        {
+          task:
+            "Sviluppo di software client-server;",
+        },
+        {
+          task:
+            "Controllo del flusso di dati esterni;",
+        },
+        {
+          task:
+            "Eseguire unit test e integrazione;",
+        },
+        {
+          task:
+            "Redazione documentazione tecnica per i servizi sviluppati;",
+        },
+        {
+          task:
+            "Garantire la manutenzione e lo sviluppo evolutivo.",
+        },
+      ],
+      tools:
+        "Java/J2EE, JSF 2.3, Spring 4.0, Hibernate ORM 5.2, JDBC, Eclipse IDE for Java, HTML5/CSS3, JSP 2.2, XML, Bootstrap 4.0, Oracle XE, SQL plus Developer, SOAP, RestFull, Apache Tomcat 7/8, Subversion (SVN), TortoiseSVN, VM, Windows 7/8, Apache Maven",
+    },
+    {
+      id: 6,
+      society: "NTTData Italia SPA",
+      societyDescription:
+        "NTTData Italia Spa è un innovatore globale di fiducia che risolve le sfide dei propri clienti attraverso soluzioni e servizi nei settori della tecnologia, della consulenza, del digitale e delle operazioni.",
+      jobDescription:
+        "Nell'ambito del mio lavoro in NTTData Italia Spa, ho preso in carico molte attività del progetto EasyPDA (Terminale di registrazione dati per Carrefour Market) all'interno del team Sistemi Informativi (IS):",
+      jobTitle: "Consulente IT",
+      jobStart: "Settembre 2015",
+      jobEnd: "Giugno 2016",
+      isCurrentJob: false,
+      responsabilities: [
+        {
+          task:
+            "Analisi dettagliata e pianificazione delle soluzioni dei moduli aziendali;",
+        },
+        {
+          task:
+            "Integrare i componenti software sviluppati con le soluzioni dell'azienda;",
+        },
+        {
+          task:
+            "Trovare e implementare le migliori soluzioni per ottimizzare le prestazioni tecniche e funzionali;",
+        },
+        {
+          task:
+            "Eseguire i tests di unità e integrazione stabiliti;",
+        },
+        {
+          task:
+            "Scrivere la documentazione tecnica delle funzioni sviluppate;",
+        },
+        {
+          task:
+            "Assistere i team di supporto nella gestione dei malfunzionamenti dei clienti.",
+        },
+      ],
+      tools:
+        "Java/J2EE, JSF 2.3, Spring 4.0, Hibernate ORM 5.2, JDBC, NetBeans IDE 8.0.2, HTML5/CSS3, JSP 2.2, Bootstrap 4.0, PrimeFaces 6.1.6, RichFaces 4.5.1, MyFaces 2.2.9, Ajax, Facelets 1.1.14, Oracle XE, Apache Derby, SQuirrel SQL Client, RestFull, AXIS, Apache Tomcat 7/8, Subversion (SVN), CSV, TortoiseSVN, VPN Carrefour, Windows 7/8, Apache Maven, Apache Derby",
+    },
+  ],
 };
