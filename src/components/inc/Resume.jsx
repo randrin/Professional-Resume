@@ -127,7 +127,7 @@ export default class Resume extends PureComponent {
                                 {experience.society}
                               </span>
                               <ShowMoreText
-                                lines={5}
+                                lines={3}
                                 more={t("ABOUT.SHOW_MORE")}
                                 less={t("ABOUT.SHOW_LESS")}
                                 anchorClass="text-justify"
