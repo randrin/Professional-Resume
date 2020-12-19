@@ -203,6 +203,14 @@ ul.site-multilanguages {
     }
 }
 
+.my-resume-color-orange {
+    color: var(--orange-sunglow) !important;
+}
+
+.my-resume-color-black {
+    color: var(--black) !important;
+}
+
 .about-description {
     text-align: justify;
 }
@@ -224,8 +232,14 @@ ul.site-multilanguages {
     margin-bottom: 20px;
 }
 
+.my-resume-margin-cta,
 .my-resume-open-modal {
     margin: 20px 0px;
+}
+
+.my-resume-logo-modal {
+    width: 125px;
+    height: 50px;
 }
 
 .my-resume-modal-description,

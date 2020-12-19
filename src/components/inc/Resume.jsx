@@ -155,11 +155,31 @@ export default class Resume extends PureComponent {
                                   style={customStyles}
                                   contentLabel="Example Modal"
                                 >
-                                  <div className="my-resume-close-modal">
-                                    <button onClick={this.closeModal}>
-                                      <i className="fa fa-remove"></i>{" "}
-                                      {t("MODAL.CLOSE_MODAL")}
-                                    </button>
+                                  <div className="container">
+                                    <div className="row">
+                                      <div className="col-md-3">
+                                        <img
+                                          className="my-resume-logo-modal"
+                                          src="/assets/images/logo-name.png"
+                                          alt="Randrin Logo"
+                                        />
+                                      </div>
+                                      <div className="col-md-6 text-center">
+                                        {experienceModal[0] && (
+                                          <h2 className="my-resume-color-orange">
+                                            {experienceModal[0].jobTitle} <span className="my-resume-color-black">{t("MODAL.IN_MODAL")} {experienceModal[0].society}</span>
+                                          </h2>
+                                        )}
+                                      </div>
+                                      <div className="col-md-3">
+                                        <div className="my-resume-close-modal">
+                                          <button onClick={this.closeModal}>
+                                            <i className="fa fa-remove"></i>{" "}
+                                            {t("MODAL.CLOSE_MODAL")}
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
                                   </div>
                                   <hr />
                                   {experienceModal[0] && (
@@ -167,13 +187,18 @@ export default class Resume extends PureComponent {
                                       <div className="row">
                                         <div className="col-md-12">
                                           <div className="text-justify">
-                                            {experienceModal[0].societyDescription}
+                                            {
+                                              experienceModal[0]
+                                                .societyDescription
+                                            }
                                           </div>
                                         </div>
                                       </div>
                                       <div className="row">
                                         <div className="col-md-12">
-                                          <div className="my-resume-modal-description">{t("MODAL.DESCRIPTION_MODAL")}</div>
+                                          <div className="my-resume-modal-description">
+                                            {t("MODAL.DESCRIPTION_MODAL")}
+                                          </div>
                                           <div className="text-justify">
                                             {experienceModal[0].jobDescription}
                                           </div>
@@ -181,21 +206,36 @@ export default class Resume extends PureComponent {
                                       </div>
                                       <div className="row">
                                         <div className="col-md-12">
-                                        <div className="my-resume-modal-responsability">{t("MODAL.RESPONSABILITY_MODAL")}</div>
+                                          <div className="my-resume-modal-responsability">
+                                            {t("MODAL.RESPONSABILITY_MODAL")}
+                                          </div>
                                           <ul className="text-justify">
-                                            {experienceModal[0].responsabilities.map((responsability, index) => (
-                                              <li key={index}>{responsability.task}</li>
-                                            ))}
+                                            {experienceModal[0].responsabilities.map(
+                                              (responsability, index) => (
+                                                <li key={index}>
+                                                  {responsability.task}
+                                                </li>
+                                              )
+                                            )}
                                           </ul>
                                         </div>
                                       </div>
                                       <div className="row">
                                         <div className="col-md-12">
-                                          <div className="my-resume-modal-technical">{t("MODAL.TECHNICAL_MODAL")}</div>
+                                          <div className="my-resume-modal-technical">
+                                            {t("MODAL.TECHNICAL_MODAL")}
+                                          </div>
                                           <div className="text-justify">
-                                            {experienceModal[0].tools.split(',').map((tool, index) => (
-                                              <span key={index} className="badge my-resume-badge-danger">{tool}</span>
-                                            ))}
+                                            {experienceModal[0].tools
+                                              .split(",")
+                                              .map((tool, index) => (
+                                                <span
+                                                  key={index}
+                                                  className="badge my-resume-badge-danger"
+                                                >
+                                                  {tool}
+                                                </span>
+                                              ))}
                                           </div>
                                         </div>
                                       </div>
@@ -264,12 +304,12 @@ export default class Resume extends PureComponent {
                       <div className="col-sm-12 col-md-12">
                         <div className="download-cv-block">
                           <a
-                            className="button pt-trigger"
+                            className="button pt-trigger my-resume-margin-cta"
                             href="#contact_me"
                             data-animation="58"
                             data-goto="5"
                           >
-                            Download CV
+                            <i className="fa fa-download"></i> {t("RESUME.DOWNLOAD_CV")}
                           </a>
                         </div>
                       </div>

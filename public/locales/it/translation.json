@@ -30,7 +30,8 @@
         },
         "EXPERTISE": {
              "TITLE": "Esperienza"
-        }
+        },
+        "DOWNLOAD_CV": "Scarica il CV"
     },
     "PORTFOLIO": {
         "TITLE": "Il Mio Portfolio"
@@ -69,6 +70,7 @@
         "TITLE": "I miei Termini e Condizioni"
     },
     "MODAL": {
+        "IN_MODAL": "in",
         "OPEN_MODAL": "Leggi Più",
         "CLOSE_MODAL": "Chiudi",
         "DESCRIPTION_MODAL": "Descrizione: ",
