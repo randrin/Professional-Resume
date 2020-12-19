@@ -6,7 +6,7 @@ export const experiences = {
       societyDescription:
         "Accenture est une société multinationale de services professionnels fournissant des services en stratégie, conseil, numérique, technologie et opérations.",
       jobDescription:
-        "Mise en place, développement des fonctions d'authentification et d'autorisation PSD2 sur la plateforme Fideuram - Alphabet 2.0, filiale d'Intesa Sanpaolo, accessible aux clients (personnes physiques et morales) ayant activé le service Internet Banking. Lors de la première connexion, les utilisateurs doivent certifier le numéro de téléphone et configurer le code PIN, nécessaire pour se connecter à la plate-forme Alfabeto2.0.",
+        "Implémentation, Développement des fonctionnalités d’authentification et autorisation PSD2 pour la plateforme Fideuram - Alphabet 2.0, Filiale d’Intesa Sanpaolo, auxquelles peuvent accéder les clients (personnes physiques et morales) qui ont activé le service Internet Banking. Grâce à la première connexion, les utilisateurs doivent certifier le numéro de téléphone et configurer le code PIN, nécessaire pour se connecter à la plateforme Alfabeto2.0.",
       jobTitle: "Développeur Full Stack",
       jobStart: "Mars 2019",
       jobEnd: "Aujourd'hui",
@@ -14,25 +14,25 @@ export const experiences = {
       responsabilities: [
         {
           task:
-            "•	Développement du layout pour les différentes phases de certification (composants en Angular) réalisé par l'équipe UX / UI Designer ;",
+            "Développement du layout pour les différentes phases de certification (composants en Angular) réalisé par l'équipe UX / UI Designer ;",
         },
         {
           task:
-            "•	Conception et développement des niveaux d'autorisation et d'authentification dans les microservices ;",
+            "Conception et développement des niveaux d'autorisation et d'authentification dans les microservices ;",
         },
         {
           task:
-            "•	Intégration de la couche métier (Back end) avec la couche utilisateur (Front end) ;",
+            "Intégration de la couche métier (Back end) avec la couche utilisateur (Front end) ;",
         },
         {
-          task: "•	Réalisation des tests unitaires et d’intégration avec Mockito et JUnit ;",
+          task: "Réalisation des tests unitaires et d’intégration avec Mockito et JUnit ;",
         },
         {
-          task: "•	Maintenance évolutive et corrective des flux et bugs existants ;",
+          task: "Maintenance évolutive et corrective des flux et bugs existants ;",
         },
         {
           task:
-            "•	Participation à l'amélioration continue de l’application en ligne.",
+            "Participation à l'amélioration continue de l’application en ligne.",
         },
       ],
       tools:

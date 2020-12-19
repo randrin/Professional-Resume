@@ -14,6 +14,15 @@
     display: none;
 }
 
+.page-wrapper {
+    position: relative;
+    min-height: 100vh;
+
+    .subpages-wrapper {
+        padding-bottom: 2.5rem;
+    }
+}
+
 .scroll {
     display: block;
     bottom: 50px;
@@ -25,6 +34,10 @@
 
 #site_header {
     z-index: 1;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .pt-wrapper {
@@ -207,6 +220,16 @@ ul.site-multilanguages {
     margin-bottom: 20px;
 }
 
+.my-resume-open-modal {
+    margin: 20px 0px;
+}
+
+.my-resume-close-modal {
+    float: right;
+    right: 0;
+    padding-bottom: 15px;
+}
+
 .my-resume-version-number {
     margin-left: 5px;
     background: var(--orange-sunglow);
@@ -345,7 +368,7 @@ iframe {
     }
 
     .my-resume-tooltip {
-    
+
         .my-resume-tooltiptext {
             width: auto;
         }

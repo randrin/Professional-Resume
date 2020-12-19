@@ -14,13 +14,13 @@ import {
 export default class Home extends PureComponent {
   render() {
     return (
-      <div id="page" className="page">
+      <div id="page" className="page-wrapper page">
         <Header />
         <div id="main" className="site-main">
           <div className="pt-wrapper">
             <NavBar />
           </div>
-          <div className="subpages">
+          <div className="subpages-wrapper subpages">
             <About />
             <Resume />
             <Portfoglio />

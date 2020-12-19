@@ -3,12 +3,19 @@ import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
 import Footer from "../../components/pages/site/Footer";
 import ShowMoreText from "react-show-more-text";
-import Modal from "react-modal";
+import ReactModal from "react-modal";
+import { experiences } from "../../data/experiences";
+
+ReactModal.setAppElement("#my_resume");
 export default class Resume extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
+      selectLang: localStorage.getItem("i18nextLng"),
       isOpenModal: false,
+      clientWorks: [],
+      experiences: experiences,
+      experienceModal: [],
     };
 
     this.openModal = this.openModal.bind(this);
@@ -20,13 +27,18 @@ export default class Resume extends PureComponent {
     console.log(isExpanded);
   }
 
-  openModal() {
+  openModal(id) {
     this.setState({
+      experienceModal: this.state.clientWorks.filter(
+        (experience) => experience.id === id
+      ),
       isOpenModal: true,
     });
   }
 
-  afterOpenModal() {}
+  afterOpenModal() {
+    console.log("afterOpenModal");
+  }
 
   closeModal() {
     this.setState({
@@ -34,10 +46,21 @@ export default class Resume extends PureComponent {
     });
   }
 
+  componentDidMount() {
+    this.setState({
+      clientWorks:
+        this.state.selectLang === "en"
+          ? this.state.experiences.EN
+          : this.state.selectLang === "fr"
+          ? this.state.experiences.FR
+          : this.state.experiences.IT,
+    });
+  }
+
   render() {
     const customStyles = {
       content: {
-        top: "50%",
+        top: "28%",
         left: "62%",
         right: "auto",
         bottom: "auto",
@@ -45,6 +68,7 @@ export default class Resume extends PureComponent {
         transform: "translate(-50%, -50%)",
       },
     };
+    const { isOpenModal, experienceModal } = this.state;
     return (
       <ResumeConsumer>
         {(value) => {
@@ -88,7 +112,10 @@ export default class Resume extends PureComponent {
                         </div>
                         <div className="timeline">
                           {experiences.map((experience) => (
-                            <div className="timeline-event te-primary">
+                            <div
+                              key={experience.id}
+                              className="timeline-event te-primary"
+                            >
                               <h5 className="event-date">
                                 <span>{experience.jobStart}</span> -{" "}
                                 <span>{experience.jobEnd}</span>
@@ -112,26 +139,41 @@ export default class Resume extends PureComponent {
                                   {experience.jobDescription}
                                 </p>
                               </ShowMoreText>
-                              <button className="my-3" onClick={this.openModal}>
-                                <i className="fa fa-chevron-right"></i>{" "}
-                                {t("MODAL.OPEN_MODAL")}
-                              </button>
-                              <Modal
-                                isOpen={this.state.isOpenModal}
-                                onAfterOpen={this.afterOpenModal}
-                                onRequestClose={this.closeModal}
-                                style={customStyles}
-                                contentLabel="Example Modal"
-                              >
-                                <button onClick={this.closeModal}>close</button>
-                                <div className="container">
-                                  <div className="row">
-                                    <div className="col-md-12">
-                                      <div>{experience.societyDescription}</div>
-                                    </div>
+                              <div className="my-resume-open-modal">
+                                <button
+                                  onClick={() => this.openModal(experience.id)}
+                                >
+                                  <i className="fa fa-chevron-right"></i>{" "}
+                                  {t("MODAL.OPEN_MODAL")}
+                                </button>
+                              </div>
+                              <div id={experience.id}>
+                                <ReactModal
+                                  isOpen={isOpenModal}
+                                  onAfterOpen={this.afterOpenModal}
+                                  onRequestClose={this.closeModal}
+                                  style={customStyles}
+                                  contentLabel="Example Modal"
+                                >
+                                  <div className="my-resume-close-modal">
+                                    <button onClick={this.closeModal}>
+                                      <i className="fa fa-remove"></i>{" "}
+                                      {t("MODAL.CLOSE_MODAL")}
+                                    </button>
                                   </div>
-                                </div>
-                              </Modal>
+                                  {experienceModal[0] && (
+                                    <div className="container">
+                                      <div className="row">
+                                        <div className="col-md-12">
+                                          <div>
+                                            {experienceModal[0].societyDescription}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  )}
+                                </ReactModal>
+                              </div>
                             </div>
                           ))}
                         </div>
