@@ -60,7 +60,7 @@ export default class Resume extends PureComponent {
   render() {
     const customStyles = {
       content: {
-        top: "28%",
+        top: "50%",
         left: "62%",
         right: "auto",
         bottom: "auto",
@@ -161,12 +161,41 @@ export default class Resume extends PureComponent {
                                       {t("MODAL.CLOSE_MODAL")}
                                     </button>
                                   </div>
+                                  <hr />
                                   {experienceModal[0] && (
                                     <div className="container">
                                       <div className="row">
                                         <div className="col-md-12">
-                                          <div>
+                                          <div className="text-justify">
                                             {experienceModal[0].societyDescription}
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="row">
+                                        <div className="col-md-12">
+                                          <div className="my-resume-modal-description">{t("MODAL.DESCRIPTION_MODAL")}</div>
+                                          <div className="text-justify">
+                                            {experienceModal[0].jobDescription}
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="row">
+                                        <div className="col-md-12">
+                                        <div className="my-resume-modal-responsability">{t("MODAL.RESPONSABILITY_MODAL")}</div>
+                                          <ul className="text-justify">
+                                            {experienceModal[0].responsabilities.map((responsability, index) => (
+                                              <li key={index}>{responsability.task}</li>
+                                            ))}
+                                          </ul>
+                                        </div>
+                                      </div>
+                                      <div className="row">
+                                        <div className="col-md-12">
+                                          <div className="my-resume-modal-technical">{t("MODAL.TECHNICAL_MODAL")}</div>
+                                          <div className="text-justify">
+                                            {experienceModal[0].tools.split(',').map((tool, index) => (
+                                              <span key={index} className="badge my-resume-badge-danger">{tool}</span>
+                                            ))}
                                           </div>
                                         </div>
                                       </div>

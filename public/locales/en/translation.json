@@ -70,6 +70,9 @@
     },
     "MODAL": {
         "OPEN_MODAL": "Read More",
-        "CLOSE_MODAL": "Close"
+        "CLOSE_MODAL": "Close",
+        "DESCRIPTION_MODAL": "Description: ",
+        "RESPONSABILITY_MODAL": "Responsabilities: ",
+        "TECHNICAL_MODAL": "Technical Environment: "
     }
 }

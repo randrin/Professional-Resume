@@ -10,6 +10,10 @@
     width: 10px;
 }
 
+li::marker {
+    color: var(--orange-sunglow) !important;
+}
+
 #scroll-top {
     display: none;
 }
@@ -222,6 +226,19 @@ ul.site-multilanguages {
 
 .my-resume-open-modal {
     margin: 20px 0px;
+}
+
+.my-resume-modal-description,
+.my-resume-modal-responsability,
+.my-resume-modal-technical {
+    padding: 35px 0 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.my-resume-badge-danger {
+    background: var(--tomato) !important;
+    margin-right: 5px;
 }
 
 .my-resume-close-modal {
