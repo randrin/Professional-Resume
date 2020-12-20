@@ -52,7 +52,7 @@ export default class Resume extends PureComponent {
   checkExperiences() {
     this.setState({
       clientWorks:
-      localStorage.getItem("i18nextLng") === "en"
+        localStorage.getItem("i18nextLng") === "en"
           ? this.state.experiences.EN
           : localStorage.getItem("i18nextLng") === "fr"
           ? this.state.experiences.FR
@@ -79,7 +79,7 @@ export default class Resume extends PureComponent {
     return (
       <ResumeConsumer>
         {(value) => {
-          const { educations, experiences } = value;
+          const { educations, experiences, skills } = value;
           return (
             <section className="pt-page pt-page-2" data-id="resume">
               <Translation>
@@ -134,7 +134,7 @@ export default class Resume extends PureComponent {
                                 {experience.society}
                               </span>
                               <ShowMoreText
-                                lines={3}
+                                lines={4}
                                 more={t("ABOUT.SHOW_MORE")}
                                 less={t("ABOUT.SHOW_LESS")}
                                 anchorClass="text-justify"
@@ -174,7 +174,11 @@ export default class Resume extends PureComponent {
                                       <div className="col-md-6 text-center">
                                         {experienceModal[0] && (
                                           <h2 className="my-resume-color-orange">
-                                            {experienceModal[0].jobTitle} <span className="my-resume-color-black">{t("MODAL.IN_MODAL")} {experienceModal[0].society}</span>
+                                            {experienceModal[0].jobTitle}{" "}
+                                            <span className="my-resume-color-black">
+                                              {t("MODAL.IN_MODAL")}{" "}
+                                              {experienceModal[0].society}
+                                            </span>
                                           </h2>
                                         )}
                                       </div>
@@ -257,54 +261,29 @@ export default class Resume extends PureComponent {
 
                       <div className="col-sm-6 col-md-4 subpage-block">
                         <div className="block-title">
-                          <h3>Design Skills</h3>
+                          <h3>{t("RESUME.TECHNICAL.TITLE")}</h3>
                         </div>
-                        <div className="skills-info">
-                          <h4>Web Design</h4>
-                          <div className="skill-container">
-                            <div className="skill-percentage skill-1"></div>
+                        {skills.map((skill) => (
+                          <div key={skill.id}>
+                            <div className="my-resume-margin-items">
+                              <h3 className="my-resume-color-tomato">
+                                {skill.parent}
+                              </h3>
+                            </div>
+                            <div className="skills-info">
+                              {skill.childs.map((child, index) => (
+                                <div key={index}>
+                                  <h4>{child.title}</h4>
+                                  <div className="skill-container">
+                                    <div
+                                      className={`skill-percentage skill-${child.vote}`}
+                                    ></div>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
                           </div>
-
-                          <h4>Graphic Design</h4>
-                          <div className="skill-container">
-                            <div className="skill-percentage skill-2"></div>
-                          </div>
-
-                          <h4>Print Design</h4>
-                          <div className="skill-container">
-                            <div className="skill-percentage skill-3"></div>
-                          </div>
-                        </div>
-
-                        <div className="block-title">
-                          <h3>Coding Skills</h3>
-                        </div>
-                        <div className="skills-info">
-                          <h4>HML5</h4>
-                          <div className="skill-container">
-                            <div className="skill-percentage skill-4"></div>
-                          </div>
-
-                          <h4>CSS3</h4>
-                          <div className="skill-container">
-                            <div className="skill-percentage skill-5"></div>
-                          </div>
-
-                          <h4>jQuery</h4>
-                          <div className="skill-container">
-                            <div className="skill-percentage skill-6"></div>
-                          </div>
-
-                          <h4>Wordpress</h4>
-                          <div className="skill-container">
-                            <div className="skill-percentage skill-7"></div>
-                          </div>
-
-                          <h4>PHP</h4>
-                          <div className="skill-container">
-                            <div className="skill-percentage skill-8"></div>
-                          </div>
-                        </div>
+                        ))}
                       </div>
                     </div>
                     <div className="row my-resume-margin-items">
@@ -316,7 +295,8 @@ export default class Resume extends PureComponent {
                             data-animation="58"
                             data-goto="5"
                           >
-                            <i className="fa fa-download"></i> {t("RESUME.DOWNLOAD_CV")}
+                            <i className="fa fa-download"></i>{" "}
+                            {t("RESUME.DOWNLOAD_CV")}
                           </a>
                         </div>
                       </div>

@@ -31,6 +31,9 @@
         "EXPERTISE": {
              "TITLE": "Esperienze"
         },
+        "TECHNICAL": {
+            "TITLE": "Abilità Tecniche"
+       },
         "DOWNLOAD_CV": "Scarica il CV"
     },
     "PORTFOLIO": {

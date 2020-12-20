@@ -149,7 +149,7 @@ li::marker {
     color: #333;
 
     &:after {
-        content: '\f311';
+        background-image: url('loading.gif');
         display: flex;
         align-items: center;
         justify-content: center;
@@ -209,6 +209,10 @@ ul.site-multilanguages {
 
 .my-resume-color-black {
     color: var(--black) !important;
+}
+
+.my-resume-color-tomato {
+    color: var(--tomato) !important;
 }
 
 .my-resume-testimonial-img {

@@ -31,6 +31,9 @@
         "EXPERTISE": {
              "TITLE": "Experiences"
         },
+        "TECHNICAL": {
+            "TITLE": "Technical Skills"
+       },
         "DOWNLOAD_CV": "Download CV"
     },
     "PORTFOLIO": {

@@ -4,6 +4,7 @@ import { services } from "../data/services";
 import { testimonials } from "../data/testimonials";
 import { funs } from "../data/funs";
 import { clients } from "../data/clients";
+import { skills } from "../data/skills";
 import { experiences } from "../data/experiences";
 
 export const ResumeContext = React.createContext();
@@ -19,6 +20,7 @@ class ResumeProvider extends PureComponent {
       services: [],
       experiences: [],
       funs: [],
+      skills: [],
       clients: clients,
     };
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
@@ -43,6 +45,7 @@ class ResumeProvider extends PureComponent {
     this.handleServices(selectLag);
     this.handleEducations(selectLag);
     this.handleExperiences(selectLag);
+    this.handleSkills(selectLag);
     this.handleTestimonials(selectLag);
     this.handleFuns(selectLag);
   }
@@ -76,6 +79,17 @@ class ResumeProvider extends PureComponent {
     });
   }
 
+  handleSkills(lang) {
+    this.setState({
+      skills:
+        lang === "en"
+          ? skills.EN
+          : lang === "fr"
+          ? skills.FR
+          : skills.IT,
+    });
+  }
+
   handleTestimonials(lang) {
     this.setState({
       testimonials:
@@ -96,6 +110,7 @@ class ResumeProvider extends PureComponent {
     this.handleServices(this.state.selectLang);
     this.handleEducations(this.state.selectLang);
     this.handleExperiences(this.state.selectLang);
+    this.handleSkills(this.state.selectLang);
     this.handleTestimonials(this.state.selectLang);
     this.handleFuns(this.state.selectLang);
   }
