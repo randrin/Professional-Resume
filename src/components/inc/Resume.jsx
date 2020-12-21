@@ -276,7 +276,7 @@ export default class Resume extends PureComponent {
                                   <h4>{child.title}</h4>
                                   <div className="skill-container">
                                     <div
-                                      className={`skill-percentage skill-${child.vote}`}
+                                      className={`my-resume-skill-percentage skill-${child.vote}`}
                                     ></div>
                                   </div>
                                 </div>
