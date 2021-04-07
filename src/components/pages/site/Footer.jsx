@@ -11,7 +11,7 @@ export default class Footer extends PureComponent {
               <div className="row my-resume-footer">
                 <div className="col-md-6">
                   <span>
-                    Copyright © 2020
+                    Copyright © 2020 - 
                     {new Date().getFullYear() > 2020
                       ? new Date().getFullYear()
                       : ""}

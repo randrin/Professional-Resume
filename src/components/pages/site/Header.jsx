@@ -24,9 +24,9 @@ export default class Header extends PureComponent {
             </h1>
           </div>
 
-          <Link to="#" className="menu-toggle mobile-visible">
+          <span className="menu-toggle mobile-visible">
             <i className="fa fa-bars"></i>
-          </Link>
+          </span>
         </header>
       </div>
     );

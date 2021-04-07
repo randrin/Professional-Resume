@@ -3,7 +3,7 @@ export const testimonials = {
     {
       id: 1,
       photo:
-        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_200_200/0/1597233684943?e=1613606400&v=beta&t=JFzy1qs81TC0bChP5dAB0xdmx5Uwz0fr4lMn4KVBJWc",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_800_800/0/1597233684943?e=1623283200&v=beta&t=Jf3hPRpJN4xEBI3i_INBoLNPKkrxRyLD6Ksz2DxRwTI",
       name: "Wandji Peutchou Achile",
       expertise: "Data Engineer",
       testimonial:
@@ -12,7 +12,7 @@ export const testimonials = {
     {
       id: 2,
       photo:
-        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_200_200/0/1547541137108?e=1613606400&v=beta&t=Ova36u3DG5ZLN1f_M5W8cjMzSrJxqIoGXhJ4gJCnnSc",
+        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_800_800/0/1547541137108?e=1623283200&v=beta&t=wULO8fmeEv7YN_YsvkH96E3DvAFl7HfJvNwMmxkNBFY",
       name: "Boclair Temgoua",
       expertise: "Full Stack Developer",
       testimonial:
@@ -23,7 +23,7 @@ export const testimonials = {
     {
       id: 1,
       photo:
-        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_200_200/0/1597233684943?e=1613606400&v=beta&t=JFzy1qs81TC0bChP5dAB0xdmx5Uwz0fr4lMn4KVBJWc",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_800_800/0/1597233684943?e=1623283200&v=beta&t=Jf3hPRpJN4xEBI3i_INBoLNPKkrxRyLD6Ksz2DxRwTI",
       name: "Wandji Peutchou Achile",
       expertise: "Data Engineer",
       testimonial:
@@ -32,7 +32,7 @@ export const testimonials = {
     {
       id: 2,
       photo:
-        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_200_200/0/1547541137108?e=1613606400&v=beta&t=Ova36u3DG5ZLN1f_M5W8cjMzSrJxqIoGXhJ4gJCnnSc",
+        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_800_800/0/1547541137108?e=1623283200&v=beta&t=wULO8fmeEv7YN_YsvkH96E3DvAFl7HfJvNwMmxkNBFY",
       name: "Boclair Temgoua",
       expertise: "Full Stack Developer",
       testimonial:
@@ -43,7 +43,7 @@ export const testimonials = {
     {
       id: 1,
       photo:
-        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_200_200/0/1597233684943?e=1613606400&v=beta&t=JFzy1qs81TC0bChP5dAB0xdmx5Uwz0fr4lMn4KVBJWc",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_800_800/0/1597233684943?e=1623283200&v=beta&t=Jf3hPRpJN4xEBI3i_INBoLNPKkrxRyLD6Ksz2DxRwTI",
       name: "Wandji Peutchou Achile",
       expertise: "Data Engineer",
       testimonial:
@@ -52,7 +52,7 @@ export const testimonials = {
     {
       id: 2,
       photo:
-        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_200_200/0/1547541137108?e=1613606400&v=beta&t=Ova36u3DG5ZLN1f_M5W8cjMzSrJxqIoGXhJ4gJCnnSc",
+        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_800_800/0/1547541137108?e=1623283200&v=beta&t=wULO8fmeEv7YN_YsvkH96E3DvAFl7HfJvNwMmxkNBFY",
       name: "Boclair Temgoua",
       expertise: "Full Stack Developer",
       testimonial:

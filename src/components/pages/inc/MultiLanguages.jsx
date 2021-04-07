@@ -11,7 +11,7 @@ class MultiLanguages extends PureComponent {
           const { selectLang, handleChangeLanguage } = value;
           return (
             <div className="header-dropdown">
-              <Link to="#" className="resume-selected-lang">
+              <span className="resume-selected-lang">
                 {selectLang === "fr" ? (
                   <>
                     <img
@@ -40,7 +40,7 @@ class MultiLanguages extends PureComponent {
                     <p>Italien</p>
                   </>
                 )}
-              </Link>
+              </span>
               <div className="header-menu">
                 <ul>
                   <li>
