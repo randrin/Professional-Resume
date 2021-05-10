@@ -1,86 +1,115 @@
 {
-    "HEADER": {
-        "TITLE": "I am"
+  "HEADER": {
+    "TITLE": "I am"
+  },
+  "ABOUT": {
+    "TITLE": "About Me",
+    "POSITION": "Now, I am Full Stack Developer @ Accenture",
+    "DESCRIPTION_SOCIETY": "Multinational professional services company.",
+    "DESCRIPTION_1": "Passionate by Innovation, Computer Science and Information Systems, I am open to all proposals in Computers Science and IT using various systems and programming languages in the fields of Technology Consulting and Engineering, Finance and Banking.",
+    "DESCRIPTION_2": "Rigorous, Spirit of initiative, analysis and synthesis, Strong organizational and Interpersonal skills, Capacity for the teamwork. Available immediately, geographically mobile and listen to the market.",
+    "NAME": "Name",
+    "YEAR": "Year",
+    "ADRESSE": "Adresse",
+    "EMAIL": "E-mail",
+    "PHONE": "Phone",
+    "DISPONIBILITY_REQUEST": "Disponibility",
+    "DISPONIBILITY_RESPONSE": "Permanent Position (Also evaluate Freelance)",
+    "TESTIMONIALS": "Testimonials",
+    "SERVICES": "Services",
+    "CONFIANCE": "They trusted me",
+    "FUN": "Fun Facts",
+    "SHOW_MORE": "Show More",
+    "SHOW_LESS": "Show Less"
+  },
+  "RESUME": {
+    "TITLE": "My Expertise",
+    "YEAR_WORK": "5 Years of Experience",
+    "EDUCATION": {
+      "TITLE": "Education"
     },
-    "ABOUT": {
-        "TITLE": "About Me",
-        "POSITION": "Now, I am Full Stack Developer @ Accenture",
-        "DESCRIPTION_SOCIETY": "Multinational professional services company.",
-        "DESCRIPTION_1": "Passionate by Innovation, Computer Science and Information Systems, I am open to all proposals in Computers Science and IT using various systems and programming languages in the fields of Technology Consulting and Engineering, Finance and Banking.",
-        "DESCRIPTION_2": "Rigorous, Spirit of initiative, analysis and synthesis, Strong organizational and Interpersonal skills, Capacity for the teamwork. Available immediately, geographically mobile and listen to the market.",
-        "NAME": "Name",
-        "YEAR": "Year",
-        "ADRESSE": "Adresse",
-        "EMAIL": "E-mail",
-        "PHONE": "Phone",
-        "DISPONIBILITY_REQUEST": "Disponibility",
-        "DISPONIBILITY_RESPONSE": "Permanent Position (Also evaluate Freelance)",
-        "TESTIMONIALS": "Testimonials",
-        "SERVICES": "Services",
-        "CONFIANCE": "They trusted me",
-        "FUN": "Fun Facts",
-        "SHOW_MORE": "Show More",
-        "SHOW_LESS": "Show Less"
+    "EXPERTISE": {
+      "TITLE": "Experiences"
     },
-    "RESUME": {
-        "TITLE": "My Expertise",
-        "YEAR_WORK": "5 Years of Experience",
-        "EDUCATION": {
-            "TITLE": "Education"
-        },
-        "EXPERTISE": {
-             "TITLE": "Experiences"
-        },
-        "TECHNICAL": {
-            "TITLE": "Technical Skills"
-       },
-        "DOWNLOAD_CV": "Download CV"
+    "TECHNICAL": {
+      "TITLE": "Technical Skills"
     },
-    "PORTFOLIO": {
-        "TITLE": "My Portfolio"
+    "DOWNLOAD_CV": "Download CV"
+  },
+  "PORTFOLIO": {
+    "TITLE": "My Portfolio"
+  },
+  "BLOG": {
+    "TITLE": "My Blog"
+  },
+  "TESTIMONIAL": {
+    "TITLE": "Testimonials"
+  },
+  "CONTACT": {
+    "TITLE": "Contact Me",
+    "RIGHT_FORM": {
+      "TITLE": "Get in Touch",
+      "DESCRIPTION": "Please find below all the information to get in touch with me. I would be happy to answer you as soon as possible.",
+      "AVAILABLE": "Available Now"
     },
-    "BLOG": {
-        "TITLE": "My Blog"
-    },
-    "TESTIMONIAL": {
-        "TITLE": "Testimonials"
-    },
-    "CONTACT": {
-        "TITLE": "Contact Me",
-        "RIGHT_FORM": {
-            "TITLE": "Get in Touch",
-            "DESCRIPTION": "Please find below all the information to get in touch with me. I would be happy to answer you as soon as possible.",
-            "AVAILABLE": "Available Now"
-        },
-        "LEFT_FORM": {
-            "TITLE": "Contact Form",
-            "FULLNAME": "Full Name",
-            "EMAIL": "Email Address",
-            "MESSAGE": "Message for me",
-            "BUTTON": "Send Message"
-        }
-    },
-    "FOOTER": {
-        "REALIZED": "Realized by",
-        "ALL_RIGHTS": "All rights reserved.",
-        "PRIVACY": "Privacy Policies",
-        "CONDITION": "Terms and Conditions",
-        "VERSION": "Version",
-        "VERSION_NUMBER": "2.0.0",
-        "LAST_VERSION": "Go to previous version"
-    },
-    "PRIVACY": {
-        "TITLE": "My Privacy Policy"
-    },
-    "CONDITION": {
-        "TITLE": "My Terms and Conditions"
-    },
-    "MODAL": {
-        "IN_MODAL": "in",
-        "OPEN_MODAL": "Read More",
-        "CLOSE_MODAL": "Close",
-        "DESCRIPTION_MODAL": "Description: ",
-        "RESPONSABILITY_MODAL": "Responsabilities: ",
-        "TECHNICAL_MODAL": "Technical Environment: "
+    "LEFT_FORM": {
+      "TITLE": "Contact Form",
+      "FULLNAME": "Full Name",
+      "EMAIL": "Email Address",
+      "MESSAGE": "Message for me",
+      "BUTTON": "Send Message"
     }
+  },
+  "FOOTER": {
+    "REALIZED": "Realized by",
+    "ALL_RIGHTS": "All rights reserved.",
+    "PRIVACY": "Privacy Policies",
+    "CONDITION": "Terms and Conditions",
+    "VERSION": "Version",
+    "VERSION_NUMBER": "2.0.0",
+    "LAST_VERSION": "Go to previous version"
+  },
+  "PRIVACY": {
+    "TITLE": "My Privacy Policy"
+  },
+  "CONDITION": {
+    "TITLE": "My Terms and Conditions",
+    "DEFINITIONS": {
+      "TITLE": "Definitions",
+      "CLIENT": {
+        "TITLE": "Customer : ",
+        "DESCRIPTION": "any professional or capable natural person within the meaning of articles 1123 et seq. of the Civil Code, or legal person, who visits the Site subject to these general conditions."
+      },
+      "SERVICES": {
+        "TITLE": "Benefits and Services : ",
+        "DESCRIPTION": "makes available to Customers : "
+      },
+      "CONTENT": {
+        "TITLE": "Content : ",
+        "DESCRIPTION": "All of the elements that make up the information on the Site, in particular texts - images - videos."
+      },
+      "INFOS_CUSTOMERS": {
+        "TITLE": "Customers informations : ",
+        "DESCRIPTION_1": "Hereinafter referred to as 'Information (s)' which correspond to all the personal data likely to be held by",
+        "DESCRIPTION_2": "for the management of your account, the management of the customer relationship and for the purposes of analysis and statistics."
+      },
+      "USER": {
+        "TITLE": "USer : ",
+        "DESCRIPTION": "Internet user connecting, using the aforementioned site."
+      },
+      "INFOS_PERSONNALS": {
+        "TITLE": "Personals informations : ",
+        "DESCRIPTION": "« Information which allows, in any form whatsoever, directly or indirectly, the identification of the natural persons to whom it applies » (article 4 de la loi n° 78-17 du 6 janvier 1978).."
+      }
+    },
+    "DESCRIPTION": "The terms « personal data », « data subject », « subcontractor» and « sensitive data » have the meaning defined by the General Data Protection Regulation (RGPD: n ° 2016-679)"
+  },
+  "MODAL": {
+    "IN_MODAL": "in",
+    "OPEN_MODAL": "Read More",
+    "CLOSE_MODAL": "Close",
+    "DESCRIPTION_MODAL": "Description: ",
+    "RESPONSABILITY_MODAL": "Responsabilities: ",
+    "TECHNICAL_MODAL": "Technical Environment: "
+  }
 }
