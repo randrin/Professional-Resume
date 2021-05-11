@@ -5,38 +5,36 @@ import Footer from "../../components/pages/site/Footer";
 export default class Condition extends PureComponent {
   render() {
     return (
-      <section className="pt-page pt-page-1" data-id="condition">
+      <section className="conditions-wrapper pt-page pt-page-1" data-id="condition">
         <Translation>
           {(t) => (
             <>
               <div className="section-title-block">
-                <h2 className="section-title">{t("CONDITION.TITLE")}</h2>
+                <h3 className="section-title">{t("CONDITION.TITLE")}</h3>
               </div>
-              <div className="row">
-                <div className="col">
-                <h2>{t("CONDITION.DEFINITIONS.TITLE")}</h2>
+              <div className="section-title-content">
+                <div className="block-title">
+                <h3>{t("CONDITION.DEFINITIONS.TITLE")}</h3>
                 <p><b>{t("CONDITION.DEFINITIONS.CLIENT.TITLE")}</b> {t("CONDITION.DEFINITIONS.CLIENT.DESCRIPTION")}<br/>
                 <b>{t("CONDITION.DEFINITIONS.SERVICES.TITLE")}</b> <a href="https://randrin-nzeukang.netlify.app">https://randrin-nzeukang.netlify.app</a> {t("CONDITION.DEFINITIONS.SERVICES.DESCRIPTION")}</p>
                 <p><b>{t("CONDITION.DEFINITIONS.CONTENT.TITLE")}</b> {t("CONDITION.DEFINITIONS.CONTENT.DESCRIPTION")}</p>
                 <p><b>{t("CONDITION.DEFINITIONS.INFOS_CUSTOMERS.TITLE")}</b> {t("CONDITION.DEFINITIONS.INFOS_CUSTOMERS.DESCRIPTION_1")} <a href="https://randrin-nzeukang.netlify.app">https://randrin-nzeukang.netlify.app</a> {t("CONDITION.DEFINITIONS.INFOS_CUSTOMERS.DESCRIPTION_2")}</p>
                 <p><b>{t("CONDITION.DEFINITIONS.USER.TITLE")}</b> {t("CONDITION.DEFINITIONS.USER.DESCRIPTION")}</p>
                 <p><b>{t("CONDITION.DEFINITIONS.INFOS_PERSONNALS.TITLE")}</b> {t("CONDITION.DEFINITIONS.INFOS_PERSONNALS.DESCRIPTION")}</p>
-                <p>{t("CONDITION.DESCRIPTION")}</p>
+                <p>{t("CONDITION.DEFINITIONS.DESCRIPTION")}</p>
 
-                <h2>1. Présentation du site internet.</h2>
-                <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site internet <a href="https://randrin-nzeukang.netlify.app">https://randrin-nzeukang.netlify.app</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi:
-                </p><p><strong>Propriétaire</strong> :   Randrin Nzeukang   – Via Santa Maria 31/7 27029 Vigevano<br/>
+                <h3>{t("CONDITION.PRESTATIONS.TITLE")}</h3>
+                <p>{t("CONDITION.PRESTATIONS.DESCRIPTION_1")} <a href="https://randrin-nzeukang.netlify.app">https://randrin-nzeukang.netlify.app</a> {t("CONDITION.PRESTATIONS.DESCRIPTION_2")}
+                </p><p><strong>{t("CONDITION.PRESTATIONS.OWNER.TITLE")}</strong> {t("CONDITION.PRESTATIONS.OWNER.DESCRIPTION")}<br/>
                               
-                <strong>Responsable publication</strong> : Randrin Nzeukang – nzeukangrandrin@gmail.com<br/>
-                Le responsable publication est une personne physique ou une personne morale.<br/>
-                <strong>Webmaster</strong> : Randrin Nzeukang – nzeukangrandrin@gmail.com<br/>
-                <strong>Hébergeur</strong> : Netlify – 2325 3rd Street, Suite 296 94107 San Francisco, California 010101010101<br/>
-                <strong>Délégué à la protection des données</strong> : Randrin Nzeukang – nzeukangrandrin@gmail.com<br/>
+                <strong>{t("CONDITION.PRESTATIONS.RESPONSIBLE.TITLE")}</strong> {t("CONDITION.PRESTATIONS.RESPONSIBLE.DESCRIPTION_1")}<br/>
+                {t("CONDITION.PRESTATIONS.RESPONSIBLE.DESCRIPTION_2")}<br/>
+                <strong>{t("CONDITION.PRESTATIONS.WEBMASTER.TITLE")}</strong>{t("CONDITION.PRESTATIONS.WEBMASTER.DESCRIPTION")}<br/>
+                <strong>{t("CONDITION.PRESTATIONS.HOST.TITLE")}</strong> {t("CONDITION.PRESTATIONS.HOST.DESCRIPTION")}<br/>
+                <strong>{t("CONDITION.PRESTATIONS.DATA_PROTECTION.TITLE")}</strong> {t("CONDITION.PRESTATIONS.DATA_PROTECTION.DESCRIPTION")}<br/>
                 </p>
 
-                <div ng-bind-html="linkHTML"><p>Ce modèle de mentions légales est proposé par le <a href="https://fr.orson.io/1371/generateur-mentions-legales" title="générateur gratuit offert par Orson.io">générateur gratuit offert par Orson.io</a></p></div>
-
-
+                <div ng-bind-html="linkHTML"><p>{t("CONDITION.PRESTATIONS.COPYRIGHT.TITLE")} <a href="https://fr.orson.io/1371/generateur-mentions-legales" title="générateur gratuit offert par Orson.io">{t("CONDITION.PRESTATIONS.COPYRIGHT.DESCRIPTION")}</a></p></div>
 
                 <h2>2. Conditions générales d’utilisation du site et des services proposés.</h2>
 

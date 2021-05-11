@@ -100,9 +100,39 @@
       "INFOS_PERSONNALS": {
         "TITLE": "Informazioni personali : ",
         "DESCRIPTION": "«Informazioni che consentono, in qualsiasi forma, direttamente o indirettamente, l'identificazione delle persone fisiche alle quali si applica» (articolo 4 della legge n ° 78-17 del 6 gennaio 1978)."
-      }
+      },
+      "DESCRIPTION": "I termini «dati personali», «soggetto interessato», «subappaltatore» e «dati sensibili» hanno il significato definito dal Regolamento generale sulla protezione dei dati (RGPD: n ° 2016-679)"
     },
-    "DESCRIPTION": "I termini «dati personali», «soggetto interessato», «subappaltatore» e «dati sensibili» hanno il significato definito dal Regolamento generale sulla protezione dei dati (RGPD: n ° 2016-679)"
+    "PRESTATIONS": {
+      "TITLE": "1. Presentazione del sito web.",
+      "DESCRIPTION_1": "Ai sensi dell'articolo 6 della legge n ° 2004-575 del 21 giugno 2004 sulla fiducia nell'economia digitale, si informano gli utenti del sito web",
+      "DESCRIPTION_2": "l'identità dei vari stakeholder nel contesto della sua attuazione e monitoraggio:",
+      "OWNER": {
+        "TITLE": "Proprietario",
+        "DESCRIPTION": ": Randrin Nzeukang – Via Santa Maria 31/7 27029 Vigevano"
+      },
+      "RESPONSIBLE": {
+        "TITLE": "Responsabile della pubblicazione",
+        "DESCRIPTION_1": ": Randrin Nzeukang – nzeukangrandrin@gmail.com",
+        "DESCRIPTION_2": "Il responsabile della pubblicazione è una persona fisica o una persona giuridica."
+      },
+      "WEBMASTER": {
+        "TITLE": "Webmaster",
+        "DESCRIPTION": ": Randrin Nzeukang – nzeukangrandrin@gmail.com"
+      },
+      "HOST": {
+        "TITLE": "Ospite",
+        "DESCRIPTION": ": Netlify – 2325 3rd Street, Suite 296 94107 San Francisco, California 010101010101"
+      },
+      "DATA_PROTECTION": {
+        "TITLE": "Responsabile della protezione dei dati",
+        "DESCRIPTION": ": Randrin Nzeukang – nzeukangrandrin@gmail.com"
+      },
+      "COPYRIGHT": {
+        "TITLE": "Questo modello di note legali è proposto dal ",
+        "DESCRIPTION": "generatore gratuito offerto da Orson.io"
+      }
+    }
   },
   "MODAL": {
     "IN_MODAL": "in",
