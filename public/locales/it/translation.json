@@ -75,34 +75,34 @@
   "CONDITION": {
     "TITLE": "I miei Termini e Condizioni",
     "DEFINITIONS": {
-      "TITLE": "Définitions",
+      "TITLE": "Definizioni",
       "CLIENT": {
-        "TITLE": "Client : ",
-        "DESCRIPTION": "tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales."
+        "TITLE": "Cliente : ",
+        "DESCRIPTION": "qualsiasi persona fisica professionale o abilitata ai sensi degli articoli 1123 e seguenti del codice civile, o persona giuridica, che visiti il ​​Sito subordinatamente alle presenti condizioni generali."
       },
       "SERVICES": {
-        "TITLE": "Prestations et Services : ",
-        "DESCRIPTION": "met à disposition des Clients : "
+        "TITLE": "Vantaggi e servizi : ",
+        "DESCRIPTION": "mette a disposizione dei Clienti : "
       },
       "CONTENT": {
-        "TITLE": "Contenu : ",
-        "DESCRIPTION": "Ensemble des éléments constituants l’information présente sur le Site, notamment textes – images – vidéos."
+        "TITLE": "Contenuto : ",
+        "DESCRIPTION": "Tutti gli elementi che compongono le informazioni sul Sito, in particolare testi - immagini - video."
       },
       "INFOS_CUSTOMERS": {
-        "TITLE": "Informations clients : ",
-        "DESCRIPTION_1": "Ci après dénommé « Information (s) » qui correspondent à l’ensemble des données personnelles susceptibles d’être détenues par",
-        "DESCRIPTION_2": "pour la gestion de votre compte, de la gestion de la relation client et à des fins d’analyses et de statistiques."
+        "TITLE": "Informazioni per il cliente : ",
+        "DESCRIPTION_1": "Di seguito denominate «Informazioni» che corrispondono a tutti i dati personali che possono essere detenuti da",
+        "DESCRIPTION_2": "per la gestione del tuo account, la gestione del rapporto con il cliente e per finalità di analisi e statistiche."
       },
       "USER": {
-        "TITLE": "Utilisateur : ",
-        "DESCRIPTION": "Internaute se connectant, utilisant le site susnommé."
+        "TITLE": "Utente : ",
+        "DESCRIPTION": "Utente Internet che si connette, utilizzando il suddetto sito."
       },
       "INFOS_PERSONNALS": {
-        "TITLE": "Informations personnelles : ",
-        "DESCRIPTION": "« Les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978)."
+        "TITLE": "Informazioni personali : ",
+        "DESCRIPTION": "«Informazioni che consentono, in qualsiasi forma, direttamente o indirettamente, l'identificazione delle persone fisiche alle quali si applica» (articolo 4 della legge n ° 78-17 del 6 gennaio 1978)."
       }
     },
-    "DESCRIPTION": "Les termes « données à caractère personnel », « personne concernée », « sous traitant » et « données sensibles » ont le sens défini par le Règlement Général sur la Protection des Données (RGPD : n° 2016-679)"
+    "DESCRIPTION": "I termini «dati personali», «soggetto interessato», «subappaltatore» e «dati sensibili» hanno il significato definito dal Regolamento generale sulla protezione dei dati (RGPD: n ° 2016-679)"
   },
   "MODAL": {
     "IN_MODAL": "in",
