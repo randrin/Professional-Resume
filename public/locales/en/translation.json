@@ -132,6 +132,17 @@
         "TITLE": "This model of legal notices is proposed by the",
         "DESCRIPTION": "free generator offered by Orson.io"
       }
+    },
+    "GENERALS_CONDITIONS": {
+      "TITLE": "2. General conditions of use of the site and the services offered.",
+      "DESCRIPTION_1": "The Site constitutes an intellectual work protected by the provisions of the Intellectual Property Code and applicable International Regulations. The Customer may not in any way reuse, transfer or exploit for his own account all or part of the elements or works of the Site.",
+      "DESCRIPTION_2": "Use of the site ",
+      "DESCRIPTION_3": " implies full acceptance of the general conditions of use described below. These conditions of use are likely to be modified or supplemented at any time, users of the site ",
+      "DESCRIPTION_4": " are therefore invited to consult them on a regular basis.",
+      "DESCRIPTION_5": "This website is normally accessible to users at all times. An interruption due to technical maintenance may however be decided by ",
+      "DESCRIPTION_6": ", who will then endeavor to communicate to users beforehand the dates and times of the intervention. The website ",
+      "DESCRIPTION_7": " is updated regularly by ",
+      "DESCRIPTION_8": " responsible. Likewise, the legal notices can be modified at any time: they nevertheless apply to the user, who is invited to refer to them as often as possible in order to become acquainted with them."
     }
   },
   "MODAL": {

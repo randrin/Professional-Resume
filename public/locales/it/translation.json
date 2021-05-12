@@ -132,6 +132,17 @@
         "TITLE": "Questo modello di note legali è proposto dal ",
         "DESCRIPTION": "generatore gratuito offerto da Orson.io"
       }
+    },
+    "GENERALS_CONDITIONS": {
+      "TITLE": "2. Condizioni generali di utilizzo del sito e dei servizi offerti.",
+      "DESCRIPTION_1": "Il Sito costituisce un'opera intellettuale protetta dalle disposizioni del Codice della proprietà intellettuale e dei Regolamenti internazionali applicabili. Il Cliente non può in alcun modo riutilizzare, trasferire o sfruttare per proprio conto tutti o parte degli elementi o delle opere del Sito.",
+      "DESCRIPTION_2": "L’Utilizzo del sito ",
+      "DESCRIPTION_3": " implica la piena accettazione delle condizioni generali di utilizzo di seguito descritte. Queste condizioni d'uso possono essere modificate o integrate in qualsiasi momento, gli utenti del sito ",
+      "DESCRIPTION_4": " sono pertanto invitati a consultarli regolarmente.",
+      "DESCRIPTION_5": "Questo sito Web è normalmente accessibile agli utenti in ogni momento. Tuttavia, l'interruzione per manutenzione tecnica può essere decisa da",
+      "DESCRIPTION_6": ", che si adopererà quindi per comunicare preventivamente agli utenti le date e gli orari dell'intervento. Il sito web ",
+      "DESCRIPTION_7": " viene aggiornato regolarmente da ",
+      "DESCRIPTION_8": " responsabile. Allo stesso modo, le note legali possono essere modificate in qualsiasi momento: si applicano comunque all'utente, che è invitato a farvi riferimento il più spesso possibile per prenderne conoscenza."
     }
   },
   "MODAL": {
