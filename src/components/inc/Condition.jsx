@@ -123,40 +123,32 @@ export default class Condition extends PureComponent {
                     </a>
                     {t("CONDITION.GENERALS_CONDITIONS.DESCRIPTION_8")}
                   </p>
-                  <h2>3. Description des services fournis.</h2>
+                  <h3>{t("CONDITION.SERVICES.TITLE")}</h3>
                   <p>
-                    Le site internet{" "}
+                    {t("CONDITION.SERVICES.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    a pour objet de fournir une information concernant
-                    l’ensemble des activités de la société.
+                    {t("CONDITION.SERVICES.DESCRIPTION_2")}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    s’efforce de fournir sur le site{" "}
+                    {t("CONDITION.SERVICES.DESCRIPTION_3")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    des informations aussi précises que possible. Toutefois, il
-                    ne pourra être tenu responsable des oublis, des
-                    inexactitudes et des carences dans la mise à jour, qu’elles
-                    soient de son fait ou du fait des tiers partenaires qui lui
-                    fournissent ces informations.
+                    {t("CONDITION.SERVICES.DESCRIPTION_4")}
                   </p>
                   <p>
-                    Toutes les informations indiquées sur le site{" "}
+                    {t("CONDITION.SERVICES.DESCRIPTION_5")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    sont données à titre indicatif, et sont susceptibles
-                    d’évoluer. Par ailleurs, les renseignements figurant sur le
-                    site{" "}
+                    {t("CONDITION.SERVICES.DESCRIPTION_6")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    ne sont pas exhaustifs. Ils sont donnés sous réserve de
-                    modifications ayant été apportées depuis leur mise en ligne.
+                    {t("CONDITION.SERVICES.DESCRIPTION_7")}
                   </p>
                   <h2>
                     4. Limitations contractuelles sur les données techniques.
