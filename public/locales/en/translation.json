@@ -176,6 +176,67 @@
       "DESCRIPTION_6": ". Interactive spaces (possibility to ask questions in the contact area) are available to users.",
       "DESCRIPTION_7": "reserves the right to remove, without prior notice, any content posted in this space that would violate the law applicable in France, in particular the provisions relating to data protection. If applicable,",
       "DESCRIPTION_8": "also reserves the right to question the civil and / or criminal liability of the user, particularly in the event of a racist, abusive, defamatory or pornographic message, regardless of the medium used (text, photography, etc.)."
+    },
+    "PERSONALS_DATA": {
+      "TITLE": "7. Management of personal data.",
+      "DESCRIPTION": "The Customer is informed of the regulations concerning marketing communication, the law of June 21, 2014 for confidence in the Digital Economy, the Data Protection Act of August 06, 2004 as well as the General Data Protection Regulation (RGPD: n ° 2016-679).",
+      "ONE": {
+        "TITLE": "7.1 Responsible for collecting personal data",
+        "DESCRIPTION_1": "For Personal Data collected as part of the creation of the User's personal account and its navigation on the Site, the person responsible for processing Personal Data is: Randrin Nzeukang.",
+        "DESCRIPTION_2": "is represented by Randrin Nzeukang, its legal representative",
+        "DESCRIPTION_3": "As responsible for processing the data it collects,",
+        "DESCRIPTION_4": "undertakes to comply with the framework of the legal provisions in force. It is up to the Client in particular to establish the purposes of its data processing, to provide its prospects and clients, from the collection of their consents, with complete information on the processing of their personal data and to maintain a register of treatments in accordance with reality. Every time",
+        "DESCRIPTION_5": "processes Personal Data,",
+        "DESCRIPTION_6": "takes all reasonable measures to ensure the accuracy and relevance of the Personal Data with regard to the purposes for which ",
+        "DESCRIPTION_7": "treats them."
+      },
+      "TWO": {
+        "TITLE": "7.2 Purpose of the data collected",
+        "DESCRIPTION_1": "may process all or part of the data :",
+        "DESCRIPTION_2": "to allow navigation on the Site and the management and traceability of the services and services ordered by the user: connection and use data of the Site, invoicing, order history, etc.",
+        "DESCRIPTION_3": "to prevent and fight against computer fraud (spamming, hacking, etc.): computer equipment used for browsing, IP address, password (hash)",
+        "DESCRIPTION_4": "to improve navigation on the Site: connection and usage data",
+        "DESCRIPTION_5": "to conduct optional satisfaction surveys on",
+        "DESCRIPTION_6": ": E-mail adress",
+        "DESCRIPTION_7": "to carry out communication campaigns (sms, email): phone number, email address",
+        "DESCRIPTION_8": "does not market your personal data which is therefore only used out of necessity or for statistical and analytical purposes."
+      }, 
+      "THREE": {
+        "TITLE": "7.3 Right of access, rectification and opposition",
+        "DESCRIPTION_1": "In accordance with current European regulations, Users of",
+        "DESCRIPTION_2": "have the following rights :",
+        "DESCRIPTION_3": "right of access (article 15 RGPD) and rectification (article 16 RGPD), update, completeness of User data right to block or erase User personal data (article 17 of the RGPD), when they are inaccurate, incomplete, equivocal, out of date, or the collection, use, communication or conservation of which is prohibited",
+        "DESCRIPTION_4": "right to withdraw consent at any time (article 13-2c RGPD)",
+        "DESCRIPTION_5": "right to limit the processing of User data (article 18 RGPD)",
+        "DESCRIPTION_6": "right to oppose the processing of User data (article 21 GDPR)",
+        "DESCRIPTION_7": "right to portability of data that Users have provided, when this data is subject to automated processing based on their consent or on a contract (article 20 GDPR)",
+        "DESCRIPTION_8": "right to define the fate of Users' data after their death and to choose to whom",
+        "DESCRIPTION_9": "must communicate (or not) their data to a third party that they have previously designated",
+        "DESCRIPTION_10": "As soon as",
+        "DESCRIPTION_11": "is aware of the death of a User and in the absence of instructions from him,",
+        "DESCRIPTION_12": "undertakes to destroy its data, unless their retention is necessary for evidentiary purposes or to meet a legal obligation.",
+        "DESCRIPTION_13": "If the User wishes to know how",
+        "DESCRIPTION_14": "uses their Personal Data, request to rectify them or oppose their processing, the User can contact",
+        "DESCRIPTION_15": "pin writing to the following address :",
+        "DESCRIPTION_16": "Randrin Nzeukang – DPO, Randrin Nzeukang <br /> Via Santa Maria 31/7 27029 Vigevano.",
+        "DESCRIPTION_17": "In tal caso, l'Utente dovrà indicare i Dati Personali che desidera",
+        "DESCRIPTION_18": "corrects, updates or deletes, by identifying themselves precisely with a copy of an identity document (identity card or passport).",
+        "DESCRIPTION_19": "Requests for the deletion of Personal Data will be subject to the obligations imposed on",
+        "DESCRIPTION_20": "by law, in particular with regard to the preservation or archiving of documents. Finally, Users of",
+        "DESCRIPTION_21": "può presentare un reclamo alle autorità di controllo, e in particolare alla CNIL (https://www.cnil.fr/fr/plaintes)."
+      },
+      "FOURTH": {
+        "TITLE": "7.4 Non-communication of personal data",
+        "DESCRIPTION_1": "refrains from processing, hosting or transferring the Information collected on its Customers to a country located outside the European Union or recognized as « unsuitable »  by the European Commission without first informing the customer. However,",
+        "DESCRIPTION_2": "remains free to choose its technical and commercial subcontractors on the condition that they present sufficient guarantees with regard to the requirements of the General Data Protection Regulation (RGPD: No. 2016-679).",
+        "DESCRIPTION_3": "undertakes to take all necessary precautions to preserve the security of the Information and in particular that it is not communicated to unauthorized persons. However, if an incident impacting the integrity or confidentiality of Customer Information is brought to the attention of ",
+        "DESCRIPTION_4": ", the latter must inform the Customer as soon as possible and inform him of the corrective measures taken. otherwise",
+        "DESCRIPTION_5": "does not collect any « sensitive data ».",
+        "DESCRIPTION_6": "The User's Personal Data may be processed by subsidiaries of",
+        "DESCRIPTION_7": "and subcontractors (service providers), exclusively in order to achieve the purposes of this policy.",
+        "DESCRIPTION_8": "Within the limits of their respective attributions and for the purposes mentioned above, the main persons likely to have access to the data of the Users of",
+        "DESCRIPTION_9": "are mainly our customer service agents."
+      }
     }
   },
   "MODAL": {

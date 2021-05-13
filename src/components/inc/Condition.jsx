@@ -216,264 +216,172 @@ export default class Condition extends PureComponent {
                     </a>{" "}
                     {t("CONDITION.RESPONSABILITIES.DESCRIPTION_8")}
                   </p>
-                  <h3>7. Gestion des données personnelles.</h3>
+                  <h3>{t("CONDITION.PERSONALS_DATA.TITLE")}</h3>
+                  <p>{t("CONDITION.PERSONALS_DATA.DESCRIPTION")} </p>
+                  <h3>{t("CONDITION.PERSONALS_DATA.ONE.TITLE")}</h3>
                   <p>
-                    Le Client est informé des réglementations concernant la
-                    communication marketing, la loi du 21 Juin 2014 pour la
-                    confiance dans l’Economie Numérique, la Loi Informatique et
-                    Liberté du 06 Août 2004 ainsi que du Règlement Général sur
-                    la Protection des Données (RGPD : n° 2016-679).{" "}
-                  </p>
-                  <h2>
-                    7.1 Responsables de la collecte des données personnelles
-                  </h2>
-                  <p>
-                    Pour les Données Personnelles collectées dans le cadre de la
-                    création du compte personnel de l’Utilisateur et de sa
-                    navigation sur le Site, le responsable du traitement des
-                    Données Personnelles est : Randrin Nzeukang.{" "}
+                    {t("CONDITION.PERSONALS_DATA.ONE.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>
-                    est représenté par Randrin Nzeukang, son représentant légal
+                    {t("CONDITION.PERSONALS_DATA.ONE.DESCRIPTION_2")}
                   </p>
                   <p>
-                    En tant que responsable du traitement des données qu’il
-                    collecte,{" "}
+                    {t("CONDITION.PERSONALS_DATA.ONE.DESCRIPTION_3")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    s’engage à respecter le cadre des dispositions légales en
-                    vigueur. Il lui appartient notamment au Client d’établir les
-                    finalités de ses traitements de données, de fournir à ses
-                    prospects et clients, à partir de la collecte de leurs
-                    consentements, une information complète sur le traitement de
-                    leurs données personnelles et de maintenir un registre des
-                    traitements conforme à la réalité. Chaque fois que{" "}
+                    {t("CONDITION.PERSONALS_DATA.ONE.DESCRIPTION_4")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    traite des Données Personnelles,{" "}
+                    {t("CONDITION.PERSONALS_DATA.ONE.DESCRIPTION_5")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    prend toutes les mesures raisonnables pour s’assurer de
-                    l’exactitude et de la pertinence des Données Personnelles au
-                    regard des finalités pour lesquelles{" "}
+                    {t("CONDITION.PERSONALS_DATA.ONE.DESCRIPTION_6")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    les traite.
+                    {t("CONDITION.PERSONALS_DATA.ONE.DESCRIPTION_7")}
                   </p>
-                  <h3>7.2 Finalité des données collectées</h3>
+                  <h3>{t("CONDITION.PERSONALS_DATA.TWO.TITLE")}</h3>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    est susceptible de traiter tout ou partie des données :{" "}
+                    {t("CONDITION.PERSONALS_DATA.TWO.DESCRIPTION_1")}{" "}
                   </p>
                   <ul>
+                    <li>{t("CONDITION.PERSONALS_DATA.TWO.DESCRIPTION_2")} </li>
+                    <li>{t("CONDITION.PERSONALS_DATA.TWO.DESCRIPTION_3")} </li>
+                    <li>{t("CONDITION.PERSONALS_DATA.TWO.DESCRIPTION_4")} </li>
                     <li>
-                      pour permettre la navigation sur le Site et la gestion et
-                      la traçabilité des prestations et services commandés par
-                      l’utilisateur : données de connexion et d’utilisation du
-                      Site, facturation, historique des commandes, etc.{" "}
-                    </li>
-
-                    <li>
-                      pour prévenir et lutter contre la fraude informatique
-                      (spamming, hacking…) : matériel informatique utilisé pour
-                      la navigation, l’adresse IP, le mot de passe (hashé){" "}
-                    </li>
-
-                    <li>
-                      pour améliorer la navigation sur le Site : données de
-                      connexion et d’utilisation{" "}
-                    </li>
-
-                    <li>
-                      pour mener des enquêtes de satisfaction facultatives sur{" "}
+                      {t("CONDITION.PERSONALS_DATA.TWO.DESCRIPTION_5")}{" "}
                       <a href="https://randrin-nzeukang.netlify.app">
                         https://randrin-nzeukang.netlify.app
                       </a>{" "}
-                      : adresse email{" "}
+                      {t("CONDITION.PERSONALS_DATA.TWO.DESCRIPTION_6")}{" "}
                     </li>
-                    <li>
-                      pour mener des campagnes de communication (sms, mail) :
-                      numéro de téléphone, adresse email
-                    </li>
+                    <li>{t("CONDITION.PERSONALS_DATA.TWO.DESCRIPTION_7")}</li>
                   </ul>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    ne commercialise pas vos données personnelles qui sont donc
-                    uniquement utilisées par nécessité ou à des fins
-                    statistiques et d’analyses.
+                    {t("CONDITION.PERSONALS_DATA.TWO.DESCRIPTION_8")}
                   </p>
-                  <h3>7.3 Droit d’accès, de rectification et d’opposition</h3>
+                  <h3>{t("CONDITION.PERSONALS_DATA.THREE.TITLE")}</h3>
                   <p>
-                    Conformément à la réglementation européenne en vigueur, les
-                    Utilisateurs de{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    disposent des droits suivants :{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_2")}{" "}
                   </p>
                   <ul>
                     <li>
-                      droit d'accès (article 15 RGPD) et de rectification
-                      (article 16 RGPD), de mise à jour, de complétude des
-                      données des Utilisateurs droit de verrouillage ou
-                      d’effacement des données des Utilisateurs à caractère
-                      personnel (article 17 du RGPD), lorsqu’elles sont
-                      inexactes, incomplètes, équivoques, périmées, ou dont la
-                      collecte, l'utilisation, la communication ou la
-                      conservation est interdite{" "}
+                      {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_3")}{" "}
                     </li>
-
                     <li>
-                      droit de retirer à tout moment un consentement (article
-                      13-2c RGPD){" "}
+                      {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_4")}{" "}
                     </li>
-
                     <li>
-                      droit à la limitation du traitement des données des
-                      Utilisateurs (article 18 RGPD){" "}
+                      {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_5")}{" "}
                     </li>
-
                     <li>
-                      droit d’opposition au traitement des données des
-                      Utilisateurs (article 21 RGPD){" "}
+                      {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_6")}{" "}
                     </li>
-
                     <li>
-                      droit à la portabilité des données que les Utilisateurs
-                      auront fournies, lorsque ces données font l’objet de
-                      traitements automatisés fondés sur leur consentement ou
-                      sur un contrat (article 20 RGPD){" "}
+                      {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_7")}{" "}
                     </li>
-
                     <li>
-                      droit de définir le sort des données des Utilisateurs
-                      après leur mort et de choisir à qui{" "}
+                      {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_8")}{" "}
                       <a href="https://randrin-nzeukang.netlify.app">
                         https://randrin-nzeukang.netlify.app
                       </a>{" "}
-                      devra communiquer (ou non) ses données à un tiers qu’ils
-                      aura préalablement désigné
+                      {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_9")}
                     </li>
                   </ul>
                   <p>
-                    Dès que{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_10")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    a connaissance du décès d’un Utilisateur et à défaut
-                    d’instructions de sa part,{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_11")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    s’engage à détruire ses données, sauf si leur conservation
-                    s’avère nécessaire à des fins probatoires ou pour répondre à
-                    une obligation légale.
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_12")}
                   </p>
                   <p>
-                    Si l’Utilisateur souhaite savoir comment{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_13")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    utilise ses Données Personnelles, demander à les rectifier
-                    ou s’oppose à leur traitement, l’Utilisateur peut contacter{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_14")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    par écrit à l’adresse suivante :{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_15")}{" "}
                   </p>
-                  Randrin Nzeukang – DPO, Randrin Nzeukang <br />
-                  Via Santa Maria 31/7 27029 Vigevano.
+                  {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_16")}
                   <p>
-                    Dans ce cas, l’Utilisateur doit indiquer les Données
-                    Personnelles qu’il souhaiterait que{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_17")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    corrige, mette à jour ou supprime, en s’identifiant
-                    précisément avec une copie d’une pièce d’identité (carte
-                    d’identité ou passeport).{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_18")}{" "}
                   </p>
                   <p>
-                    Les demandes de suppression de Données Personnelles seront
-                    soumises aux obligations qui sont imposées à{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_19")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    par la loi, notamment en matière de conservation ou
-                    d’archivage des documents. Enfin, les Utilisateurs de{" "}
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_20")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    peuvent déposer une réclamation auprès des autorités de
-                    contrôle, et notamment de la CNIL
-                    (https://www.cnil.fr/fr/plaintes).
+                    {t("CONDITION.PERSONALS_DATA.THREE.DESCRIPTION_21")}
                   </p>
-                  <h3>7.4 Non-communication des données personnelles</h3>
+                  <h3>{t("CONDITION.PERSONALS_DATA.FOURTH.TITLE")}</h3>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    s’interdit de traiter, héberger ou transférer les
-                    Informations collectées sur ses Clients vers un pays situé
-                    en dehors de l’Union européenne ou reconnu comme « non
-                    adéquat » par la Commission européenne sans en informer
-                    préalablement le client. Pour autant,{" "}
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    reste libre du choix de ses sous-traitants techniques et
-                    commerciaux à la condition qu’il présentent les garanties
-                    suffisantes au regard des exigences du Règlement Général sur
-                    la Protection des Données (RGPD : n° 2016-679).
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_2")}
                   </p>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    s’engage à prendre toutes les précautions nécessaires afin
-                    de préserver la sécurité des Informations et notamment
-                    qu’elles ne soient pas communiquées à des personnes non
-                    autorisées. Cependant, si un incident impactant l’intégrité
-                    ou la confidentialité des Informations du Client est portée
-                    à la connaissance de{" "}
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_3")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>
-                    , celle-ci devra dans les meilleurs délais informer le
-                    Client et lui communiquer les mesures de corrections prises.
-                    Par ailleurs{" "}
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_4")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    ne collecte aucune « données sensibles ».
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_5")}
                   </p>
                   <p>
-                    Les Données Personnelles de l’Utilisateur peuvent être
-                    traitées par des filiales de{" "}
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_6")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    et des sous-traitants (prestataires de services),
-                    exclusivement afin de réaliser les finalités de la présente
-                    politique.
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_7")}
                   </p>
                   <p>
-                    Dans la limite de leurs attributions respectives et pour les
-                    finalités rappelées ci-dessus, les principales personnes
-                    susceptibles d’avoir accès aux données des Utilisateurs de{" "}
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_8")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    sont principalement les agents de notre service client.
+                    {t("CONDITION.PERSONALS_DATA.FOURTH.DESCRIPTION_9")}
                   </p>
                   <div ng-bind-html="rgpdHTML"></div>
                   <h2>8. Notification d’incident</h2>

@@ -47,7 +47,7 @@ export default class Footer extends PureComponent {
                         data-animation="58"
                         data-goto="6"
                       >
-                        <b>{t("FOOTER.PRIVACY")}</b>
+                        {t("FOOTER.PRIVACY")}
                       </a>
                     </li>
                     <li className="my-resume-footer-link">
@@ -60,7 +60,7 @@ export default class Footer extends PureComponent {
                         data-animation="58"
                         data-goto="7"
                       >
-                        <b>{t("FOOTER.CONDITION")}</b>
+                        {t("FOOTER.CONDITION")}
                       </a>
                     </li>
                   </ul>
