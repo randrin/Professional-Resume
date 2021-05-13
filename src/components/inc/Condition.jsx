@@ -177,63 +177,46 @@ export default class Condition extends PureComponent {
                     .
                   </p>
                   <p>{t("CONDITION.PROPERTIES.DESCRIPTION_2")}</p>
-                  <h2>6. Limitations de responsabilité.</h2>
+                  <h3>{t("CONDITION.RESPONSABILITIES.TITLE")}</h3>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    agit en tant qu’éditeur du site.{" "}
+                    {t("CONDITION.RESPONSABILITIES.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    est responsable de la qualité et de la véracité du Contenu
-                    qu’il publie.{" "}
+                    {t("CONDITION.RESPONSABILITIES.DESCRIPTION_2")}{" "}
                   </p>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    ne pourra être tenu responsable des dommages directs et
-                    indirects causés au matériel de l’utilisateur, lors de
-                    l’accès au site internet{" "}
+                    {t("CONDITION.RESPONSABILITIES.DESCRIPTION_3")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>
-                    , et résultant soit de l’utilisation d’un matériel ne
-                    répondant pas aux spécifications indiquées au point 4, soit
-                    de l’apparition d’un bug ou d’une incompatibilité.
+                    {t("CONDITION.RESPONSABILITIES.DESCRIPTION_4")}
                   </p>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    ne pourra également être tenu responsable des dommages
-                    indirects (tels par exemple qu’une perte de marché ou perte
-                    d’une chance) consécutifs à l’utilisation du site{" "}
+                    {t("CONDITION.RESPONSABILITIES.DESCRIPTION_5")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>
-                    . Des espaces interactifs (possibilité de poser des
-                    questions dans l’espace contact) sont à la disposition des
-                    utilisateurs.{" "}
+                    {t("CONDITION.RESPONSABILITIES.DESCRIPTION_6")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    se réserve le droit de supprimer, sans mise en demeure
-                    préalable, tout contenu déposé dans cet espace qui
-                    contreviendrait à la législation applicable en France, en
-                    particulier aux dispositions relatives à la protection des
-                    données. Le cas échéant,{" "}
+                    {t("CONDITION.RESPONSABILITIES.DESCRIPTION_7")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    se réserve également la possibilité de mettre en cause la
-                    responsabilité civile et/ou pénale de l’utilisateur,
-                    notamment en cas de message à caractère raciste, injurieux,
-                    diffamant, ou pornographique, quel que soit le support
-                    utilisé (texte, photographie …).
+                    {t("CONDITION.RESPONSABILITIES.DESCRIPTION_8")}
                   </p>
-                  <h2>7. Gestion des données personnelles.</h2>
+                  <h3>7. Gestion des données personnelles.</h3>
                   <p>
                     Le Client est informé des réglementations concernant la
                     communication marketing, la loi du 21 Juin 2014 pour la
@@ -241,9 +224,9 @@ export default class Condition extends PureComponent {
                     Liberté du 06 Août 2004 ainsi que du Règlement Général sur
                     la Protection des Données (RGPD : n° 2016-679).{" "}
                   </p>
-                  <h3>
+                  <h2>
                     7.1 Responsables de la collecte des données personnelles
-                  </h3>
+                  </h2>
                   <p>
                     Pour les Données Personnelles collectées dans le cadre de la
                     création du compte personnel de l’Utilisateur et de sa

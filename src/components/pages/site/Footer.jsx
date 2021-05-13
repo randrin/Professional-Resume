@@ -9,7 +9,7 @@ export default class Footer extends PureComponent {
           <footer>
             <div className="container-fluid">
               <div className="row my-resume-footer">
-                <div className="col-md-9">
+                <div className="col-md-8">
                   <span>
                     Copyright © 2020 - 
                     {new Date().getFullYear() > 2020
@@ -38,7 +38,7 @@ export default class Footer extends PureComponent {
                     </span>
                   </span>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-4">
                   <ul id="nav" className="site-main-menu pull-right">
                     <li className="my-resume-footer-link">
                       <a
