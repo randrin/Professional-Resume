@@ -153,6 +153,13 @@
       "DESCRIPTION_5": "All the information indicated on the site",
       "DESCRIPTION_6": "are given for information only, and are subject to change. In addition, the information on the site ",
       "DESCRIPTION_7": "are not exhaustive. They are given subject to modifications having been made since they were put online."
+    },
+    "LIMITATIONS": {
+      "TITLE": "4. Contractual limitations on technical data.",
+      "DESCRIPTION_1": "The site uses JavaScript technology. The website cannot be held responsible for material damage related to the use of the site. In addition, the user of the site agrees to access the site using recent equipment, which does not contain viruses and with a latest generation browser that is updated the site",
+      "DESCRIPTION_2": "is hosted by a service provider in the territory of the European Union in accordance with the provisions of the General Data Protection Regulation (RGPD: No. 2016-679)",
+      "DESCRIPTION_3": "The objective is to provide a service that ensures the best accessibility rate. The host ensures the continuity of its service 24 hours a day, every day of the year. It nevertheless reserves the right to interrupt the hosting service for the shortest possible periods of time, in particular for the purposes of maintenance, improvement of its infrastructures, failure of its infrastructures or if the Services and Services generate deemed traffic unnatural.",
+      "DESCRIPTION_4": "and the host cannot be held responsible in the event of a malfunction of the Internet network, telephone lines or computer and telephone equipment linked in particular to network congestion preventing access to the server."
     }
   },
   "MODAL": {

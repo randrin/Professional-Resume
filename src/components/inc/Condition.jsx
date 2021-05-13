@@ -150,43 +150,24 @@ export default class Condition extends PureComponent {
                     </a>{" "}
                     {t("CONDITION.SERVICES.DESCRIPTION_7")}
                   </p>
-                  <h2>
-                    4. Limitations contractuelles sur les données techniques.
-                  </h2>
+                  <h3>
+                  {t("CONDITION.LIMITATIONS.TITLE")}
+                  </h3>
                   <p>
-                    Le site utilise la technologie JavaScript. Le site Internet
-                    ne pourra être tenu responsable de dommages matériels liés à
-                    l’utilisation du site. De plus, l’utilisateur du site
-                    s’engage à accéder au site en utilisant un matériel récent,
-                    ne contenant pas de virus et avec un navigateur de dernière
-                    génération mis-à-jour Le site{" "}
+                  {t("CONDITION.LIMITATIONS.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    est hébergé chez un prestataire sur le territoire de l’Union
-                    Européenne conformément aux dispositions du Règlement
-                    Général sur la Protection des Données (RGPD : n° 2016-679)
+                    {t("CONDITION.LIMITATIONS.DESCRIPTION_2")}
                   </p>
                   <p>
-                    L’objectif est d’apporter une prestation qui assure le
-                    meilleur taux d’accessibilité. L’hébergeur assure la
-                    continuité de son service 24 Heures sur 24, tous les jours
-                    de l’année. Il se réserve néanmoins la possibilité
-                    d’interrompre le service d’hébergement pour les durées les
-                    plus courtes possibles notamment à des fins de maintenance,
-                    d’amélioration de ses infrastructures, de défaillance de ses
-                    infrastructures ou si les Prestations et Services génèrent
-                    un trafic réputé anormal.
+                  {t("CONDITION.LIMITATIONS.DESCRIPTION_3")}
                   </p>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    et l’hébergeur ne pourront être tenus responsables en cas de
-                    dysfonctionnement du réseau Internet, des lignes
-                    téléphoniques ou du matériel informatique et de téléphonie
-                    lié notamment à l’encombrement du réseau empêchant l’accès
-                    au serveur.
+                    {t("CONDITION.LIMITATIONS.DESCRIPTION_4")}
                   </p>
                   <h2>5. Propriété intellectuelle et contrefaçons.</h2>
                   <p>

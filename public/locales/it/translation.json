@@ -153,6 +153,13 @@
       "DESCRIPTION_5": "Tutte le informazioni indicate nel sito",
       "DESCRIPTION_6": "sono forniti solo a scopo informativo e sono soggetti a modifiche. Inoltre, le informazioni sul sito ",
       "DESCRIPTION_7": "non sono esaustivi. Sono dati a condizione che siano state apportate modifiche da quando sono stati messi in linea."
+    },
+    "LIMITATIONS": {
+      "TITLE": "4. Limitazioni contrattuali sui dati tecnici.",
+      "DESCRIPTION_1": "Il sito utilizza la tecnologia JavaScript. Il sito web non può essere ritenuto responsabile per danni materiali legati all'uso del sito. Inoltre l'utente del sito si impegna ad accedere al sito utilizzando apparecchiature recenti, che non contengano virus e con un browser aggiornato di ultima generazione.",
+      "DESCRIPTION_2": "è ospitato da un fornitore di servizi nel territorio dell'Unione Europea in conformità con le disposizioni del Regolamento generale sulla protezione dei dati (RGPD: n. 2016-679)",
+      "DESCRIPTION_3": "L'obiettivo è fornire un servizio che garantisca il miglior tasso di accessibilità. L'host garantisce la continuità del proprio servizio 24 ore su 24, tutti i giorni dell'anno. Si riserva tuttavia il diritto di interrompere il servizio di hosting per il più breve tempo possibile, in particolare a fini di manutenzione, miglioramento delle proprie infrastrutture, guasto delle proprie infrastrutture o qualora i Servizi e Servizi generino traffico ritenuto non naturale.",
+      "DESCRIPTION_4": "e l'host non può essere ritenuto responsabile in caso di malfunzionamento della rete Internet, delle linee telefoniche o delle apparecchiature informatiche e telefoniche legate in particolare alla congestione della rete che impedisce l'accesso al server."
     }
   },
   "MODAL": {
