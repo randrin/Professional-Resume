@@ -150,50 +150,33 @@ export default class Condition extends PureComponent {
                     </a>{" "}
                     {t("CONDITION.SERVICES.DESCRIPTION_7")}
                   </p>
-                  <h3>
-                  {t("CONDITION.LIMITATIONS.TITLE")}
-                  </h3>
+                  <h3>{t("CONDITION.LIMITATIONS.TITLE")}</h3>
                   <p>
-                  {t("CONDITION.LIMITATIONS.DESCRIPTION_1")}{" "}
+                    {t("CONDITION.LIMITATIONS.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
                     {t("CONDITION.LIMITATIONS.DESCRIPTION_2")}
                   </p>
-                  <p>
-                  {t("CONDITION.LIMITATIONS.DESCRIPTION_3")}
-                  </p>
+                  <p>{t("CONDITION.LIMITATIONS.DESCRIPTION_3")}</p>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
                     {t("CONDITION.LIMITATIONS.DESCRIPTION_4")}
                   </p>
-                  <h2>5. Propriété intellectuelle et contrefaçons.</h2>
+                  <h3>{t("CONDITION.PROPERTIES.TITLE")}</h3>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    est propriétaire des droits de propriété intellectuelle et
-                    détient les droits d’usage sur tous les éléments accessibles
-                    sur le site internet, notamment les textes, images,
-                    graphismes, logos, vidéos, icônes et sons. Toute
-                    reproduction, représentation, modification, publication,
-                    adaptation de tout ou partie des éléments du site, quel que
-                    soit le moyen ou le procédé utilisé, est interdite, sauf
-                    autorisation écrite préalable de :{" "}
+                    {t("CONDITION.PROPERTIES.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>
                     .
                   </p>
-                  <p>
-                    Toute exploitation non autorisée du site ou de l’un
-                    quelconque des éléments qu’il contient sera considérée comme
-                    constitutive d’une contrefaçon et poursuivie conformément
-                    aux dispositions des articles L.335-2 et suivants du Code de
-                    Propriété Intellectuelle.
-                  </p>
+                  <p>{t("CONDITION.PROPERTIES.DESCRIPTION_2")}</p>
                   <h2>6. Limitations de responsabilité.</h2>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
