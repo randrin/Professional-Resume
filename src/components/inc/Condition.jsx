@@ -611,15 +611,13 @@ export default class Condition extends PureComponent {
                     celui-ci et d’Internet.
                   </p>
                   <p></p>
-                  <h2>10. Droit applicable et attribution de juridiction.</h2>
+                  <h2>{t("CONDITION.APPLICABLE_LAW.TITLE")}</h2>
                   <p>
-                    Tout litige en relation avec l’utilisation du site{" "}
+                    {t("CONDITION.APPLICABLE_LAW.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
                     </a>{" "}
-                    est soumis au droit français. En dehors des cas où la loi ne
-                    le permet pas, il est fait attribution exclusive de
-                    juridiction aux tribunaux compétents de Randrin Nzeukang
+                    {t("CONDITION.APPLICABLE_LAW.DESCRIPTION_2")}
                   </p>
                 </div>
               </div>

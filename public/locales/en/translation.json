@@ -251,6 +251,11 @@
         "DESCRIPTION_3": "When processing Personal Data,",
         "DESCRIPTION_4": "takes all reasonable steps to protect them against loss, misuse, unauthorized access, disclosure, alteration or destruction."
       }
+    },
+    "APPLICABLE_LAW": {
+      "TITLE": "10. Applicable law and attribution of jurisdiction.",
+      "DESCRIPTION_1": "Any dispute in connection with the use of the site",
+      "DESCRIPTION_2": "is subject to French law. Except in cases where the law does not allow it, exclusive jurisdiction is attributed to the competent courts of Randrin Nzeukang"
     }
   },
   "MODAL": {

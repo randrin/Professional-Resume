@@ -251,6 +251,11 @@
         "DESCRIPTION_3": "Lors du traitement des Données Personnelles,",
         "DESCRIPTION_4": "prend toutes les mesures raisonnables visant à les protéger contre toute perte, utilisation détournée, accès non autorisé, divulgation, altération ou destruction."
       }
+    },
+    "APPLICABLE_LAW": {
+      "TITLE": "10. Droit applicable et attribution de juridiction.",
+      "DESCRIPTION_1": "Tout litige en relation avec l’utilisation du site",
+      "DESCRIPTION_2": "est soumis au droit français. En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de Randrin Nzeukang"
     }
   },
   "MODAL": {
