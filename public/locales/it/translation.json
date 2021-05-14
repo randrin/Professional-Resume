@@ -237,6 +237,20 @@
         "DESCRIPTION_8": "Nei limiti delle rispettive attribuzioni e per le finalità sopra indicate, i principali soggetti suscettibili di avere accesso ai dati degli Utenti di",
         "DESCRIPTION_9": "sono principalmente i nostri agenti del servizio clienti."
       }
+    },
+    "NOTIFICATIONS": {
+      "TITLE": "8. Notifica dell'incidente",
+      "DESCRIPTION_1": "Non importa quanto ci provi, nessun metodo di trasmissione su Internet e nessun metodo di archiviazione elettronica è completamente sicuro. Non possiamo quindi garantire una sicurezza assoluta. Se veniamo a conoscenza di una violazione della sicurezza, informeremo gli utenti interessati in modo che possano intraprendere le azioni appropriate. Le nostre procedure di notifica degli incidenti tengono conto dei nostri obblighi legali, a livello nazionale o europeo. Ci impegniamo a informare completamente i nostri clienti di tutte le questioni relative alla sicurezza del loro account e a fornire loro tutte le informazioni necessarie per aiutarli a soddisfare i propri obblighi normativi in ​​materia di rendicontazione.",
+      "DESCRIPTION_2": "Nessuna informazione personale dell'utente del sito",
+      "DESCRIPTION_3": "non viene pubblicato all'insaputa dell'utente, scambiato, trasferito, ceduto o venduto su qualsiasi supporto a terzi. Solo l'assunzione del riacquisto di",
+      "DESCRIPTION_4": "ed i suoi diritti consentirebbero la trasmissione di tali informazioni all'eventuale acquirente il quale sarebbe a sua volta vincolato dallo stesso obbligo di memorizzare e modificare i dati relativi all'utente del sito",
+      "SECURITY": {
+        "TITLE": "Sicurezza",
+        "DESCRIPTION_1": "Per garantire la sicurezza e la riservatezza dei dati personali e dei dati sanitari personali,", 
+        "DESCRIPTION_2": "utilizza reti protette da dispositivi standard come firewall, pseudonimizzazione, crittografia e password.",
+        "DESCRIPTION_3": "Durante il trattamento dei dati personali,",
+        "DESCRIPTION_4": "adotta tutte le misure ragionevoli per proteggerli da perdita, uso improprio, accesso non autorizzato, divulgazione, alterazione o distruzione."
+      }
     }
   },
   "MODAL": {

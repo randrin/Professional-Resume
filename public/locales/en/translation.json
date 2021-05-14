@@ -200,7 +200,7 @@
         "DESCRIPTION_6": ": E-mail adress",
         "DESCRIPTION_7": "to carry out communication campaigns (sms, email): phone number, email address",
         "DESCRIPTION_8": "does not market your personal data which is therefore only used out of necessity or for statistical and analytical purposes."
-      }, 
+      },
       "THREE": {
         "TITLE": "7.3 Right of access, rectification and opposition",
         "DESCRIPTION_1": "In accordance with current European regulations, Users of",
@@ -236,6 +236,20 @@
         "DESCRIPTION_7": "and subcontractors (service providers), exclusively in order to achieve the purposes of this policy.",
         "DESCRIPTION_8": "Within the limits of their respective attributions and for the purposes mentioned above, the main persons likely to have access to the data of the Users of",
         "DESCRIPTION_9": "are mainly our customer service agents."
+      }
+    },
+    "NOTIFICATIONS": {
+      "TITLE": "8. Incident notification",
+      "DESCRIPTION_1": "No matter how hard you try, no method of transmission over the Internet and no method of electronic storage is completely secure. We cannot therefore guarantee absolute security. If we become aware of a security breach, we will notify affected users so that they can take appropriate action. Our incident notification procedures take into account our legal obligations, whether at national or European level. We are committed to fully informing our clients of all matters relating to the security of their account and to providing them with all the information necessary to help them meet their own regulatory reporting obligations.",
+      "DESCRIPTION_2": "No personal information of the user of the site",
+      "DESCRIPTION_3": "is not published without the knowledge of the user, exchanged, transferred, assigned or sold on any medium whatsoever to third parties. Only the assumption of the repurchase of",
+      "DESCRIPTION_4": "and his rights would allow the transmission of said information to the possible purchaser who would in turn be bound by the same obligation to store and modify data with regard to the user of the site",
+      "SECURITY": {
+        "TITLE": "Security",
+        "DESCRIPTION_1": "To ensure the security and confidentiality of Personal Data and Personal Health Data,",
+        "DESCRIPTION_2": "uses networks protected by standard devices such as firewalls, pseudonymization, encryption and password.",
+        "DESCRIPTION_3": "When processing Personal Data,",
+        "DESCRIPTION_4": "takes all reasonable steps to protect them against loss, misuse, unauthorized access, disclosure, alteration or destruction."
       }
     }
   },
