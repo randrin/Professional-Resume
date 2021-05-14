@@ -446,7 +446,7 @@ export default class Condition extends PureComponent {
                   l’accessibilité à tout ou partie des Services proposés par le
                   site.
                   <p></p>
-                  <h3>9.1. « COOKIES »</h3>
+                  <h3>9.1 « COOKIES »</h3>
                   <p>
                     Un « cookie » est un petit fichier d’information envoyé sur
                     le navigateur de l’Utilisateur et enregistré au sein du
@@ -571,7 +571,7 @@ export default class Condition extends PureComponent {
                     </a>{" "}
                     dépose ce type de cookies.
                   </p>
-                  <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
+                  <h3>9.2 BALISES (“TAGS”) INTERNET</h3>
                   <p>
                     <a href="https://randrin-nzeukang.netlify.app">
                       https://randrin-nzeukang.netlify.app
@@ -611,7 +611,7 @@ export default class Condition extends PureComponent {
                     celui-ci et d’Internet.
                   </p>
                   <p></p>
-                  <h2>{t("CONDITION.APPLICABLE_LAW.TITLE")}</h2>
+                  <h3>{t("CONDITION.APPLICABLE_LAW.TITLE")}</h3>
                   <p>
                     {t("CONDITION.APPLICABLE_LAW.DESCRIPTION_1")}{" "}
                     <a href="https://randrin-nzeukang.netlify.app">
