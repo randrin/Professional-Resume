@@ -5,8 +5,10 @@ export const skills = {
       parent: "Programmation",
       childs: [
         { title: "Java-J2ee / Micro services", vote: 9 },
+        { title: "RestFull API", vote: 9 },
         { title: "Node.JS", vote: 5 },
         { title: "PHP7 / Laravel7", vote: 8 },
+        { title: "Python", vote: 3 },
         { title: ".Net", vote: 5 },
       ],
     },
@@ -17,8 +19,8 @@ export const skills = {
         { title: "Angular (2/4/5/6/7/8/9/10) / AngularJS / Angular Material / TypeScript", vote: 9 },
         { title: "React.Js (Redux, Hooks)", vote: 8 },
         { title: "Vue.js", vote: 8 },
-        { title: "JavaScript / Ajax / JSON", vote: 8 },
-        { title: "HTML5 / CSS3 / Bootstrap / SASS / SCSS / Web Accessibility Standards", vote: 10 },
+        { title: "JavaScript / Ajax / JQuery / JSON", vote: 8 },
+        { title: "HTML5 / CSS3 / Bootstrap / SASS / SCSS / Responsive Device / Web Accessibility Standards", vote: 10 },
       ],
     },
     {
@@ -49,6 +51,7 @@ export const skills = {
       parent: "Cloud",
       childs: [
         { title: "AWS / Firebase", vote: 6 },
+        { title: "Azure / Google Cloud Platform", vote: 4 },
         { title: "Heroku / Netlify / DigitalOcean", vote: 7 },
       ],
     },
@@ -63,7 +66,7 @@ export const skills = {
       id: 8,
       parent: "Méthodologie",
       childs: [
-        { title: "Scrum / Agile / Atlassian Jira / Trello", vote: 9 },
+        { title: "Scrum / Agile / Atlassian Jira / Confluence / Trello", vote: 9 },
       ],
     },
     {
@@ -133,6 +136,7 @@ export const skills = {
       parent: "Cloud",
       childs: [
         { title: "AWS / Firebase", vote: 6 },
+        { title: "Azure / Google Cloud Platform", vote: 4 },
         { title: "Heroku / Netlify / DigitalOcean", vote: 7 },
       ],
     },
@@ -147,7 +151,7 @@ export const skills = {
       id: 8,
       parent: "Methodologies",
       childs: [
-        { title: "Scrum / Agile / Atlassian Jira / Trello", vote: 9 },
+        { title: "Scrum / Agile / Atlassian Jira / Confluence / Trello", vote: 9 },
       ],
     },
     {
@@ -217,6 +221,7 @@ export const skills = {
       parent: "Cloud",
       childs: [
         { title: "AWS / Firebase", vote: 6 },
+        { title: "Azure / Google Cloud Platform", vote: 4 },
         { title: "Heroku / Netlify / DigitalOcean", vote: 7 },
       ],
     },
@@ -231,7 +236,7 @@ export const skills = {
       id: 8,
       parent: "Metodologia",
       childs: [
-        { title: "Scrum / Agile / Atlassian Jira / Trello", vote: 9 },
+        { title: "Scrum / Agile / Atlassian Jira / Confluence / Trello", vote: 9 },
       ],
     },
     {
