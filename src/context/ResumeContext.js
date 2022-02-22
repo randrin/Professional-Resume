@@ -6,6 +6,7 @@ import { funs } from "../data/funs";
 import { clients } from "../data/clients";
 import { skills } from "../data/skills";
 import { experiences } from "../data/experiences";
+import { EN_LANGUAGE, FR_LANGUAGE } from "../constants";
 
 export const ResumeContext = React.createContext();
 
@@ -53,16 +54,20 @@ class ResumeProvider extends PureComponent {
   handleServices(lang) {
     this.setState({
       services:
-        lang === "en" ? services.EN : lang === "fr" ? services.FR : services.IT,
+        lang === EN_LANGUAGE
+          ? services.EN
+          : lang === FR_LANGUAGE
+          ? services.FR
+          : services.IT,
     });
   }
 
   handleEducations(lang) {
     this.setState({
       educations:
-        lang === "en"
+        lang === EN_LANGUAGE
           ? educations.EN
-          : lang === "fr"
+          : lang === FR_LANGUAGE
           ? educations.FR
           : educations.IT,
     });
@@ -71,9 +76,9 @@ class ResumeProvider extends PureComponent {
   handleExperiences(lang) {
     this.setState({
       experiences:
-        lang === "en"
+        lang === EN_LANGUAGE
           ? experiences.EN
-          : lang === "fr"
+          : lang === FR_LANGUAGE
           ? experiences.FR
           : experiences.IT,
     });
@@ -82,9 +87,9 @@ class ResumeProvider extends PureComponent {
   handleSkills(lang) {
     this.setState({
       skills:
-        lang === "en"
+        lang === EN_LANGUAGE
           ? skills.EN
-          : lang === "fr"
+          : lang === FR_LANGUAGE
           ? skills.FR
           : skills.IT,
     });
@@ -93,9 +98,9 @@ class ResumeProvider extends PureComponent {
   handleTestimonials(lang) {
     this.setState({
       testimonials:
-        lang === "en"
+        lang === EN_LANGUAGE
           ? testimonials.EN
-          : lang === "fr"
+          : lang === FR_LANGUAGE
           ? testimonials.FR
           : testimonials.IT,
     });
@@ -103,7 +108,12 @@ class ResumeProvider extends PureComponent {
 
   handleFuns(lang) {
     this.setState({
-      funs: lang === "en" ? funs.EN : lang === "fr" ? funs.FR : funs.IT,
+      funs:
+        lang === EN_LANGUAGE
+          ? funs.EN
+          : lang === FR_LANGUAGE
+          ? funs.FR
+          : funs.IT,
     });
   }
   componentDidMount() {

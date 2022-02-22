@@ -43,13 +43,19 @@ export default class Contact extends PureComponent {
                   {contacts.map((contact, index) => (
                     <div key={contact.id} className="contact-info-block">
                       <div className="ci-icon">
-                        <i className={`pe-7s-icon my-resume-contact-icons ${contact.icon}`}></i>
+                        <i
+                          className={`pe-7s-icon my-resume-contact-icons ${contact.icon}`}
+                        ></i>
                       </div>
                       <div className="ci-text">
                         {contacts.length === index + 1 ? (
                           <h5>{t("CONTACT.RIGHT_FORM.AVAILABLE")}</h5>
                         ) : (
-                          <h5>{contact.title}</h5>
+                          <>
+                            {contact.titles.map((title, index) => (
+                              <h5 key={index}>{title}</h5>
+                            ))}
+                          </>
                         )}
                       </div>
                     </div>
@@ -128,15 +134,28 @@ export default class Contact extends PureComponent {
                   </form>
                 </div>
               </div>
+              <hr className="my-resume-border-top-orange-sunglow my-resume-margin-40" />
               <div className="row my-resume-contact-map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.5002905904366!2d8.859947515200576!3d45.29831867909925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786e328de92df7f%3A0xbd53955262fcac36!2sVia%20Santa%20Maria%2C%2027029%20Vigevano%20PV!5e0!3m2!1sen!2sit!4v1602268960374!5m2!1sen!2sit"
-                  frameBorder="0"
-                  allowFullScreen=""
-                  title="My Location Tracker"
-                  aria-hidden="false"
-                  tabIndex="0"
-                ></iframe>
+                <div className="col-md-6">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.763151565006!2d1.3254863153650234!3d43.61147287912269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb0354cc817e7%3A0x576ec62d09e2401a!2s11%20All.%20du%20Val%20d&#39;Aran%2C%2031770%20Colomiers!5e0!3m2!1sfr!2sfr!4v1645565143244!5m2!1sfr!2sfr"
+                    frameBorder="0"
+                    allowFullScreen=""
+                    title="My Location Tracker"
+                    aria-hidden="false"
+                    tabIndex="0"
+                  ></iframe>
+                </div>
+                <div className="col-md-6">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.052049805842!2d8.853803615424575!3d45.30737417909942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786e3332d540729%3A0x2120a2de5bc4aa54!2sVia%20Santa%20Maria%2C%2031%2C%2027029%20Vigevano%20PV%2C%20Italie!5e0!3m2!1sfr!2sfr!4v1645565281650!5m2!1sfr!2sfr"
+                    frameBorder="0"
+                    allowFullScreen=""
+                    title="My Location Tracker"
+                    aria-hidden="false"
+                    tabIndex="0"
+                  ></iframe>
+                </div>
               </div>
               <Footer />
             </>

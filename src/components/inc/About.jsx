@@ -3,6 +3,7 @@ import { ResumeConsumer } from "../../context";
 import { Translation } from "react-i18next";
 import { Testimonials, Footer } from "../index";
 import ShowMoreText from "react-show-more-text";
+import { myResume } from "../../data/myResume";
 
 export default class About extends PureComponent {
   constructor(props) {
@@ -28,7 +29,7 @@ export default class About extends PureComponent {
                   <div className="section-title-block">
                     <h2 className="section-title">{t("ABOUT.TITLE")}</h2>
                     <h5 className="section-description">
-                      Project Manager, Full Stack Developer, UI/UX Designer
+                      {myResume.profession}
                     </h5>
                   </div>
                 )}
@@ -65,36 +66,38 @@ export default class About extends PureComponent {
                         </div>
                       </div>
 
-                      <div className="col-sm-4 col-md-4 subpage-block">
+                      <div className="col-sm-5 col-md-5 subpage-block">
                         <div className="block end">
                           <ul className="info-list">
                             <li>
                               <span className="title">{t("ABOUT.NAME")}</span>
-                              <span className="value">Randrin Nzeukang</span>
+                              <span className="value">{myResume.fullName}</span>
                             </li>
                             <li>
                               <span className="title">{t("ABOUT.YEAR")}</span>
-                              <span className="value">32</span>
+                              <span className="value">{myResume.yearOld}</span>
                             </li>
                             <li>
                               <span className="title">
                                 {t("ABOUT.ADRESSE")}
                               </span>
                               <span className="value">
-                                Via Santa Maria, 31/7, 27029 Vigevano
+                                {myResume.residence}
                               </span>
                             </li>
                             <li>
                               <span className="title">{t("ABOUT.EMAIL")}</span>
                               <span className="value">
                                 <a href="mailto:nzeukangrandrin@gmail.com">
-                                  nzeukangrandrin@gmail.com
+                                  {myResume.email}
                                 </a>
                               </span>
                             </li>
                             <li>
                               <span className="title">{t("ABOUT.PHONE")}</span>
-                              <span className="value">+39 32 9618 7465</span>
+                              <span className="value">
+                                {myResume.phonesNumber}
+                              </span>
                             </li>
                             <li>
                               <span className="title">
@@ -117,11 +120,13 @@ export default class About extends PureComponent {
                   <>
                     <div className="block-title">
                       <h3>
-                        {localStorage.getItem("i18nextLng") === "en"
-                          ? <span>{t("TESTIMONIAL.TITLE")}</span>
-                          : localStorage.getItem("i18nextLng") === "fr"
-                          ? <span>{t("TESTIMONIAL.TITLE")}</span>
-                          : <span>{t("TESTIMONIAL.TITLE")}</span>}
+                        {localStorage.getItem("i18nextLng") === "en" ? (
+                          <span>{t("TESTIMONIAL.TITLE")}</span>
+                        ) : localStorage.getItem("i18nextLng") === "fr" ? (
+                          <span>{t("TESTIMONIAL.TITLE")}</span>
+                        ) : (
+                          <span>{t("TESTIMONIAL.TITLE")}</span>
+                        )}
                       </h3>
                     </div>
                   </>

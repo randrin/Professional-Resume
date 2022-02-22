@@ -24,7 +24,7 @@
   },
   "RESUME": {
     "TITLE": "Mon Expertise",
-    "YEAR_WORK": "5 Années d'expèrience",
+    "YEAR_WORK": "6 Années d'expèrience",
     "EDUCATION": {
       "TITLE": "Education"
     },
@@ -200,7 +200,7 @@
         "DESCRIPTION_6": ": adresse email",
         "DESCRIPTION_7": "pour mener des campagnes de communication (sms, mail) : numéro de téléphone, adresse email",
         "DESCRIPTION_8": "ne commercialise pas vos données personnelles qui sont donc uniquement utilisées par nécessité ou à des fins statistiques et d’analyses."
-      }, 
+      },
       "THREE": {
         "TITLE": "7.3 Droit d’accès, de rectification et d’opposition",
         "DESCRIPTION_1": "Conformément à la réglementation européenne en vigueur, les Utilisateurs de",
@@ -246,7 +246,7 @@
       "DESCRIPTION_4": "et de ses droits permettrait la transmission des dites informations à l'éventuel acquéreur qui serait à son tour tenu de la même obligation de conservation et de modification des données vis à vis de l'utilisateur du site",
       "SECURITY": {
         "TITLE": "8.1 Sécurité",
-        "DESCRIPTION_1": "Pour assurer la sécurité et la confidentialité des Données Personnelles et des Données Personnelles de Santé,", 
+        "DESCRIPTION_1": "Pour assurer la sécurité et la confidentialité des Données Personnelles et des Données Personnelles de Santé,",
         "DESCRIPTION_2": "utilise des réseaux protégés par des dispositifs standards tels que par pare-feu, la pseudonymisation, l’encryption et mot de passe.",
         "DESCRIPTION_3": "Lors du traitement des Données Personnelles,",
         "DESCRIPTION_4": "prend toutes les mesures raisonnables visant à les protéger contre toute perte, utilisation détournée, accès non autorisé, divulgation, altération ou destruction."
