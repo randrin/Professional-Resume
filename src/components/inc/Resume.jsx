@@ -5,6 +5,7 @@ import Footer from "../../components/pages/site/Footer";
 import ShowMoreText from "react-show-more-text";
 import ReactModal from "react-modal";
 import { experiences } from "../../data/experiences";
+import { EN_LANGUAGE, FR_LANGUAGE } from "../../constants";
 
 ReactModal.setAppElement("#my_resume");
 export default class Resume extends PureComponent {
@@ -52,9 +53,9 @@ export default class Resume extends PureComponent {
   checkExperiences() {
     this.setState({
       clientWorks:
-        localStorage.getItem("i18nextLng") === "en"
+        localStorage.getItem("i18nextLng") === EN_LANGUAGE
           ? this.state.experiences.EN
-          : localStorage.getItem("i18nextLng") === "fr"
+          : localStorage.getItem("i18nextLng") === FR_LANGUAGE
           ? this.state.experiences.FR
           : this.state.experiences.IT,
     });
@@ -79,7 +80,7 @@ export default class Resume extends PureComponent {
     return (
       <ResumeConsumer>
         {(value) => {
-          const { educations, experiences, skills } = value;
+          const { educations, formations, experiences, skills } = value;
           return (
             <section className="pt-page pt-page-2" data-id="resume">
               <Translation>
@@ -108,6 +109,26 @@ export default class Resume extends PureComponent {
                                 {education.specialization}
                               </h4>
                               <p>{education.university}</p>
+                            </div>
+                          ))}
+                        </div>
+
+                        <hr className="my-resume-border-top-orange-sunglow my-resume-margin-40" />
+
+                        <div className="block-title">
+                          <h3>{t("RESUME.FORMATION.TITLE")}</h3>
+                        </div>
+                        <div className="timeline">
+                          {formations.map((formation) => (
+                            <div
+                              key={formation.id}
+                              className="timeline-event te-primary"
+                            >
+                              <h5 className="event-date">{formation.year}</h5>
+                              <h4 className="event-name">
+                                {formation.specialization}
+                              </h4>
+                              <p>{formation.center}</p>
                             </div>
                           ))}
                         </div>
