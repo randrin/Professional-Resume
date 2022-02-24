@@ -2,8 +2,7 @@ export const testimonials = {
   FR: [
     {
       id: 1,
-      photo:
-        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_800_800/0/1597233684943?e=1623283200&v=beta&t=Jf3hPRpJN4xEBI3i_INBoLNPKkrxRyLD6Ksz2DxRwTI",
+      photo: "/assets/images/testimonials/testimonial_photo_5.png",
       name: "Wandji Peutchou Achile",
       expertise: "Data Engineer",
       testimonial:
@@ -11,8 +10,7 @@ export const testimonials = {
     },
     {
       id: 2,
-      photo:
-        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_800_800/0/1547541137108?e=1623283200&v=beta&t=wULO8fmeEv7YN_YsvkH96E3DvAFl7HfJvNwMmxkNBFY",
+      photo: "/assets/images/testimonials/testimonial_photo_1.png",
       name: "Boclair Temgoua",
       expertise: "Full Stack Developer",
       testimonial:
@@ -22,8 +20,7 @@ export const testimonials = {
   EN: [
     {
       id: 1,
-      photo:
-        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_800_800/0/1597233684943?e=1623283200&v=beta&t=Jf3hPRpJN4xEBI3i_INBoLNPKkrxRyLD6Ksz2DxRwTI",
+      photo: "/assets/images/testimonials/testimonial_photo_5.png",
       name: "Wandji Peutchou Achile",
       expertise: "Data Engineer",
       testimonial:
@@ -31,8 +28,7 @@ export const testimonials = {
     },
     {
       id: 2,
-      photo:
-        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_800_800/0/1547541137108?e=1623283200&v=beta&t=wULO8fmeEv7YN_YsvkH96E3DvAFl7HfJvNwMmxkNBFY",
+      photo: "/assets/images/testimonials/testimonial_photo_1.png",
       name: "Boclair Temgoua",
       expertise: "Full Stack Developer",
       testimonial:
@@ -42,8 +38,7 @@ export const testimonials = {
   IT: [
     {
       id: 1,
-      photo:
-        "https://media-exp1.licdn.com/dms/image/C4D03AQHKi3ccEQWzwQ/profile-displayphoto-shrink_800_800/0/1597233684943?e=1623283200&v=beta&t=Jf3hPRpJN4xEBI3i_INBoLNPKkrxRyLD6Ksz2DxRwTI",
+      photo: "/assets/images/testimonials/testimonial_photo_5.png",
       name: "Wandji Peutchou Achile",
       expertise: "Data Engineer",
       testimonial:
@@ -51,8 +46,7 @@ export const testimonials = {
     },
     {
       id: 2,
-      photo:
-        "https://media-exp1.licdn.com/dms/image/C5603AQG5GLNv15tjcw/profile-displayphoto-shrink_800_800/0/1547541137108?e=1623283200&v=beta&t=wULO8fmeEv7YN_YsvkH96E3DvAFl7HfJvNwMmxkNBFY",
+      photo: "/assets/images/testimonials/testimonial_photo_1.png",
       name: "Boclair Temgoua",
       expertise: "Full Stack Developer",
       testimonial:

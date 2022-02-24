@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import { educations } from "../data/educations";
+import { formations } from "../data/formations";
 import { services } from "../data/services";
 import { testimonials } from "../data/testimonials";
 import { funs } from "../data/funs";
@@ -17,6 +18,7 @@ class ResumeProvider extends PureComponent {
     this.state = {
       selectLang: localStorage.getItem("i18nextLng"),
       educations: [],
+      formations: [],
       testimonials: [],
       services: [],
       experiences: [],
@@ -45,6 +47,7 @@ class ResumeProvider extends PureComponent {
   updateHandles(selectLag) {
     this.handleServices(selectLag);
     this.handleEducations(selectLag);
+    this.handleFormations(selectLag);
     this.handleExperiences(selectLag);
     this.handleSkills(selectLag);
     this.handleTestimonials(selectLag);
@@ -70,6 +73,12 @@ class ResumeProvider extends PureComponent {
           : lang === FR_LANGUAGE
           ? educations.FR
           : educations.IT,
+    });
+  }
+
+  handleFormations(lang) {
+    this.setState({
+      formations,
     });
   }
 
@@ -116,9 +125,11 @@ class ResumeProvider extends PureComponent {
           : funs.IT,
     });
   }
+
   componentDidMount() {
     this.handleServices(this.state.selectLang);
     this.handleEducations(this.state.selectLang);
+    this.handleFormations(this.state.selectLang);
     this.handleExperiences(this.state.selectLang);
     this.handleSkills(this.state.selectLang);
     this.handleTestimonials(this.state.selectLang);

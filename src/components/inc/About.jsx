@@ -1,9 +1,10 @@
 import React, { PureComponent } from "react";
-import { ResumeConsumer } from "../../context";
+import { ResumeConsumer } from "../../context/ResumeContext";
 import { Translation } from "react-i18next";
 import { Testimonials, Footer } from "../index";
 import ShowMoreText from "react-show-more-text";
 import { myResume } from "../../data/myResume";
+import { EN_LANGUAGE, FR_LANGUAGE } from "../../constants";
 
 export default class About extends PureComponent {
   constructor(props) {
@@ -120,9 +121,9 @@ export default class About extends PureComponent {
                   <>
                     <div className="block-title">
                       <h3>
-                        {localStorage.getItem("i18nextLng") === "en" ? (
+                        {localStorage.getItem("i18nextLng") === EN_LANGUAGE ? (
                           <span>{t("TESTIMONIAL.TITLE")}</span>
-                        ) : localStorage.getItem("i18nextLng") === "fr" ? (
+                        ) : localStorage.getItem("i18nextLng") === FR_LANGUAGE ? (
                           <span>{t("TESTIMONIAL.TITLE")}</span>
                         ) : (
                           <span>{t("TESTIMONIAL.TITLE")}</span>

@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import { Link } from "react-router-dom";
 import { withTranslation } from "react-i18next";
 import { ResumeConsumer } from "../../../context";
+import { EN_LANGUAGE, FR_LANGUAGE, IT_LANGUAGE } from "../../../constants";
 
 class MultiLanguages extends PureComponent {
   render() {
@@ -12,7 +13,7 @@ class MultiLanguages extends PureComponent {
           return (
             <div className="header-dropdown">
               <span className="resume-selected-lang">
-                {selectLang === "fr" ? (
+                {selectLang === FR_LANGUAGE ? (
                   <>
                     <img
                       alt="Flag French"
@@ -21,7 +22,7 @@ class MultiLanguages extends PureComponent {
                     />
                     <p>Français</p>
                   </>
-                ) : selectLang === "en" ? (
+                ) : selectLang === EN_LANGUAGE ? (
                   <>
                     <img
                       alt="Flag English"
@@ -47,7 +48,7 @@ class MultiLanguages extends PureComponent {
                     <span
                       className="resume-selected-lang"
                       onClick={() =>
-                        handleChangeLanguage(this.props.i18n, "en")
+                        handleChangeLanguage(this.props.i18n, EN_LANGUAGE)
                       }
                     >
                       <img
@@ -62,7 +63,7 @@ class MultiLanguages extends PureComponent {
                     <span
                       className="resume-selected-lang"
                       onClick={() =>
-                        handleChangeLanguage(this.props.i18n, "fr")
+                        handleChangeLanguage(this.props.i18n, FR_LANGUAGE)
                       }
                     >
                       <img
@@ -77,7 +78,7 @@ class MultiLanguages extends PureComponent {
                     <span
                       className="resume-selected-lang"
                       onClick={() =>
-                        handleChangeLanguage(this.props.i18n, "it")
+                        handleChangeLanguage(this.props.i18n, IT_LANGUAGE)
                       }
                     >
                       <img
