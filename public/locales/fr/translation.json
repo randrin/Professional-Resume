@@ -268,5 +268,9 @@
     "DESCRIPTION_MODAL": "Description: ",
     "RESPONSABILITY_MODAL": "Responsabilitès: ",
     "TECHNICAL_MODAL": "Environnement Technique: "
+  },
+  "ERROR_404": {
+    "TITLE": "Erreur 404",
+    "SUB_TITLE": "Page non trouvée"
   }
 }
