@@ -123,7 +123,8 @@ export default class About extends PureComponent {
                       <h3>
                         {localStorage.getItem("i18nextLng") === EN_LANGUAGE ? (
                           <span>{t("TESTIMONIAL.TITLE")}</span>
-                        ) : localStorage.getItem("i18nextLng") === FR_LANGUAGE ? (
+                        ) : localStorage.getItem("i18nextLng") ===
+                          FR_LANGUAGE ? (
                           <span>{t("TESTIMONIAL.TITLE")}</span>
                         ) : (
                           <span>{t("TESTIMONIAL.TITLE")}</span>
@@ -133,6 +134,7 @@ export default class About extends PureComponent {
                   </>
                 )}
               </Translation>
+
               <Testimonials />
 
               <Translation>
