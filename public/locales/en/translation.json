@@ -271,6 +271,8 @@
   },
   "ERROR_404": {
     "TITLE": "Error 404",
-    "SUB_TITLE": "Page not found"
+    "SUB_TITLE": "Page not found",
+    "DESCRIPTION": "The page you are trying to access is not available.",
+    "BUTTON": "Back to home"
   }
 }

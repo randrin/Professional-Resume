@@ -271,6 +271,8 @@
   },
   "ERROR_404": {
     "TITLE": "Erreur 404",
-    "SUB_TITLE": "Page non trouvée"
+    "SUB_TITLE": "Page non trouvée",
+    "DESCRIPTION": "La page que vous essayez d'accéder n'est pas disponible.",
+    "BUTTON": "Retour à l'accueil"
   }
 }

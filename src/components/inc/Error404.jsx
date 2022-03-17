@@ -24,8 +24,21 @@ export default class Error404 extends PureComponent {
                     </div>
                     <div className="container subpages-wrapper subpages">
                       <div className="row">
-                        <div className="col-md-12">
-                          <h1>Erro404 Page</h1>
+                        <div className="col-md-12 text-center my-resume-error-404">
+                          <img
+                            src="/assets/images/404-not-found.png"
+                            alt="404 Error"
+                          />
+                          <h3>{t("ERROR_404.DESCRIPTION")}</h3>
+                          <a
+                            className="button pt-trigger my-resume-margin-cta my-resume-back"
+                            href="#resume"
+                            data-animation="58"
+                            data-goto="5"
+                          >
+                            <i className="fa fa-chevron-left"></i>{" "}
+                            {t("ERROR_404.BUTTON")}
+                          </a>
                         </div>
                       </div>
                       <Footer />
